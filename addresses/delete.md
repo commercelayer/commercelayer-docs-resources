@@ -6,8 +6,6 @@ description: How to delete an existing address via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an address, send a `DELETE` request to the `/api/addresses/:id` endpoint, where `id` is the id of the address that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/addresses/:id

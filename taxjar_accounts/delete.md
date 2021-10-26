@@ -6,8 +6,6 @@ description: How to delete an existing taxjar account via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a taxjar account, send a `DELETE` request to the `/api/taxjar_accounts/:id` endpoint, where `id` is the id of the taxjar account that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/taxjar_accounts/:id

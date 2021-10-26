@@ -6,8 +6,6 @@ description: How to delete an existing free gift promotion via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a free gift promotion, send a `DELETE` request to the `/api/free_gift_promotions/:id` endpoint, where `id` is the id of the free gift promotion that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/free_gift_promotions/:id

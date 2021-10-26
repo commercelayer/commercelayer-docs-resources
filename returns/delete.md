@@ -6,8 +6,6 @@ description: How to delete an existing return via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a return, send a `DELETE` request to the `/api/returns/:id` endpoint, where `id` is the id of the return that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/returns/:id

@@ -6,8 +6,6 @@ description: How to delete an existing fixed price promotion via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a fixed price promotion, send a `DELETE` request to the `/api/fixed_price_promotions/:id` endpoint, where `id` is the id of the fixed price promotion that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/fixed_price_promotions/:id

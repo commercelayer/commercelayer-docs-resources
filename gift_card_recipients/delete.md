@@ -6,8 +6,6 @@ description: How to delete an existing gift card recipient via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a gift card recipient, send a `DELETE` request to the `/api/gift_card_recipients/:id` endpoint, where `id` is the id of the gift card recipient that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/gift_card_recipients/:id

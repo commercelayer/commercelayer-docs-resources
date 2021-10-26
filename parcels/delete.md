@@ -6,8 +6,6 @@ description: How to delete an existing parcel via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a parcel, send a `DELETE` request to the `/api/parcels/:id` endpoint, where `id` is the id of the parcel that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/parcels/:id

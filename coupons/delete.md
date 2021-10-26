@@ -6,8 +6,6 @@ description: How to delete an existing coupon via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a coupon, send a `DELETE` request to the `/api/coupons/:id` endpoint, where `id` is the id of the coupon that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/coupons/:id

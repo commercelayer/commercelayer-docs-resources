@@ -6,8 +6,6 @@ description: How to delete an existing shipping method via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a shipping method, send a `DELETE` request to the `/api/shipping_methods/:id` endpoint, where `id` is the id of the shipping method that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/shipping_methods/:id

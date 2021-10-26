@@ -6,8 +6,6 @@ description: How to delete an existing manual gateway via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a manual gateway, send a `DELETE` request to the `/api/manual_gateways/:id` endpoint, where `id` is the id of the manual gateway that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/manual_gateways/:id

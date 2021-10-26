@@ -6,8 +6,6 @@ description: How to delete an existing stripe gateway via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a stripe gateway, send a `DELETE` request to the `/api/stripe_gateways/:id` endpoint, where `id` is the id of the stripe gateway that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/stripe_gateways/:id

@@ -6,8 +6,6 @@ description: How to delete an existing adjustment via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an adjustment, send a `DELETE` request to the `/api/adjustments/:id` endpoint, where `id` is the id of the adjustment that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/adjustments/:id

@@ -6,8 +6,6 @@ description: How to delete an existing external tax calculator via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an external tax calculator, send a `DELETE` request to the `/api/external_tax_calculators/:id` endpoint, where `id` is the id of the external tax calculator that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/external_tax_calculators/:id

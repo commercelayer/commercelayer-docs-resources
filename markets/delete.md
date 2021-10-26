@@ -6,8 +6,6 @@ description: How to delete an existing market via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a market, send a `DELETE` request to the `/api/markets/:id` endpoint, where `id` is the id of the market that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/markets/:id

@@ -6,8 +6,6 @@ description: How to delete an existing inventory stock location via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an inventory stock location, send a `DELETE` request to the `/api/inventory_stock_locations/:id` endpoint, where `id` is the id of the inventory stock location that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/inventory_stock_locations/:id

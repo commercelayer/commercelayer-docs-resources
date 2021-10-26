@@ -6,8 +6,6 @@ description: How to delete an existing price via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a price, send a `DELETE` request to the `/api/prices/:id` endpoint, where `id` is the id of the price that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/prices/:id

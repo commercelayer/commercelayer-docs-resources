@@ -6,8 +6,6 @@ description: How to delete an existing tax category via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a tax category, send a `DELETE` request to the `/api/tax_categories/:id` endpoint, where `id` is the id of the tax category that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/tax_categories/:id

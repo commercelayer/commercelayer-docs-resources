@@ -6,8 +6,6 @@ description: How to delete an existing paypal gateway via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a paypal gateway, send a `DELETE` request to the `/api/paypal_gateways/:id` endpoint, where `id` is the id of the paypal gateway that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/paypal_gateways/:id

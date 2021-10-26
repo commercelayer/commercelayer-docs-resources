@@ -6,8 +6,6 @@ description: How to delete an existing SKU list promotion rule via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a SKU list promotion rule, send a `DELETE` request to the `/api/sku_list_promotion_rules/:id` endpoint, where `id` is the id of the SKU list promotion rule that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/sku_list_promotion_rules/:id

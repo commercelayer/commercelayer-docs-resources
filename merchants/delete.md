@@ -6,8 +6,6 @@ description: How to delete an existing merchant via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a merchant, send a `DELETE` request to the `/api/merchants/:id` endpoint, where `id` is the id of the merchant that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/merchants/:id

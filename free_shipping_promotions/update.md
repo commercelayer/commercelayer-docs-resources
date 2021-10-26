@@ -8,8 +8,6 @@ To <a href="https://docs.commercelayer.io/developers/updating-resources" target=
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
-{% page-ref page="../../updating-resources.md" %}
-
 ## Request
 
 **PATCH** https://<i></i>yourdomain.commercelayer.io/api/free_shipping_promotions/:id

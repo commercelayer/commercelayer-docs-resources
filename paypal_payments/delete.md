@@ -6,8 +6,6 @@ description: How to delete an existing paypal payment via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a paypal payment, send a `DELETE` request to the `/api/paypal_payments/:id` endpoint, where `id` is the id of the paypal payment that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/paypal_payments/:id

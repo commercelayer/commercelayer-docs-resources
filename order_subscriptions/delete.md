@@ -6,8 +6,6 @@ description: How to delete an existing order subscription via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an order subscription, send a `DELETE` request to the `/api/order_subscriptions/:id` endpoint, where `id` is the id of the order subscription that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/order_subscriptions/:id

@@ -6,8 +6,6 @@ description: How to delete an existing stock item via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a stock item, send a `DELETE` request to the `/api/stock_items/:id` endpoint, where `id` is the id of the stock item that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/stock_items/:id

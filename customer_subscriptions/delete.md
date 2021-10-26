@@ -6,8 +6,6 @@ description: How to delete an existing customer subscription via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a customer subscription, send a `DELETE` request to the `/api/customer_subscriptions/:id` endpoint, where `id` is the id of the customer subscription that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/customer_subscriptions/:id

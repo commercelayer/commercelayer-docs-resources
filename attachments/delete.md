@@ -6,8 +6,6 @@ description: How to delete an existing attachment via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an attachment, send a `DELETE` request to the `/api/attachments/:id` endpoint, where `id` is the id of the attachment that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/attachments/:id

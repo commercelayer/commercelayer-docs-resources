@@ -6,8 +6,6 @@ description: How to delete an existing external payment via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an external payment, send a `DELETE` request to the `/api/external_payments/:id` endpoint, where `id` is the id of the external payment that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/external_payments/:id

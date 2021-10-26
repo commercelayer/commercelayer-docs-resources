@@ -6,8 +6,6 @@ description: How to delete an existing inventory model via API
 
 To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an inventory model, send a `DELETE` request to the `/api/inventory_models/:id` endpoint, where `id` is the id of the inventory model that you want to delete.
 
-{% page-ref page="../../deleting-resources.md" %}
-
 ## Request
 
 **DELETE** https://<i></i>yourdomain.commercelayer.io/api/inventory_models/:id
