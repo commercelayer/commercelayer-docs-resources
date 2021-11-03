@@ -1,8 +1,12 @@
 ---
-description: An adjustment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the adjustment resource's attributes and relationships.
 ---
 
 # The adjustment object
+
+An adjustment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

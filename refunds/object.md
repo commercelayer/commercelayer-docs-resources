@@ -1,8 +1,12 @@
 ---
-description: A refund object is returned as part of the response body of each successful list or retrieve API call.
+description: A comprehensive list of the refund resource's attributes and relationships.
 ---
 
 # The refund object
+
+A refund object is returned as part of the response body of each successful list or retrieve API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

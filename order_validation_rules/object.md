@@ -1,8 +1,12 @@
 ---
-description: An order validation rule object is returned as part of the response body of each successful list API call.
+description: A comprehensive list of the order validation rule resource's attributes and relationships.
 ---
 
 # The order validation rule object
+
+An order validation rule object is returned as part of the response body of each successful list API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

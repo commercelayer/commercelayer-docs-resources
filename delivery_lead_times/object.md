@@ -1,8 +1,12 @@
 ---
-description: A delivery lead time object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the delivery lead time resource's attributes and relationships.
 ---
 
 # The delivery lead time object
+
+A delivery lead time object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

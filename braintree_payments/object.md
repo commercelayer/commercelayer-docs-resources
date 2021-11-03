@@ -1,8 +1,12 @@
 ---
-description: A braintree payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the braintree payment resource's attributes and relationships.
 ---
 
 # The braintree payment object
+
+A braintree payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

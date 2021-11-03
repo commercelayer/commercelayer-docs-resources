@@ -1,8 +1,12 @@
 ---
-description: A free shipping promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the free shipping promotion resource's attributes and relationships.
 ---
 
 # The free shipping promotion object
+
+A free shipping promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

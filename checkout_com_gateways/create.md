@@ -1,10 +1,10 @@
 ---
-description: How to create a checkout com gateway via API
+description: How to create a checkout.com gateway via API
 ---
 
-# Create a checkout com gateway
+# Create a checkout.com gateway
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new checkout com gateway, send a `POST` request to the `/api/checkout_com_gateways` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new checkout.com gateway, send a `POST` request to the `/api/checkout_com_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
@@ -27,7 +27,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 {% tabs %}
 {% tab title="Request" %}
-The following request creates a new checkout com gateway:
+The following request creates a new checkout.com gateway:
 
 ```javascript
 curl -g -X POST \

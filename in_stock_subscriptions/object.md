@@ -1,8 +1,12 @@
 ---
-description: An in stock subscription object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the in stock subscription resource's attributes and relationships.
 ---
 
 # The in stock subscription object
+
+An in stock subscription object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

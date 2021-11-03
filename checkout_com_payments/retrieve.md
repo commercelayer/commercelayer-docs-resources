@@ -1,10 +1,10 @@
 ---
-description: How to fetch a specific checkout com payment via API
+description: How to fetch a specific checkout.com payment via API
 ---
 
-# Retrieve a checkout com payment
+# Retrieve a checkout.com payment
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single checkout com payment, send a `GET` request to the `/api/checkout_com_payments/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single checkout.com payment, send a `GET` request to the `/api/checkout_com_payments/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
@@ -14,7 +14,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 {% tabs %}
 {% tab title="Request" %}
-The following request fetches the checkout com payment identified by the id "xYZkjABcde":
+The following request fetches the checkout.com payment identified by the id "xYZkjABcde":
 
 ```javascript
 curl -g -X GET \

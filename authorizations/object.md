@@ -1,8 +1,12 @@
 ---
-description: An authorization object is returned as part of the response body of each successful list, retrieve or update API call.
+description: A comprehensive list of the authorization resource's attributes and relationships.
 ---
 
 # The authorization object
+
+An authorization object is returned as part of the response body of each successful list, retrieve or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

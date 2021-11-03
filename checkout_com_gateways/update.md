@@ -1,10 +1,10 @@
 ---
-description: How to update an existing checkout com gateway via API
+description: How to update an existing checkout.com gateway via API
 ---
 
-# Update a checkout com gateway
+# Update a checkout.com gateway
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing checkout com gateway, send a `PATCH` request to the `/api/checkout_com_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing checkout.com gateway, send a `PATCH` request to the `/api/checkout_com_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
@@ -30,7 +30,7 @@ Here below the list of all the possible arguments that you can pass with the req
 
 {% tabs %}
 {% tab title="Request" %}
-The following request updates the checkout com gateway identified by the ID "xYZkjABcde":
+The following request updates the checkout.com gateway identified by the ID "xYZkjABcde":
 
 ```javascript
 curl -g -X PATCH \

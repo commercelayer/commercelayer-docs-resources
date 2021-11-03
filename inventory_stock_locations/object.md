@@ -1,8 +1,12 @@
 ---
-description: An inventory stock location object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the inventory stock location resource's attributes and relationships.
 ---
 
 # The inventory stock location object
+
+An inventory stock location object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

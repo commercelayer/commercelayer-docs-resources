@@ -1,8 +1,12 @@
 ---
-description: A shipping zone object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the shipping zone resource's attributes and relationships.
 ---
 
 # The shipping zone object
+
+A shipping zone object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

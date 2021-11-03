@@ -1,10 +1,10 @@
 ---
-description: How to fetch a collection of checkout com gateways via API
+description: How to fetch a collection of checkout.com gateways via API
 ---
 
-# List all checkout com gateways
+# List all checkout.com gateways
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of checkout com gateways, send a `GET` request to the `/api/checkout_com_gateways` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of checkout.com gateways, send a `GET` request to the `/api/checkout_com_gateways` endpoint.
 
 ## Request
 
@@ -14,7 +14,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 {% tabs %}
 {% tab title="Request" %}
-The following request fetches a collection of checkout com gateways:
+The following request fetches a collection of checkout.com gateways:
 
 ```javascript
 curl -g -X GET \
@@ -85,11 +85,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-{% page-ref page="../../pagination.md" %}
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of checkout com gateways can be sorted by the following attributes:
+The list of checkout.com gateways can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
 * `id`
@@ -97,6 +97,4 @@ The list of checkout com gateways can be sorted by the following attributes:
 * `updated_at`
 * `reference`
 * `reference_origin`
-
-{% page-ref page="../../sorting-results.md" %}
 

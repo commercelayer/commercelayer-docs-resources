@@ -1,8 +1,12 @@
 ---
-description: An import object is returned as part of the response body of each successful list, retrieve or create API call.
+description: A comprehensive list of the import resource's attributes and relationships.
 ---
 
 # The import object
+
+An import object is returned as part of the response body of each successful list, retrieve or create API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

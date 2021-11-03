@@ -1,8 +1,12 @@
 ---
-description: An address object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the address resource's attributes and relationships.
 ---
 
 # The address object
+
+An address object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

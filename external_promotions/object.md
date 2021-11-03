@@ -1,8 +1,12 @@
 ---
-description: An external promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the external promotion resource's attributes and relationships.
 ---
 
 # The external promotion object
+
+An external promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

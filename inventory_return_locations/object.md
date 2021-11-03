@@ -1,8 +1,12 @@
 ---
-description: An inventory return location object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the inventory return location resource's attributes and relationships.
 ---
 
 # The inventory return location object
+
+An inventory return location object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

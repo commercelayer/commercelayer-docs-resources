@@ -1,8 +1,12 @@
 ---
-description: A customer subscription object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the customer subscription resource's attributes and relationships.
 ---
 
 # The customer subscription object
+
+A customer subscription object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

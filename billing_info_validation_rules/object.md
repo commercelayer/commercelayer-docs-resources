@@ -1,8 +1,12 @@
 ---
-description: A billing info validation rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the billing info validation rule resource's attributes and relationships.
 ---
 
 # The billing info validation rule object
+
+A billing info validation rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

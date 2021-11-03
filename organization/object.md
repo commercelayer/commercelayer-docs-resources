@@ -1,8 +1,12 @@
 ---
-description: The organization object is returned as part of the response body of each successful retrieve API call.
+description: A comprehensive list of the organization resource's attributes and relationships.
 ---
 
 # The organization object
+
+The organization object is returned as part of the response body of each successful retrieve API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

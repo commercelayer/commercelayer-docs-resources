@@ -1,8 +1,12 @@
 ---
-description: A void object is returned as part of the response body of each successful list or retrieve API call.
+description: A comprehensive list of the void resource's attributes and relationships.
 ---
 
 # The void object
+
+A void object is returned as part of the response body of each successful list or retrieve API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

@@ -1,8 +1,12 @@
 ---
-description: A geocoder object is returned as part of the response body of each successful list API call.
+description: A comprehensive list of the geocoder resource's attributes and relationships.
 ---
 
 # The geocoder object
+
+A geocoder object is returned as part of the response body of each successful list API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

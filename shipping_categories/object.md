@@ -1,8 +1,12 @@
 ---
-description: A shipping category object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the shipping category resource's attributes and relationships.
 ---
 
 # The shipping category object
+
+A shipping category object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

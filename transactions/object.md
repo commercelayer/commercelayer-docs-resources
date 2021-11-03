@@ -1,8 +1,12 @@
 ---
-description: A transaction object is returned as part of the response body of each successful list API call.
+description: A comprehensive list of the transaction resource's attributes and relationships.
 ---
 
 # The transaction object
+
+A transaction object is returned as part of the response body of each successful list API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

@@ -1,8 +1,12 @@
 ---
-description: An order copy object is returned as part of the response body of each successful list, retrieve or create API call.
+description: A comprehensive list of the order copy resource's attributes and relationships.
 ---
 
 # The order copy object
+
+An order copy object is returned as part of the response body of each successful list, retrieve or create API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

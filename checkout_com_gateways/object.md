@@ -1,14 +1,18 @@
 ---
-description: A checkout com gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the checkout.com gateway resource's attributes and relationships.
 ---
 
-# The checkout com gateway object
+# The checkout.com gateway object
+
+A checkout.com gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |
 | **type**       | `string` | `checkout_com_gateways`                        |
-| **id**         | `string` | The checkout com gateway unique identifier  |
-| links.**self** | `string` | The checkout com gateway endpoint URL       |
+| **id**         | `string` | The checkout.com gateway unique identifier  |
+| links.**self** | `string` | The checkout.com gateway endpoint URL       |
 | attributes.**name** | `string` | The payment gateway's internal name. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

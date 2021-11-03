@@ -1,8 +1,12 @@
 ---
-description: A price list object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the price list resource's attributes and relationships.
 ---
 
 # The price list object
+
+A price list object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

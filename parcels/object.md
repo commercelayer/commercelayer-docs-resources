@@ -1,8 +1,12 @@
 ---
-description: A parcel object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the parcel resource's attributes and relationships.
 ---
 
 # The parcel object
+
+A parcel object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

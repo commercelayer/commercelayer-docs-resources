@@ -1,8 +1,12 @@
 ---
-description: A customer payment source object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the customer payment source resource's attributes and relationships.
 ---
 
 # The customer payment source object
+
+A customer payment source object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

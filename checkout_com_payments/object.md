@@ -1,14 +1,18 @@
 ---
-description: A checkout com payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the checkout.com payment resource's attributes and relationships.
 ---
 
-# The checkout com payment object
+# The checkout.com payment object
+
+A checkout.com payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |
 | **type**       | `string` | `checkout_com_payments`                        |
-| **id**         | `string` | The checkout com payment unique identifier  |
-| links.**self** | `string` | The checkout com payment endpoint URL       |
+| **id**         | `string` | The checkout.com payment unique identifier  |
+| links.**self** | `string` | The checkout.com payment endpoint URL       |
 | attributes.**payment_type** | `string` | The payment source type. |
 | attributes.**token** | `string` | The Checkout.com card or digital wallet token. |
 | attributes.**session_id** | `string` | A payment session ID used to obtain the details. |

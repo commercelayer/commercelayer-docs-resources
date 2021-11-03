@@ -1,8 +1,12 @@
 ---
-description: A promotion rule object is returned as part of the response body of each successful list API call.
+description: A comprehensive list of the promotion rule resource's attributes and relationships.
 ---
 
 # The promotion rule object
+
+A promotion rule object is returned as part of the response body of each successful list API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

@@ -1,8 +1,12 @@
 ---
-description: A shipment object is returned as part of the response body of each successful list, retrieve or update API call.
+description: A comprehensive list of the shipment resource's attributes and relationships.
 ---
 
 # The shipment object
+
+A shipment object is returned as part of the response body of each successful list, retrieve or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

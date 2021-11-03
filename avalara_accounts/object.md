@@ -1,8 +1,12 @@
 ---
-description: An avalara account object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the avalara account resource's attributes and relationships.
 ---
 
 # The avalara account object
+
+An avalara account object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

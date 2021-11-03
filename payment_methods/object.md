@@ -1,8 +1,12 @@
 ---
-description: A payment method object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the payment method resource's attributes and relationships.
 ---
 
 # The payment method object
+
+A payment method object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

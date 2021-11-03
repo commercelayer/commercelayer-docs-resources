@@ -1,8 +1,12 @@
 ---
-description: A taxjar account object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the taxjar account resource's attributes and relationships.
 ---
 
 # The taxjar account object
+
+A taxjar account object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

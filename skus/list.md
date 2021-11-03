@@ -115,11 +115,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-{% page-ref page="../../pagination.md" %}
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of SKUs can be sorted by the following attributes:
+The list of SKUs can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `code`
 * `id`
@@ -127,6 +127,4 @@ The list of SKUs can be sorted by the following attributes:
 * `updated_at`
 * `reference`
 * `reference_origin`
-
-{% page-ref page="../../sorting-results.md" %}
 

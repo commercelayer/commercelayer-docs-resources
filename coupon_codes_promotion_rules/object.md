@@ -1,8 +1,12 @@
 ---
-description: A coupon codes promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the coupon codes promotion rule resource's attributes and relationships.
 ---
 
 # The coupon codes promotion rule object
+
+A coupon codes promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

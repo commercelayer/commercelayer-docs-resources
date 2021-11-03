@@ -1,8 +1,12 @@
 ---
-description: A capture object is returned as part of the response body of each successful list, retrieve or update API call.
+description: A comprehensive list of the capture resource's attributes and relationships.
 ---
 
 # The capture object
+
+A capture object is returned as part of the response body of each successful list, retrieve or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

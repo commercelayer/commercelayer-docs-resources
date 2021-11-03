@@ -1,10 +1,10 @@
 ---
-description: How to delete an existing checkout com payment via API
+description: How to delete an existing checkout.com payment via API
 ---
 
-# Delete a checkout com payment
+# Delete a checkout.com payment
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a checkout com payment, send a `DELETE` request to the `/api/checkout_com_payments/:id` endpoint, where `id` is the id of the checkout com payment that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a checkout.com payment, send a `DELETE` request to the `/api/checkout_com_payments/:id` endpoint, where `id` is the id of the checkout.com payment that you want to delete.
 
 ## Request
 
@@ -14,7 +14,7 @@ To <a href="https://docs.commercelayer.io/developers/deleting-resources" target=
 
 {% tabs %}
 {% tab title="Request" %}
-The following request tries to delete the checkout com payment identified by the ID "xYZkjABcde":
+The following request tries to delete the checkout.com payment identified by the ID "xYZkjABcde":
 
 ```javascript
 curl -g -X DELETE \

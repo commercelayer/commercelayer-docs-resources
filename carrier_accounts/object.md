@@ -1,8 +1,12 @@
 ---
-description: A carrier account object is returned as part of the response body of each successful list or retrieve API call.
+description: A comprehensive list of the carrier account resource's attributes and relationships.
 ---
 
 # The carrier account object
+
+A carrier account object is returned as part of the response body of each successful list or retrieve API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

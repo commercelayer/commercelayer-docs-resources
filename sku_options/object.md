@@ -1,8 +1,12 @@
 ---
-description: A SKU option object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the SKU option resource's attributes and relationships.
 ---
 
 # The SKU option object
+
+A SKU option object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

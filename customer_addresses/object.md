@@ -1,8 +1,12 @@
 ---
-description: A customer address object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the customer address resource's attributes and relationships.
 ---
 
 # The customer address object
+
+A customer address object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

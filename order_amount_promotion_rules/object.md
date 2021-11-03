@@ -1,8 +1,12 @@
 ---
-description: An order amount promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the order amount promotion rule resource's attributes and relationships.
 ---
 
 # The order amount promotion rule object
+
+An order amount promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

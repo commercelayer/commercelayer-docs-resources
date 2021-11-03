@@ -1,8 +1,12 @@
 ---
-description: A stock line item object is returned as part of the response body of each successful list or retrieve API call.
+description: A comprehensive list of the stock line item resource's attributes and relationships.
 ---
 
 # The stock line item object
+
+A stock line item object is returned as part of the response body of each successful list or retrieve API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

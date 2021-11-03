@@ -1,8 +1,12 @@
 ---
-description: A line item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the line item resource's attributes and relationships.
 ---
 
 # The line item object
+
+A line item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

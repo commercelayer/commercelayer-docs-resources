@@ -1,8 +1,12 @@
 ---
-description: A shipping method object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the shipping method resource's attributes and relationships.
 ---
 
 # The shipping method object
+
+A shipping method object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

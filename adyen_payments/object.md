@@ -1,8 +1,12 @@
 ---
-description: An adyen payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the adyen payment resource's attributes and relationships.
 ---
 
 # The adyen payment object
+
+An adyen payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

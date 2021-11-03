@@ -1,8 +1,12 @@
 ---
-description: An attachment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the attachment resource's attributes and relationships.
 ---
 
 # The attachment object
+
+An attachment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

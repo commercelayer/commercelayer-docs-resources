@@ -1,8 +1,12 @@
 ---
-description: A coupon recipient object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the coupon recipient resource's attributes and relationships.
 ---
 
 # The coupon recipient object
+
+A coupon recipient object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

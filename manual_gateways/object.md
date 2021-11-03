@@ -1,8 +1,12 @@
 ---
-description: A manual gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the manual gateway resource's attributes and relationships.
 ---
 
 # The manual gateway object
+
+A manual gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

@@ -1,8 +1,12 @@
 ---
-description: A stripe gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the stripe gateway resource's attributes and relationships.
 ---
 
 # The stripe gateway object
+
+A stripe gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

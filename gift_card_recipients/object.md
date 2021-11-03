@@ -1,8 +1,12 @@
 ---
-description: A gift card recipient object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the gift card recipient resource's attributes and relationships.
 ---
 
 # The gift card recipient object
+
+A gift card recipient object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

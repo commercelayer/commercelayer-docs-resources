@@ -1,8 +1,12 @@
 ---
-description: A free gift promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the free gift promotion resource's attributes and relationships.
 ---
 
 # The free gift promotion object
+
+A free gift promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

@@ -1,8 +1,12 @@
 ---
-description: A parcel line item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the parcel line item resource's attributes and relationships.
 ---
 
 # The parcel line item object
+
+A parcel line item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

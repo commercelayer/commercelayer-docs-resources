@@ -1,8 +1,12 @@
 ---
-description: A merchant object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the merchant resource's attributes and relationships.
 ---
 
 # The merchant object
+
+A merchant object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

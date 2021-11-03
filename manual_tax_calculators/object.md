@@ -1,8 +1,12 @@
 ---
-description: A manual tax calculator object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the manual tax calculator resource's attributes and relationships.
 ---
 
 # The manual tax calculator object
+
+A manual tax calculator object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

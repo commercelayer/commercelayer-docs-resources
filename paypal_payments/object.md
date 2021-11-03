@@ -1,8 +1,12 @@
 ---
-description: A paypal payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the paypal payment resource's attributes and relationships.
 ---
 
 # The paypal payment object
+
+A paypal payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

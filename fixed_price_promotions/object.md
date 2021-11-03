@@ -1,8 +1,12 @@
 ---
-description: A fixed price promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the fixed price promotion resource's attributes and relationships.
 ---
 
 # The fixed price promotion object
+
+A fixed price promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

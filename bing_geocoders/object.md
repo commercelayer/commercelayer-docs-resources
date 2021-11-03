@@ -1,8 +1,12 @@
 ---
-description: A bing geocoder object is returned as part of the response body of each successful list, retrieve, create or update API call.
+description: A comprehensive list of the bing geocoder resource's attributes and relationships.
 ---
 
 # The bing geocoder object
+
+A bing geocoder object is returned as part of the response body of each successful list, retrieve, create or update API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |

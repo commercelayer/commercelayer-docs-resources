@@ -1,8 +1,12 @@
 ---
-description: A tax calculator object is returned as part of the response body of each successful list API call.
+description: A comprehensive list of the tax calculator resource's attributes and relationships.
 ---
 
 # The tax calculator object
+
+A tax calculator object is returned as part of the response body of each successful list API call.
+
+## Fields
 
 | Field          | Type     | Description                                  |
 | -------------- | -------- | -------------------------------------------- |
