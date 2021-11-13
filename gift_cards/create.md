@@ -47,7 +47,7 @@ curl -g -X POST \
     "type": "gift_cards",
     "attributes": {
       "currency_code": "EUR",
-      "balance_cents": "15000"
+      "balance_cents": 15000
     }
   }
 }'

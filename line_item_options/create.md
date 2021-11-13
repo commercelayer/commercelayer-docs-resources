@@ -40,7 +40,7 @@ curl -g -X POST \
   "data": {
     "type": "line_item_options",
     "attributes": {
-      "quantity": "2",
+      "quantity": 2,
       "options": {
         "embossing_text": "Happy Birthday!"
       }

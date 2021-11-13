@@ -27,6 +27,8 @@ The organization object is returned as part of the response body of each success
 | attributes.**discount_disabled** | `boolean` | Indicates if organization has discount disabled. |
 | attributes.**account_disabled** | `boolean` | Indicates if organization has account disabled. |
 | attributes.**acceptance_disabled** | `boolean` | Indicates if organization has acceptance disabled. |
+| attributes.**max_concurrent_promotions** | `integer` | The maximum number of active concurrent promotions allowed for your organization. |
+| attributes.**max_concurrent_imports** | `integer` | The maximum number of concurrent imports allowed for your organization. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |
 | attributes.**reference** | `string` | A string that you can use to add any external identifier to the resource. This can be useful for integrating the resource to an external system, like an ERP, a marketing tool, a CRM, or whatever. |

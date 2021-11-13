@@ -40,8 +40,8 @@ curl -g -X POST \
   "data": {
     "type": "prices",
     "attributes": {
-      "amount_cents": "10000",
-      "compare_at_amount_cents": "13000"
+      "amount_cents": 10000,
+      "compare_at_amount_cents": 13000
     },
     "relationships": {
       "price_list": {

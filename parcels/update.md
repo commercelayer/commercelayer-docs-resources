@@ -60,7 +60,7 @@ curl -g -X PATCH \
     "type": "parcels",
     "id": "xYZkjABcde",
     "attributes": {
-      "weight": "1000"
+      "weight": 1000.0
     }
   }
 }'

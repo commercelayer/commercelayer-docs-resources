@@ -47,6 +47,8 @@ On success, the API responds with a `200 OK` status code, returning a single res
       "discount_disabled": false,
       "account_disabled": false,
       "acceptance_disabled": false,
+      "max_concurrent_promotions": 10,
+      "max_concurrent_imports": 30,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
       "reference": "ANY-EXTERNAL-REFEFERNCE",

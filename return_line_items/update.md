@@ -42,7 +42,7 @@ curl -g -X PATCH \
     "type": "return_line_items",
     "id": "xYZkjABcde",
     "attributes": {
-      "_restock": "true"
+      "_restock": true
     }
   }
 }'

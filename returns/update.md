@@ -49,7 +49,7 @@ curl -g -X PATCH \
     "type": "returns",
     "id": "xYZkjABcde",
     "attributes": {
-      "_request": "true"
+      "_request": true
     }
   }
 }'

@@ -46,8 +46,8 @@ curl -g -X POST \
     "attributes": {
       "code": "BUNDMM000000FFFFFFXLXX",
       "name": "Black Men T-shirt (XL) with Black Cap and Socks, all with White Logo",
-      "price_amount_cents": "10000",
-      "compare_at_amount_cents": "13000"
+      "price_amount_cents": 10000,
+      "compare_at_amount_cents": 13000
     },
     "relationships": {
       "market": {

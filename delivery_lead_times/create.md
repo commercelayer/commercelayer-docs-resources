@@ -39,8 +39,8 @@ curl -g -X POST \
   "data": {
     "type": "delivery_lead_times",
     "attributes": {
-      "min_hours": "48",
-      "max_hours": "72"
+      "min_hours": 48,
+      "max_hours": 72
     },
     "relationships": {
       "stock_location": {

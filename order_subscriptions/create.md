@@ -15,7 +15,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | Body Parameter | Type     | Required |
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
-| attributes.**frequency** | `string` | Optional |
+| attributes.**frequency** | `string` | Required |
 | attributes.**activate_by_source_order** | `boolean` | Optional |
 | attributes.**starts_at** | `datetime` | Required, unless activate_by_source_order |
 | attributes.**expires_at** | `datetime` | Optional |
@@ -42,6 +42,7 @@ curl -g -X POST \
   "data": {
     "type": "order_subscriptions",
     "attributes": {
+      "frequency": "monthly",
       "starts_at": "2018-01-01T12:00:00.000Z"
     },
     "relationships": {

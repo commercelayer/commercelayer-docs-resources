@@ -39,7 +39,7 @@ curl -g -X POST \
   "data": {
     "type": "inventory_stock_locations",
     "attributes": {
-      "priority": "1"
+      "priority": 1
     },
     "relationships": {
       "stock_location": {

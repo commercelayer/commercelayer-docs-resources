@@ -48,7 +48,7 @@ curl -g -X PATCH \
     "type": "shipments",
     "id": "xYZkjABcde",
     "attributes": {
-      "_on_hold": "true"
+      "_on_hold": true
     }
   }
 }'

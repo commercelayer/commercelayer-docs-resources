@@ -43,7 +43,7 @@ curl -g -X PATCH \
     "type": "inventory_stock_locations",
     "id": "xYZkjABcde",
     "attributes": {
-      "on_hold": "false"
+      "on_hold": false
     }
   }
 }'

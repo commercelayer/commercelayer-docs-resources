@@ -43,7 +43,7 @@ curl -g -X PATCH \
     "type": "stock_locations",
     "id": "xYZkjABcde",
     "attributes": {
-      "suppress_etd": "false"
+      "suppress_etd": false
     }
   }
 }'

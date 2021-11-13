@@ -42,7 +42,7 @@ curl -g -X POST \
   "data": {
     "type": "stock_transfers",
     "attributes": {
-      "quantity": "2"
+      "quantity": 2
     },
     "relationships": {
       "sku": {

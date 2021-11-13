@@ -39,7 +39,7 @@ curl -g -X POST \
   "data": {
     "type": "stock_items",
     "attributes": {
-      "quantity": "100"
+      "quantity": 100
     },
     "relationships": {
       "stock_location": {

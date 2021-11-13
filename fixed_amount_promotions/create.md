@@ -48,8 +48,8 @@ curl -g -X POST \
       "name": "Personal promotion",
       "starts_at": "2018-01-01T12:00:00.000Z",
       "expires_at": "2018-01-02T12:00:00.000Z",
-      "total_usage_limit": "5",
-      "fixed_amount_cents": "1000"
+      "total_usage_limit": 5,
+      "fixed_amount_cents": 1000
     },
     "relationships": {
       "market": {

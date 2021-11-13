@@ -40,7 +40,7 @@ curl -g -X POST \
     "attributes": {
       "name": "Additional service",
       "currency_code": "EUR",
-      "amount_cents": "1500"
+      "amount_cents": 1500
     }
   }
 }'

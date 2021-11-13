@@ -41,8 +41,8 @@ curl -g -X PATCH \
     "type": "captures",
     "id": "xYZkjABcde",
     "attributes": {
-      "_refund": "true",
-      "_refund_amount_cents": "500"
+      "_refund": true,
+      "_refund_amount_cents": 500
     }
   }
 }'

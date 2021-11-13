@@ -39,8 +39,8 @@ curl -g -X POST \
   "data": {
     "type": "sku_list_items",
     "attributes": {
-      "position": "2",
-      "quantity": "1"
+      "position": 2,
+      "quantity": 1
     },
     "relationships": {
       "sku_list": {

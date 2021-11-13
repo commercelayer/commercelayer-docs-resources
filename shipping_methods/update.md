@@ -45,7 +45,7 @@ curl -g -X PATCH \
     "type": "shipping_methods",
     "id": "xYZkjABcde",
     "attributes": {
-      "free_over_amount_cents": "9900"
+      "free_over_amount_cents": 9900
     }
   }
 }'

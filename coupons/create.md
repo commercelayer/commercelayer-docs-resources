@@ -40,7 +40,7 @@ curl -g -X POST \
     "type": "coupons",
     "attributes": {
       "code": "04371af2-70b3-48d7-8f4e-316b374224c3",
-      "usage_limit": "50"
+      "usage_limit": 50
     },
     "relationships": {
       "promotion_rule": {
