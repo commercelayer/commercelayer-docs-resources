@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://<i></i>yourdomain.commercelayer.io/api/gift_card_recipients
+**POST** https://yourdomain.commercelayer.io**/api/gift_card_recipients**
 
 ### Arguments
 

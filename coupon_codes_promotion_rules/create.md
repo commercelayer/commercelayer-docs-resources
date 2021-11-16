@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://<i></i>yourdomain.commercelayer.io/api/coupon_codes_promotion_rules
+**POST** https://yourdomain.commercelayer.io**/api/coupon_codes_promotion_rules**
 
 ### Arguments
 

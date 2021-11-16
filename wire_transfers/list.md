@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 ## Request
 
-**GET** https://<i></i>yourdomain.commercelayer.io/api/wire_transfers
+**GET** https://yourdomain.commercelayer.io**/api/wire_transfers**
 
 ### **Example**
 

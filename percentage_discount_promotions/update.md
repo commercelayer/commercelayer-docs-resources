@@ -10,7 +10,7 @@ Here below the list of all the possible arguments that you can pass with the req
 
 ## Request
 
-**PATCH** https://<i></i>yourdomain.commercelayer.io/api/percentage_discount_promotions/:id
+**PATCH** https://yourdomain.commercelayer.io**/api/percentage_discount_promotions/:id**
 
 ### Arguments
 

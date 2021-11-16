@@ -15,7 +15,7 @@ An order subscription object is returned as part of the response body of each su
 | links.**self** | `string` | The order subscription endpoint URL       |
 | attributes.**number** | `string` | Unique identifier for the subscription (numeric) |
 | attributes.**status** | `string` | The subscription status. One of 'draft' (default), 'inactive', 'active', or 'cancelled'. |
-| attributes.**frequency** | `string` | The frequency of the subscription. One of 'daily', 'weekly', 'monthly', 'two-month', 'three-month', 'four-month', 'six-month', or 'yearly'. |
+| attributes.**frequency** | `string` | The frequency of the subscription. One of 'hourly', 'daily', 'weekly', 'monthly', 'two-month', 'three-month', 'four-month', 'six-month', or 'yearly'. |
 | attributes.**activate_by_source_order** | `boolean` | Indicates if the subscription will be actvated considering the placed source order as its first run, default to true. |
 | attributes.**customer_email** | `string` | The email address of the customer, if any, associated to the source order. |
 | attributes.**starts_at** | `datetime` | The activation date/time of this subscription. |

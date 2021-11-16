@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://<i></i>yourdomain.commercelayer.io/api/manual_tax_calculators
+**POST** https://yourdomain.commercelayer.io**/api/manual_tax_calculators**
 
 ### Arguments
 

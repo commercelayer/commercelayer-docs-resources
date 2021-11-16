@@ -8,19 +8,19 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://<i></i>yourdomain.commercelayer.io/api/packages
+**POST** https://yourdomain.commercelayer.io**/api/packages**
 
 ### Arguments
 
 | Body Parameter | Type     | Required |
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
-| attributes.**name** | `string` | Optional |
+| attributes.**name** | `string` | Required |
 | attributes.**code** | `string` | Optional |
-| attributes.**length** | `float` | Optional |
-| attributes.**width** | `float` | Optional |
-| attributes.**height** | `float` | Optional |
-| attributes.**unit_of_length** | `string` | Optional |
+| attributes.**length** | `float` | Required |
+| attributes.**width** | `float` | Required |
+| attributes.**height** | `float` | Required |
+| attributes.**unit_of_length** | `string` | Required |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
@@ -41,6 +41,13 @@ curl -g -X POST \
   -d '{
   "data": {
     "type": "packages",
+    "attributes": {
+      "name": "Large (60x40x30)",
+      "length": 40.0,
+      "width": 40.0,
+      "height": 25.0,
+      "unit_of_length": "gr"
+    },
     "relationships": {
       "stock_location": {
         "data": {
