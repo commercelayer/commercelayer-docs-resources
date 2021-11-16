@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/sku_list_items**
+**GET** https://yourdomain.commercelayer.io<b>/api/sku_list_items</b>
 
 ### **Example**
 

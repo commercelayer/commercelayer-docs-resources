@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/customer_password_resets/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/customer_password_resets/:id</b>
 
 ### **Example**
 

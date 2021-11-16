@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/deleting-resources" target=
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/returns/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/returns/:id</b>
 
 ### Example
 

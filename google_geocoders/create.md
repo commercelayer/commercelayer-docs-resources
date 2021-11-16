@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/google_geocoders**
+**POST** https://yourdomain.commercelayer.io<b>/api/google_geocoders</b>
 
 ### Arguments
 

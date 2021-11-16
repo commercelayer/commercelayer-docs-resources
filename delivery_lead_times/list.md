@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/delivery_lead_times**
+**GET** https://yourdomain.commercelayer.io<b>/api/delivery_lead_times</b>
 
 ### **Example**
 

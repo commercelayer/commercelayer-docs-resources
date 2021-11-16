@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/fetching-resources" target=
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/tax_rules**
+**GET** https://yourdomain.commercelayer.io<b>/api/tax_rules</b>
 
 ### **Example**
 

@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/deleting-resources" target=
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/paypal_gateways/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/paypal_gateways/:id</b>
 
 ### Example
 

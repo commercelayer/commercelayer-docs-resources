@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/stripe_payments**
+**POST** https://yourdomain.commercelayer.io<b>/api/stripe_payments</b>
 
 ### Arguments
 

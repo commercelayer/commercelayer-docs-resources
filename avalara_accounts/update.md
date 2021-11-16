@@ -10,7 +10,7 @@ Here below the list of all the possible arguments that you can pass with the req
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/avalara_accounts/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/avalara_accounts/:id</b>
 
 ### Arguments
 

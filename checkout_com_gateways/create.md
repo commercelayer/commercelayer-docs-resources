@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/checkout_com_gateways**
+**POST** https://yourdomain.commercelayer.io<b>/api/checkout_com_gateways</b>
 
 ### Arguments
 

@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/braintree_gateways**
+**POST** https://yourdomain.commercelayer.io<b>/api/braintree_gateways</b>
 
 ### Arguments
 

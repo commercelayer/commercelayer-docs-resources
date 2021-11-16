@@ -8,7 +8,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/in_stock_subscriptions**
+**POST** https://yourdomain.commercelayer.io<b>/api/in_stock_subscriptions</b>
 
 ### Arguments
 
