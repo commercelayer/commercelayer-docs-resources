@@ -14,6 +14,7 @@ A coupon object is returned as part of the response body of each successful list
 | **id**         | `string` | The coupon unique identifier  |
 | links.**self** | `string` | The coupon endpoint URL       |
 | attributes.**code** | `string` | The coupon code, that uniquely identifies the coupon within the promotion rule. |
+| attributes.**customer_single_use** | `boolean` | Indicates if the coupon can be used just once per customer. |
 | attributes.**usage_limit** | `integer` | The total number of times this coupon can be used. |
 | attributes.**usage_count** | `integer` | The number of times this coupon has been used. |
 | attributes.**recipient_email** | `string` | The email address of the associated recipient. When creating or updating a coupon, this is a shortcut to find or create the associated recipient by email. |

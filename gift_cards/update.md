@@ -99,7 +99,6 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       "image_url": "https://img.yourdomain.com/gift_cards/32db311a.png",
       "expires_at": "2018-01-01T12:00:00.000Z",
       "recipient_email": "john@example.com",
-      "_balance_change_cents": -5000,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
       "reference": "ANY-EXTERNAL-REFEFERNCE",

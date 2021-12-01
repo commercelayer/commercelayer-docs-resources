@@ -19,6 +19,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | **type**       | `string` | Required |
 | **id**         | `string` | Required |
 | attributes.**code** | `string` | Optional |
+| attributes.**customer_single_use** | `boolean` | Optional |
 | attributes.**usage_limit** | `integer` | Optional |
 | attributes.**recipient_email** | `string` | Optional |
 | attributes.**reference** | `string` | Optional |
@@ -63,6 +64,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     },
     "attributes": {
       "code": "04371af2-70b3-48d7-8f4e-316b374224c3",
+      "customer_single_use": true,
       "usage_limit": 50,
       "usage_count": 20,
       "recipient_email": "john@example.com",

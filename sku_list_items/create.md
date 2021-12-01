@@ -15,8 +15,9 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | Body Parameter | Type     | Required |
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
-| attributes.**position** | `integer` | Required |
-| attributes.**quantity** | `integer` | Required |
+| attributes.**position** | `integer` | Optional |
+| attributes.**sku_code** | `string` | Optional |
+| attributes.**quantity** | `integer` | Optional, default to '1' |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
@@ -38,10 +39,6 @@ curl -g -X POST \
   -d '{
   "data": {
     "type": "sku_list_items",
-    "attributes": {
-      "position": 2,
-      "quantity": 1
-    },
     "relationships": {
       "sku_list": {
         "data": {
@@ -74,6 +71,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "position": 2,
+      "sku_code": "TSHIRTMM000000FFFFFFXLXX",
       "quantity": 1,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",

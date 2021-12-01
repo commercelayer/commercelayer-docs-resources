@@ -19,6 +19,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | **type**       | `string` | Required |
 | **id**         | `string` | Required |
 | attributes.**position** | `integer` | Optional |
+| attributes.**sku_code** | `string` | Optional |
 | attributes.**quantity** | `integer` | Optional |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
@@ -41,7 +42,7 @@ curl -g -X PATCH \
     "type": "sku_list_items",
     "id": "xYZkjABcde",
     "attributes": {
-      "reference": "ANY-EXTERNAL-REFEFERNCE"
+      "position": 2
     }
   }
 }'
@@ -61,6 +62,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     },
     "attributes": {
       "position": 2,
+      "sku_code": "TSHIRTMM000000FFFFFFXLXX",
       "quantity": 1,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
