@@ -1,9 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-
-## Resources
-
 * [Addresses](addresses/README.md)
   * [The address object](addresses/object.md)
   * [Create an address](addresses/create.md)
