@@ -4,7 +4,7 @@ description: A comprehensive list of the payment gateway resource's attributes a
 
 # The payment gateway object
 
-A payment gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A payment gateway object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/payment_gateways endpoint</b>.
 
 ## Fields
 

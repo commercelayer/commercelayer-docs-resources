@@ -4,7 +4,7 @@ description: A comprehensive list of the paypal gateway resource's attributes an
 
 # The paypal gateway object
 
-A paypal gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A paypal gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/paypal_gateways endpoint</b>.
 
 ## Fields
 

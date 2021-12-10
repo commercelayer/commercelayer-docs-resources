@@ -4,7 +4,7 @@ description: A comprehensive list of the customer subscription resource's attrib
 
 # The customer subscription object
 
-A customer subscription object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A customer subscription object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/customer_subscriptions endpoint</b>.
 
 ## Fields
 

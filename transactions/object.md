@@ -4,7 +4,7 @@ description: A comprehensive list of the transaction resource's attributes and r
 
 # The transaction object
 
-A transaction object is returned as part of the response body of each successful list API call.
+A transaction object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/transactions endpoint</b>.
 
 ## Fields
 

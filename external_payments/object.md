@@ -4,7 +4,7 @@ description: A comprehensive list of the external payment resource's attributes 
 
 # The external payment object
 
-An external payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An external payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/external_payments endpoint</b>.
 
 ## Fields
 

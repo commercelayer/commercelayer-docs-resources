@@ -4,7 +4,7 @@ description: A comprehensive list of the package resource's attributes and relat
 
 # The package object
 
-A package object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A package object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/packages endpoint</b>.
 
 ## Fields
 

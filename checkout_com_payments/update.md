@@ -21,7 +21,6 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**payment_type** | `string` | Optional |
 | attributes.**token** | `string` | Optional |
 | attributes.**session_id** | `string` | Optional |
-| attributes.**_authorize** | `boolean, value is 'true'` | Optional |
 | attributes.**_details** | `boolean, value is 'true'` | Optional |
 | attributes.**_refresh** | `boolean, value is 'true'` | Optional |
 | attributes.**reference** | `string` | Optional |

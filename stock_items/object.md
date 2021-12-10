@@ -4,7 +4,7 @@ description: A comprehensive list of the stock item resource's attributes and re
 
 # The stock item object
 
-A stock item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A stock item object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/stock_items endpoint</b>.
 
 ## Fields
 

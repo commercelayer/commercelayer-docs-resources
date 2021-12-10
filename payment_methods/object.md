@@ -4,7 +4,7 @@ description: A comprehensive list of the payment method resource's attributes an
 
 # The payment method object
 
-A payment method object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A payment method object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/payment_methods endpoint</b>.
 
 ## Fields
 
@@ -15,6 +15,7 @@ A payment method object is returned as part of the response body of each success
 | links.**self** | `string` | The payment method endpoint URL       |
 | attributes.**payment_source_type** | `string` | The payment source type, can be one of: 'AdyenPayment', 'BraintreePayment', 'CheckoutComPayment', 'CreditCard', 'ExternalPayment', 'PaypalPayment', 'StripePayment', or 'WireTransfer'. |
 | attributes.**name** | `string` | Payment source type, titleized |
+| attributes.**moto** | `boolean` | Send this attribute if you want to mark the payment as MOTO, must be supported by payment gateway. |
 | attributes.**disabled_at** | `datetime` | Time at which the payment method was disabled. |
 | attributes.**price_amount_cents** | `integer` | The payment method's price, in cents |
 | attributes.**price_amount_float** | `float` | The payment method's price, float |

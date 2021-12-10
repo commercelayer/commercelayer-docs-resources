@@ -4,7 +4,7 @@ description: A comprehensive list of the SKU resource's attributes and relations
 
 # The SKU object
 
-A SKU object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A SKU object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/skus endpoint</b>.
 
 ## Fields
 

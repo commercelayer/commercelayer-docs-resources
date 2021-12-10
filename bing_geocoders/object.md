@@ -4,7 +4,7 @@ description: A comprehensive list of the bing geocoder resource's attributes and
 
 # The bing geocoder object
 
-A bing geocoder object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A bing geocoder object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/bing_geocoders endpoint</b>.
 
 ## Fields
 

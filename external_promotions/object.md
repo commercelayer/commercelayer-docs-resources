@@ -4,7 +4,7 @@ description: A comprehensive list of the external promotion resource's attribute
 
 # The external promotion object
 
-An external promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An external promotion object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/external_promotions endpoint</b>.
 
 ## Fields
 

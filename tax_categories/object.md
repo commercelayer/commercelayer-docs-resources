@@ -4,7 +4,7 @@ description: A comprehensive list of the tax category resource's attributes and 
 
 # The tax category object
 
-A tax category object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A tax category object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/tax_categories endpoint</b>.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the stripe payment resource's attributes an
 
 # The stripe payment object
 
-A stripe payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A stripe payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/stripe_payments endpoint</b>.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the SKU list promotion rule resource's attr
 
 # The SKU list promotion rule object
 
-A SKU list promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A SKU list promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/sku_list_promotion_rules endpoint</b>.
 
 ## Fields
 

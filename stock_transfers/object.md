@@ -4,7 +4,7 @@ description: A comprehensive list of the stock transfer resource's attributes an
 
 # The stock transfer object
 
-A stock transfer object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A stock transfer object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/stock_transfers endpoint</b>.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the wire transfer resource's attributes and
 
 # The wire transfer object
 
-A wire transfer object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A wire transfer object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/wire_transfers endpoint</b>.
 
 ## Fields
 

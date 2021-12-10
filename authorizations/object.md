@@ -4,7 +4,7 @@ description: A comprehensive list of the authorization resource's attributes and
 
 # The authorization object
 
-An authorization object is returned as part of the response body of each successful list, retrieve or update API call.
+An authorization object is returned as part of the response body of each successful list, retrieve or update API call <b>to the /api/authorizations endpoint</b>.
 
 ## Fields
 

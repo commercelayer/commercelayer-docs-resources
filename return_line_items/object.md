@@ -4,7 +4,7 @@ description: A comprehensive list of the return line item resource's attributes 
 
 # The return line item object
 
-A return line item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A return line item object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/return_line_items endpoint</b>.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the in stock subscription resource's attrib
 
 # The in stock subscription object
 
-An in stock subscription object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An in stock subscription object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/in_stock_subscriptions endpoint</b>.
 
 ## Fields
 

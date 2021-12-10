@@ -4,7 +4,7 @@ description: A comprehensive list of the promotion rule resource's attributes an
 
 # The promotion rule object
 
-A promotion rule object is returned as part of the response body of each successful list API call.
+A promotion rule object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/promotion_rules endpoint</b>.
 
 ## Fields
 

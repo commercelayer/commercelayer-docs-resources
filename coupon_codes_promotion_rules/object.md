@@ -4,7 +4,7 @@ description: A comprehensive list of the coupon codes promotion rule resource's 
 
 # The coupon codes promotion rule object
 
-A coupon codes promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A coupon codes promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/coupon_codes_promotion_rules endpoint</b>.
 
 ## Fields
 

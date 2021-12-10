@@ -4,7 +4,7 @@ description: A comprehensive list of the order validation rule resource's attrib
 
 # The order validation rule object
 
-An order validation rule object is returned as part of the response body of each successful list API call.
+An order validation rule object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/order_validation_rules endpoint</b>.
 
 ## Fields
 

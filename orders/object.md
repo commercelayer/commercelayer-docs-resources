@@ -4,7 +4,7 @@ description: A comprehensive list of the order resource's attributes and relatio
 
 # The order object
 
-An order object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An order object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/orders endpoint</b>.
 
 ## Fields
 

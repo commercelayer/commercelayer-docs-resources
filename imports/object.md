@@ -4,7 +4,7 @@ description: A comprehensive list of the import resource's attributes and relati
 
 # The import object
 
-An import object is returned as part of the response body of each successful list, retrieve or create API call.
+An import object is returned as part of the response body of each successful list, retrieve or create API call <b>to the /api/imports endpoint</b>.
 
 ## Fields
 

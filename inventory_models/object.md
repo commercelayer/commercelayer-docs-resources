@@ -4,7 +4,7 @@ description: A comprehensive list of the inventory model resource's attributes a
 
 # The inventory model object
 
-An inventory model object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An inventory model object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/inventory_models endpoint</b>.
 
 ## Fields
 

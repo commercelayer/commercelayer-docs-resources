@@ -4,7 +4,7 @@ description: A comprehensive list of the geocoder resource's attributes and rela
 
 # The geocoder object
 
-A geocoder object is returned as part of the response body of each successful list API call.
+A geocoder object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/geocoders endpoint</b>.
 
 ## Fields
 

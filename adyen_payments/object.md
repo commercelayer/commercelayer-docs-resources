@@ -4,7 +4,7 @@ description: A comprehensive list of the adyen payment resource's attributes and
 
 # The adyen payment object
 
-An adyen payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An adyen payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/adyen_payments endpoint</b>.
 
 ## Fields
 
@@ -18,7 +18,6 @@ An adyen payment object is returned as part of the response body of each success
 | attributes.**payment_request_data** | `object` | The Adyen payment request data, collected by client. |
 | attributes.**payment_request_details** | `object` | The Adyen additional details request data, collected by client. |
 | attributes.**payment_response** | `object` | The Adyen payment response, used by client (includes 'resultCode' and 'action'). |
-| attributes.**_authorize** | `boolean, value is 'true'` | Send this attribute if you want to authorize the payment. |
 | attributes.**_details** | `boolean, value is 'true'` | Send this attribute if you want to send additional details the payment request. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

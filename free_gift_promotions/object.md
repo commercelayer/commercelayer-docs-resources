@@ -4,7 +4,7 @@ description: A comprehensive list of the free gift promotion resource's attribut
 
 # The free gift promotion object
 
-A free gift promotion object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A free gift promotion object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/free_gift_promotions endpoint</b>.
 
 ## Fields
 

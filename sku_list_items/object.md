@@ -4,7 +4,7 @@ description: A comprehensive list of the SKU list item resource's attributes and
 
 # The SKU list item object
 
-A SKU list item object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A SKU list item object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/sku_list_items endpoint</b>.
 
 ## Fields
 
@@ -14,7 +14,7 @@ A SKU list item object is returned as part of the response body of each successf
 | **id**         | `string` | The SKU list item unique identifier  |
 | links.**self** | `string` | The SKU list item endpoint URL       |
 | attributes.**position** | `integer` | The SKU list item's position. |
-| attributes.**sku_code** | `string` | The code of the associated sku. |
+| attributes.**sku_code** | `string` | The code of the associated SKU. |
 | attributes.**quantity** | `integer` | The SKU quantity for this SKU list item. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

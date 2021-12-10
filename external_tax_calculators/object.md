@@ -4,7 +4,7 @@ description: A comprehensive list of the external tax calculator resource's attr
 
 # The external tax calculator object
 
-An external tax calculator object is returned as part of the response body of each successful list, retrieve, create or update API call.
+An external tax calculator object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/external_tax_calculators endpoint</b>.
 
 ## Fields
 

@@ -38,6 +38,7 @@ On success, the API responds with a `200 OK` status code, returning a single res
     "attributes": {
       "payment_source_type": "CreditCard",
       "name": "Credit Card",
+      "moto": false,
       "disabled_at": "2018-01-01T12:00:00.000Z",
       "price_amount_cents": 0,
       "price_amount_float": 0.0,

@@ -4,7 +4,7 @@ description: A comprehensive list of the checkout.com gateway resource's attribu
 
 # The checkout.com gateway object
 
-A checkout.com gateway object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A checkout.com gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/checkout_com_gateways endpoint</b>.
 
 ## Fields
 

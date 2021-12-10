@@ -4,7 +4,7 @@ description: A comprehensive list of the checkout.com payment resource's attribu
 
 # The checkout.com payment object
 
-A checkout.com payment object is returned as part of the response body of each successful list, retrieve, create or update API call.
+A checkout.com payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/checkout_com_payments endpoint</b>.
 
 ## Fields
 
@@ -20,7 +20,6 @@ A checkout.com payment object is returned as part of the response body of each s
 | attributes.**customer_token** | `string` | The customer's unique identifier. This can be passed as a source when making a payment. |
 | attributes.**redirect_uri** | `string` | The URI that the customer should be redirected to in order to complete the payment. |
 | attributes.**payment_response** | `object` | The Checkout.com payment response, used to fetch internal data. |
-| attributes.**_authorize** | `boolean, value is 'true'` | Send this attribute if you want to authorize the payment. |
 | attributes.**_details** | `boolean, value is 'true'` | Send this attribute if you want to send additional details the payment request (i.e. upon 3DS check). |
 | attributes.**_refresh** | `boolean, value is 'true'` | Send this attribute if you want to refresh all the pending transactions, can be used as webhooks fallback logic. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |

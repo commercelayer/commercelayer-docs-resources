@@ -69,7 +69,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "code": "04371af2-70b3-48d7-8f4e-316b374224c3",
-      "customer_single_use": true,
+      "customer_single_use": false,
       "usage_limit": 50,
       "usage_count": 20,
       "recipient_email": "john@example.com",
