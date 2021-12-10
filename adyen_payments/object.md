@@ -4,7 +4,7 @@ description: A comprehensive list of the adyen payment resource's attributes and
 
 # The adyen payment object
 
-An adyen payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/adyen_payments endpoint</b>.
+An adyen payment object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/adyen_payments` endpoint.
 
 ## Fields
 

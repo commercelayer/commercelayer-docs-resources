@@ -4,7 +4,7 @@ description: A comprehensive list of the tax calculator resource's attributes an
 
 # The tax calculator object
 
-A tax calculator object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/tax_calculators endpoint</b>.
+A tax calculator object is returned as part of the response body of each successful list or retrieve API call to the `/api/tax_calculators` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the bundle resource's attributes and relati
 
 # The bundle object
 
-A bundle object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/bundles endpoint</b>.
+A bundle object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/bundles` endpoint.
 
 ## Fields
 

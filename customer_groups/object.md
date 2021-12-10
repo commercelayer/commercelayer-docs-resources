@@ -4,7 +4,7 @@ description: A comprehensive list of the customer group resource's attributes an
 
 # The customer group object
 
-A customer group object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/customer_groups endpoint</b>.
+A customer group object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/customer_groups` endpoint.
 
 ## Fields
 

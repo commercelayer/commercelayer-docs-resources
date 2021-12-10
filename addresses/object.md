@@ -4,7 +4,7 @@ description: A comprehensive list of the address resource's attributes and relat
 
 # The address object
 
-An address object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/addresses endpoint</b>.
+An address object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/addresses` endpoint.
 
 ## Fields
 

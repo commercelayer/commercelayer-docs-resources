@@ -4,7 +4,7 @@ description: A comprehensive list of the line item option resource's attributes 
 
 # The line item option object
 
-A line item option object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/line_item_options endpoint</b>.
+A line item option object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/line_item_options` endpoint.
 
 ## Fields
 

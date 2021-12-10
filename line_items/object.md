@@ -4,7 +4,7 @@ description: A comprehensive list of the line item resource's attributes and rel
 
 # The line item object
 
-A line item object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/line_items endpoint</b>.
+A line item object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/line_items` endpoint.
 
 ## Fields
 

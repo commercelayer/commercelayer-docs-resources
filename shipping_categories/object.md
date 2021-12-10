@@ -4,7 +4,7 @@ description: A comprehensive list of the shipping category resource's attributes
 
 # The shipping category object
 
-A shipping category object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/shipping_categories endpoint</b>.
+A shipping category object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/shipping_categories` endpoint.
 
 ## Fields
 

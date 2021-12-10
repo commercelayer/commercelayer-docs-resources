@@ -4,7 +4,7 @@ description: A comprehensive list of the refund resource's attributes and relati
 
 # The refund object
 
-A refund object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/refunds endpoint</b>.
+A refund object is returned as part of the response body of each successful list or retrieve API call to the `/api/refunds` endpoint.
 
 ## Fields
 

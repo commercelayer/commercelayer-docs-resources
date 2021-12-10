@@ -4,7 +4,7 @@ description: A comprehensive list of the checkout.com payment resource's attribu
 
 # The checkout.com payment object
 
-A checkout.com payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/checkout_com_payments endpoint</b>.
+A checkout.com payment object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/checkout_com_payments` endpoint.
 
 ## Fields
 

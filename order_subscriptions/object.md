@@ -4,7 +4,7 @@ description: A comprehensive list of the order subscription resource's attribute
 
 # The order subscription object
 
-An order subscription object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/order_subscriptions endpoint</b>.
+An order subscription object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/order_subscriptions` endpoint.
 
 ## Fields
 

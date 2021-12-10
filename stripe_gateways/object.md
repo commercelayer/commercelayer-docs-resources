@@ -4,7 +4,7 @@ description: A comprehensive list of the stripe gateway resource's attributes an
 
 # The stripe gateway object
 
-A stripe gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/stripe_gateways endpoint</b>.
+A stripe gateway object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/stripe_gateways` endpoint.
 
 ## Fields
 

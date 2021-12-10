@@ -4,7 +4,7 @@ description: A comprehensive list of the stock location resource's attributes an
 
 # The stock location object
 
-A stock location object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/stock_locations endpoint</b>.
+A stock location object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/stock_locations` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the void resource's attributes and relation
 
 # The void object
 
-A void object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/voids endpoint</b>.
+A void object is returned as part of the response body of each successful list or retrieve API call to the `/api/voids` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the taxjar account resource's attributes an
 
 # The taxjar account object
 
-A taxjar account object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/taxjar_accounts endpoint</b>.
+A taxjar account object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/taxjar_accounts` endpoint.
 
 ## Fields
 

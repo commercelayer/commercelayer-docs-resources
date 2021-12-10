@@ -4,7 +4,7 @@ description: A comprehensive list of the application resource's attributes and r
 
 # The application object
 
-The application object is returned as part of the response body of each successful retrieve API call <b>to the /api/application endpoint</b>.
+The application object is returned as part of the response body of each successful retrieve API call to the `/api/application` endpoint.
 
 ## Fields
 

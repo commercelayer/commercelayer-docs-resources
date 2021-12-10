@@ -4,7 +4,7 @@ description: A comprehensive list of the adjustment resource's attributes and re
 
 # The adjustment object
 
-An adjustment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/adjustments endpoint</b>.
+An adjustment object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/adjustments` endpoint.
 
 ## Fields
 

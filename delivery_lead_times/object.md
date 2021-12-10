@@ -4,7 +4,7 @@ description: A comprehensive list of the delivery lead time resource's attribute
 
 # The delivery lead time object
 
-A delivery lead time object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/delivery_lead_times endpoint</b>.
+A delivery lead time object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/delivery_lead_times` endpoint.
 
 ## Fields
 

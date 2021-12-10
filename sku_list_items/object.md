@@ -4,7 +4,7 @@ description: A comprehensive list of the SKU list item resource's attributes and
 
 # The SKU list item object
 
-A SKU list item object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/sku_list_items endpoint</b>.
+A SKU list item object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/sku_list_items` endpoint.
 
 ## Fields
 

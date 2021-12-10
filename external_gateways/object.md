@@ -4,7 +4,7 @@ description: A comprehensive list of the external gateway resource's attributes 
 
 # The external gateway object
 
-An external gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/external_gateways endpoint</b>.
+An external gateway object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/external_gateways` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the merchant resource's attributes and rela
 
 # The merchant object
 
-A merchant object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/merchants endpoint</b>.
+A merchant object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/merchants` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the fixed price promotion resource's attrib
 
 # The fixed price promotion object
 
-A fixed price promotion object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/fixed_price_promotions endpoint</b>.
+A fixed price promotion object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/fixed_price_promotions` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the stock line item resource's attributes a
 
 # The stock line item object
 
-A stock line item object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/stock_line_items endpoint</b>.
+A stock line item object is returned as part of the response body of each successful list or retrieve API call to the `/api/stock_line_items` endpoint.
 
 ## Fields
 

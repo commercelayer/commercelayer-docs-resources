@@ -4,7 +4,7 @@ description: A comprehensive list of the customer password reset resource's attr
 
 # The customer password reset object
 
-A customer password reset object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/customer_password_resets endpoint</b>.
+A customer password reset object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/customer_password_resets` endpoint.
 
 ## Fields
 

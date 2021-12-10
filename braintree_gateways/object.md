@@ -4,7 +4,7 @@ description: A comprehensive list of the braintree gateway resource's attributes
 
 # The braintree gateway object
 
-A braintree gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/braintree_gateways endpoint</b>.
+A braintree gateway object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/braintree_gateways` endpoint.
 
 ## Fields
 

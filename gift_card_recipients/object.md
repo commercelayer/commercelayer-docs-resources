@@ -4,7 +4,7 @@ description: A comprehensive list of the gift card recipient resource's attribut
 
 # The gift card recipient object
 
-A gift card recipient object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/gift_card_recipients endpoint</b>.
+A gift card recipient object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/gift_card_recipients` endpoint.
 
 ## Fields
 

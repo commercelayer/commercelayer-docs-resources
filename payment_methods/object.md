@@ -4,7 +4,7 @@ description: A comprehensive list of the payment method resource's attributes an
 
 # The payment method object
 
-A payment method object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/payment_methods endpoint</b>.
+A payment method object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/payment_methods` endpoint.
 
 ## Fields
 

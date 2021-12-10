@@ -4,7 +4,7 @@ description: A comprehensive list of the order amount promotion rule resource's 
 
 # The order amount promotion rule object
 
-An order amount promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/order_amount_promotion_rules endpoint</b>.
+An order amount promotion rule object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/order_amount_promotion_rules` endpoint.
 
 ## Fields
 

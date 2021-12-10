@@ -4,7 +4,7 @@ description: A comprehensive list of the customer resource's attributes and rela
 
 # The customer object
 
-A customer object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/customers endpoint</b>.
+A customer object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/customers` endpoint.
 
 ## Fields
 

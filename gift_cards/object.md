@@ -4,7 +4,7 @@ description: A comprehensive list of the gift card resource's attributes and rel
 
 # The gift card object
 
-A gift card object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/gift_cards endpoint</b>.
+A gift card object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/gift_cards` endpoint.
 
 ## Fields
 

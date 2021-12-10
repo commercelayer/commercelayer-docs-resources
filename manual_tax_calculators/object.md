@@ -4,7 +4,7 @@ description: A comprehensive list of the manual tax calculator resource's attrib
 
 # The manual tax calculator object
 
-A manual tax calculator object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/manual_tax_calculators endpoint</b>.
+A manual tax calculator object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/manual_tax_calculators` endpoint.
 
 ## Fields
 

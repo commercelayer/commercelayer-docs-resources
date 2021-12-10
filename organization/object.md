@@ -4,7 +4,7 @@ description: A comprehensive list of the organization resource's attributes and 
 
 # The organization object
 
-The organization object is returned as part of the response body of each successful retrieve API call <b>to the /api/organization endpoint</b>.
+The organization object is returned as part of the response body of each successful retrieve API call to the `/api/organization` endpoint.
 
 ## Fields
 

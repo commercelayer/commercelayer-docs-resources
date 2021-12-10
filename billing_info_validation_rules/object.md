@@ -4,7 +4,7 @@ description: A comprehensive list of the billing info validation rule resource's
 
 # The billing info validation rule object
 
-A billing info validation rule object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/billing_info_validation_rules endpoint</b>.
+A billing info validation rule object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/billing_info_validation_rules` endpoint.
 
 ## Fields
 

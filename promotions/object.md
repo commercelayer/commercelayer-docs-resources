@@ -4,7 +4,7 @@ description: A comprehensive list of the promotion resource's attributes and rel
 
 # The promotion object
 
-A promotion object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/promotions endpoint</b>.
+A promotion object is returned as part of the response body of each successful list or retrieve API call to the `/api/promotions` endpoint.
 
 ## Fields
 

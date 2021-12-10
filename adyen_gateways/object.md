@@ -4,7 +4,7 @@ description: A comprehensive list of the adyen gateway resource's attributes and
 
 # The adyen gateway object
 
-An adyen gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/adyen_gateways endpoint</b>.
+An adyen gateway object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/adyen_gateways` endpoint.
 
 ## Fields
 

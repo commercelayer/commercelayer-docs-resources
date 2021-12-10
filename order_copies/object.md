@@ -4,7 +4,7 @@ description: A comprehensive list of the order copy resource's attributes and re
 
 # The order copy object
 
-An order copy object is returned as part of the response body of each successful list, retrieve or create API call <b>to the /api/order_copies endpoint</b>.
+An order copy object is returned as part of the response body of each successful list, retrieve or create API call to the `/api/order_copies` endpoint.
 
 ## Fields
 

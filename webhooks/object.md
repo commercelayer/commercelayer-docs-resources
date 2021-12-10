@@ -4,7 +4,7 @@ description: A comprehensive list of the webhook resource's attributes and relat
 
 # The webhook object
 
-A webhook object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/webhooks endpoint</b>.
+A webhook object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/webhooks` endpoint.
 
 ## Fields
 

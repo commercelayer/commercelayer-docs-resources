@@ -4,7 +4,7 @@ description: A comprehensive list of the braintree payment resource's attributes
 
 # The braintree payment object
 
-A braintree payment object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/braintree_payments endpoint</b>.
+A braintree payment object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/braintree_payments` endpoint.
 
 ## Fields
 

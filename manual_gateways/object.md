@@ -4,7 +4,7 @@ description: A comprehensive list of the manual gateway resource's attributes an
 
 # The manual gateway object
 
-A manual gateway object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/manual_gateways endpoint</b>.
+A manual gateway object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/manual_gateways` endpoint.
 
 ## Fields
 

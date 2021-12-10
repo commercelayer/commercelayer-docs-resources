@@ -4,7 +4,7 @@ description: A comprehensive list of the percentage discount promotion resource'
 
 # The percentage discount promotion object
 
-A percentage discount promotion object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/percentage_discount_promotions endpoint</b>.
+A percentage discount promotion object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/percentage_discount_promotions` endpoint.
 
 ## Fields
 

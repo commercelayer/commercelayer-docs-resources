@@ -4,7 +4,7 @@ description: A comprehensive list of the market resource's attributes and relati
 
 # The market object
 
-A market object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/markets endpoint</b>.
+A market object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/markets` endpoint.
 
 ## Fields
 

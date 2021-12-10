@@ -4,7 +4,7 @@ description: A comprehensive list of the tax rule resource's attributes and rela
 
 # The tax rule object
 
-A tax rule object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/tax_rules endpoint</b>.
+A tax rule object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/tax_rules` endpoint.
 
 ## Fields
 

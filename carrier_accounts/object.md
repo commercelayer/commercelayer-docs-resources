@@ -4,7 +4,7 @@ description: A comprehensive list of the carrier account resource's attributes a
 
 # The carrier account object
 
-A carrier account object is returned as part of the response body of each successful list or retrieve API call <b>to the /api/carrier_accounts endpoint</b>.
+A carrier account object is returned as part of the response body of each successful list or retrieve API call to the `/api/carrier_accounts` endpoint.
 
 ## Fields
 

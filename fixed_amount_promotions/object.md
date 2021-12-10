@@ -4,7 +4,7 @@ description: A comprehensive list of the fixed amount promotion resource's attri
 
 # The fixed amount promotion object
 
-A fixed amount promotion object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/fixed_amount_promotions endpoint</b>.
+A fixed amount promotion object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/fixed_amount_promotions` endpoint.
 
 ## Fields
 

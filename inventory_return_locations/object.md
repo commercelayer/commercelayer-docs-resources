@@ -4,7 +4,7 @@ description: A comprehensive list of the inventory return location resource's at
 
 # The inventory return location object
 
-An inventory return location object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/inventory_return_locations endpoint</b>.
+An inventory return location object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/inventory_return_locations` endpoint.
 
 ## Fields
 

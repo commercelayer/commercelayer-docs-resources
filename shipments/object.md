@@ -4,7 +4,7 @@ description: A comprehensive list of the shipment resource's attributes and rela
 
 # The shipment object
 
-A shipment object is returned as part of the response body of each successful list, retrieve or update API call <b>to the /api/shipments endpoint</b>.
+A shipment object is returned as part of the response body of each successful list, retrieve or update API call to the `/api/shipments` endpoint.
 
 ## Fields
 

@@ -4,7 +4,7 @@ description: A comprehensive list of the coupon resource's attributes and relati
 
 # The coupon object
 
-A coupon object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/coupons endpoint</b>.
+A coupon object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/coupons` endpoint.
 
 ## Fields
 

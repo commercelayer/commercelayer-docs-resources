@@ -4,7 +4,7 @@ description: A comprehensive list of the inventory stock location resource's att
 
 # The inventory stock location object
 
-An inventory stock location object is returned as part of the response body of each successful list, retrieve, create or update API call <b>to the /api/inventory_stock_locations endpoint</b>.
+An inventory stock location object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/inventory_stock_locations` endpoint.
 
 ## Fields
 

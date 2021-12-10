@@ -4,7 +4,7 @@ description: A comprehensive list of the capture resource's attributes and relat
 
 # The capture object
 
-A capture object is returned as part of the response body of each successful list, retrieve or update API call <b>to the /api/captures endpoint</b>.
+A capture object is returned as part of the response body of each successful list, retrieve or update API call to the `/api/captures` endpoint.
 
 ## Fields
 
