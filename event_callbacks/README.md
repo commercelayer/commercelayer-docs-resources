@@ -1,7 +1,8 @@
 ---
-description: The event callback object and its fields
+description: >-
+  The event callback object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
 # Event callbacks
-
 

@@ -11,7 +11,7 @@ Commerce Layer is a flexible commerce API that features **300+ endpoints**. This
 For each single resource you can find:
 
 * The **resource** object and its fields, attributes, and relationships.
-* The permitted **CRUD** actions you can perform with basic examples of the request/response format.
+* The allowed **CRUD** operations you can perform on the related endpoint with basic examples of the request/response format.
 
 ## More to read
 

@@ -1,8 +1,9 @@
 ---
-description: The paypal gateway object and its fields
+description: >-
+  The PayPal gateway object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
-# Paypal gateways
+# PayPal gateways
 
-Connect the Paypal payment gateway in order to be able to safely process payments through Paypal — [https://www.paypal.com/](https://www.paypal.com/)
-
+Connect the PayPal payment gateway in order to be able to safely process payments through PayPal — [https://www.paypal.com/](https://www.paypal.com)

@@ -1,8 +1,9 @@
 ---
-description: The inventory model object and its fields
+description: >-
+  The inventory model object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
 # Inventory models
 
 An inventory model defines a list of stock locations ordered by priority. The priority and cutoff determine how the availability of SKUs gets calculated within a market. If an order contains line items from two or more stock locations, the order is split into two or more shipments, one for each location.
-

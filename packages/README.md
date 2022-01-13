@@ -1,7 +1,8 @@
 ---
-description: The package object and its fields
+description: >-
+  The package object and the allowed CRUD operations on the related resource
+  endpoint
 ---
 
 # Packages
-
 

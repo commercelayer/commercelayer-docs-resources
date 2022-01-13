@@ -1,8 +1,9 @@
 ---
-description: The coupon recipient object and its fields
+description: >-
+  The coupon recipient object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
 # Coupon recipients
 
 When creating a coupon, you might want to associate it to a single customer recipient. To do that, you can create a coupon recipient by using the customer email and associate it with the created coupon. When the order has a matching `coupon_code`, the associated recipient is matched with the email of the customer that placed the order, preventing the application of the discount in case they differ.
-

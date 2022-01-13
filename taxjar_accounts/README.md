@@ -1,8 +1,9 @@
 ---
-description: The taxjar account object and its fields
+description: >-
+  The TaxJar account object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
-# Taxjar accounts
+# TaxJar accounts
 
-Configure your Taxjar account to automatically compute tax calculations for the orders of the associated market.
-
+Configure your TaxJar account to automatically compute tax calculations for the orders of the associated market.

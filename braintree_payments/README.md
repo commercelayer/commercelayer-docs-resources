@@ -1,8 +1,9 @@
 ---
-description: The braintree payment object and its fields
+description: >-
+  The Braintree payment object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
 # Braintree payments
 
-Braintree payments are a type of payment sources that let you process payments through Braintree — [https://www.braintreepayments.com/](https://www.braintreepayments.com/)
-
+Braintree payments are a type of payment sources that let you process payments through Braintree — [https://www.braintreepayments.com/](https://www.braintreepayments.com)

@@ -1,5 +1,7 @@
 ---
-description: The import object and its fields
+description: >-
+  The import object and the allowed CRUD operations on the related resource
+  endpoint
 ---
 
 # Imports

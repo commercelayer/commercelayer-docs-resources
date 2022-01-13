@@ -1,5 +1,7 @@
 ---
-description: The order subscription object and its fields
+description: >-
+  The order subscription object and the allowed CRUD operations on the related
+  resource endpoint
 ---
 
 # Order subscriptions

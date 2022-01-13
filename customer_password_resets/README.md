@@ -1,5 +1,7 @@
 ---
-description: The customer password reset object and its fields
+description: >-
+  The customer password reset object and the allowed CRUD operations on the
+  related resource endpoint
 ---
 
 # Customer password resets
@@ -11,4 +13,3 @@ Customer passwords can be reset in three steps:
 3. Update the customer password reset resource passing the token and the new password.
 
 It's your responsibility to verify the customer's identity before the third step. A typical flow is to send an email to the customer with a verification link that includes the reset password token.
-
