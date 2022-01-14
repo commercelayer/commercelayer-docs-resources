@@ -19,3 +19,7 @@ Configuring a carrier account for a market is optional and enables you to purcha
 Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipping-carriers) and explore the flowchart that illustrates how the carrier account resource relates with the other API entities.
 
 </details>
+
+{% hint style="info" %}
+This is an **immutable API**, meaning that create, update, and delete operations are not allowed on this endpoint. You can only fetch a list of carrier accounts or a specific single one.
+{% endhint %}

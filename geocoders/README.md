@@ -10,10 +10,6 @@ Commerce Layer currently supports [Google](../google\_geocoders/) and [Bing](../
 
 You can set up a geocoder from the admin UI. All you need to do is choose a meaningful name that helps you identify it within your organization and add the API key provided by the selected geocoding service.
 
-{% hint style="info" %}
-This is an **immutable API**, meaning that create, update, and delete operations are not allowed on this endpoint. You can only fetch a list of geocoders or a specific single one.
-{% endhint %}
-
 <details>
 
 <summary>Data model</summary>
@@ -21,3 +17,7 @@ This is an **immutable API**, meaning that create, update, and delete operations
 Check the related [ER diagram](https://commercelayer.io/docs/data-model/geocoders) and explore the flowchart that illustrates how the geocoder resource relates with the other API entities.
 
 </details>
+
+{% hint style="info" %}
+This is an **immutable API**, meaning that create, update, and delete operations are not allowed on this endpoint. You can only fetch a list of geocoders or a specific single one.
+{% endhint %}

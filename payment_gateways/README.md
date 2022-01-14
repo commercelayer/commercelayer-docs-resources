@@ -6,7 +6,7 @@ description: >-
 
 # Payment gateways
 
-Commerce Layer is integrated out-of-the-box with some of the most common payment gateways, all compliant with the PSD2 European regulation so that you can implement a payment flow that supports SCA and 3DS2 by using the specific gateway official JS SDK.
+Commerce Layer is integrated out-of-the-box with some of the most common payment gateways, all compliant with the [PSD2 European regulation](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366\_en) so that you can implement a payment flow that supports [SCA](https://en.wikipedia.org/wiki/Strong\_customer\_authentication) and [3DS2](https://3dsecure2.com) by using the specific gateway official JS SDK.
 
 The currently supported gateways are:
 
