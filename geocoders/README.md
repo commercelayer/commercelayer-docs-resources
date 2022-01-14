@@ -8,6 +8,12 @@ A geocoder allows a user to convert an address in text form into geographic coor
 
 Commerce Layer currently supports [Google](../google\_geocoders/) and [Bing](../bing\_geocoders/) geocoder integration.
 
+You can set up a geocoder from the admin UI. All you need to do is choose a meaningful name that helps you identify it within your organization and add the API key provided by the selected geocoding service.
+
+{% hint style="info" %}
+This is an **immutable API**, meaning that create, update, and delete operations are not allowed on this endpoint. You can only fetch a list of geocoders or a specific single one.
+{% endhint %}
+
 <details>
 
 <summary>Data model</summary>

@@ -9,5 +9,5 @@ description: >-
 OAuth applications let you consume the API and build your integrations.
 
 {% hint style="info" %}
-This is a **singleton API**, meaning only the application within the current scope it’s retrieved. No need to specify the resource ID.
+This is a **singleton API**, meaning that only the application within the current scope it’s retrieved. No need to specify the resource ID.
 {% endhint %}

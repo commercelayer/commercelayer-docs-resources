@@ -6,4 +6,4 @@ description: >-
 
 # Braintree payments
 
-Braintree payments are a type of payment sources that let you process payments through Braintree — [https://www.braintreepayments.com/](https://www.braintreepayments.com)
+Braintree payments are a type of payment source that lets you process payments through Braintree — [https://www.braintreepayments.com/](https://www.braintreepayments.com)
