@@ -6,3 +6,14 @@ description: >-
 
 # Authorizations
 
+When an [order](../orders/) is placed a successful authorization transaction is created and the order's payment status becomes `authorized`.
+
+Fetching an authorization returns all the information and messages provided by the [payment gateway](../payment\_gateways/). You can update an authorization to [capture](../captures/) or [void](../voids/) it.
+
+<details>
+
+<summary>Data model</summary>
+
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the authorization resource relates with the order and the transaction APIs.
+
+</details>
