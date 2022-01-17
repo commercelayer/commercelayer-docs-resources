@@ -21,7 +21,7 @@ Other types of gateways are also available, such as:
 * [External gateways](../external\_gateways/) — to integrate any other payment service that is not available out-of-the-box (even your custom one).
 * [Manual gateways](../manual\_gateways/) — useful to process wire transfers, cash payments, and other kinds of manual payments.
 
-You can set up a payment gateway from the admin UI. All you need to do is choose the market you want the payment gateway to be associated with, select the type of gateway you want to use, and provide all the credentials requested by the selected payment service.
+You can set up a payment gateway from the admin UI. All you need to do is select the type of gateway you want to use and provide all the credentials requested by the selected payment service.
 
 Configuring a payment gateway for a market lets you safely process payments through the API. You can connect different gateways to different markets through the available [payment methods](../payment\_methods/).
 
