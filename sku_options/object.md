@@ -14,6 +14,7 @@ A SKU option object is returned as part of the response body of each successful 
 | **id**         | `string` | The SKU option unique identifier  |
 | links.**self** | `string` | The SKU option endpoint URL       |
 | attributes.**name** | `string` | The sku option's internal name |
+| attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**description** | `string` | An internal description of the sku option. |
 | attributes.**price_amount_cents** | `integer` | The price of this shipping method, in cents. |
 | attributes.**price_amount_float** | `float` | The price of this shipping method, float. |

@@ -16,7 +16,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**code** | `string` | Optional |
-| attributes.**currency_code** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**balance_cents** | `integer` | Required |
 | attributes.**balance_max_cents** | `string` | Optional |
 | attributes.**single_use** | `boolean` | Optional, default is 'false' |

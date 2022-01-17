@@ -16,12 +16,13 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**price_amount_cents** | `integer` | Required |
 | attributes.**free_over_amount_cents** | `integer` | Optional |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Required |
+| relationships.**market** | `object` | Optional |
 | relationships.**shipping_zone** | `object` | Required |
 | relationships.**shipping_category** | `object` | Required |
 
@@ -42,15 +43,10 @@ curl -g -X POST \
     "type": "shipping_methods",
     "attributes": {
       "name": "Standard shipping",
+      "currency_code": "EUR",
       "price_amount_cents": 1000
     },
     "relationships": {
-      "market": {
-        "data": {
-          "type": "markets",
-          "id": "QWERtyUpBa"
-        }
-      },
       "shipping_zone": {
         "data": {
           "type": "shipping_zones",
@@ -82,8 +78,8 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "name": "Standard shipping",
-      "disabled_at": "2018-01-01T12:00:00.000Z",
       "currency_code": "EUR",
+      "disabled_at": "2018-01-01T12:00:00.000Z",
       "price_amount_cents": 1000,
       "price_amount_float": 10.0,
       "formatted_price_amount": "€10,00",

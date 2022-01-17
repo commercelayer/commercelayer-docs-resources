@@ -49,7 +49,8 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
         "authorize_url": "https://external_gateway.com/authorize",
         "capture_url": "https://external_gateway.com/capture",
         "void_url": "https://external_gateway.com/void",
-        "refund_url": "https://external_gateway.com/refund"
+        "refund_url": "https://external_gateway.com/refund",
+        "token_url": "https://external_gateway.com/token"
       },
       "relationships": {
         "payment_methods": {

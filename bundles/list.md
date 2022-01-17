@@ -39,6 +39,7 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
       "attributes": {
         "code": "BUNDMM000000FFFFFFXLXX",
         "name": "Black Men T-shirt (XL) with Black Cap and Socks, all with White Logo",
+        "currency_code": "EUR",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image_url": "https://img.yourdomain.com/bundles/xYZkjABcde.png",
         "price_amount_cents": 10000,
@@ -111,6 +112,7 @@ Remember that when you fetch a list of resources you get <a href="https://docs.c
 The list of bundles can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `code`
+* `currency_code`
 * `price_amount_cents`
 * `compare_at_amount_cents`
 * `id`

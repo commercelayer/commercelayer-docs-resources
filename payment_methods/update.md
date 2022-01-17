@@ -19,6 +19,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | **type**       | `string` | Required |
 | **id**         | `string` | Required |
 | attributes.**payment_source_type** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
 | attributes.**moto** | `boolean` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**reference** | `string` | Optional |
@@ -65,6 +66,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     "attributes": {
       "payment_source_type": "CreditCard",
       "name": "Credit Card",
+      "currency_code": "EUR",
       "moto": false,
       "disabled_at": "2018-01-01T12:00:00.000Z",
       "price_amount_cents": 0,

@@ -38,6 +38,7 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
       },
       "attributes": {
         "name": "Personal promotion",
+        "currency_code": "EUR",
         "starts_at": "2018-01-01T12:00:00.000Z",
         "expires_at": "2018-01-02T12:00:00.000Z",
         "total_usage_limit": 5,
@@ -131,6 +132,7 @@ Remember that when you fetch a list of resources you get <a href="https://docs.c
 The list of free gift promotions can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
+* `currency_code`
 * `starts_at`
 * `expires_at`
 * `id`

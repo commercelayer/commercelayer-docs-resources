@@ -38,6 +38,7 @@ On success, the API responds with a `200 OK` status code, returning a single res
     "attributes": {
       "code": "BUNDMM000000FFFFFFXLXX",
       "name": "Black Men T-shirt (XL) with Black Cap and Socks, all with White Logo",
+      "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image_url": "https://img.yourdomain.com/bundles/xYZkjABcde.png",
       "price_amount_cents": 10000,

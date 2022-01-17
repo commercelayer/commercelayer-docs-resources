@@ -26,6 +26,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**capture_url** | `string` | Optional |
 | attributes.**void_url** | `string` | Optional |
 | attributes.**refund_url** | `string` | Optional |
+| attributes.**token_url** | `string` | Optional |
 
 ### Example
 
@@ -75,7 +76,8 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       "authorize_url": "https://external_gateway.com/authorize",
       "capture_url": "https://external_gateway.com/capture",
       "void_url": "https://external_gateway.com/void",
-      "refund_url": "https://external_gateway.com/refund"
+      "refund_url": "https://external_gateway.com/refund",
+      "token_url": "https://external_gateway.com/token"
     },
     "relationships": {
       "payment_methods": {

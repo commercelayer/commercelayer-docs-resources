@@ -16,6 +16,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**starts_at** | `datetime` | Required |
 | attributes.**expires_at** | `datetime` | Required |
 | attributes.**total_usage_limit** | `integer` | Required |
@@ -47,6 +48,7 @@ curl -g -X POST \
     "type": "fixed_price_promotions",
     "attributes": {
       "name": "Personal promotion",
+      "currency_code": "EUR",
       "starts_at": "2018-01-01T12:00:00.000Z",
       "expires_at": "2018-01-02T12:00:00.000Z",
       "total_usage_limit": 5,
@@ -84,6 +86,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "name": "Personal promotion",
+      "currency_code": "EUR",
       "starts_at": "2018-01-01T12:00:00.000Z",
       "expires_at": "2018-01-02T12:00:00.000Z",
       "total_usage_limit": 5,

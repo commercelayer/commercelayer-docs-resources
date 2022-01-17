@@ -16,12 +16,13 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**payment_source_type** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**moto** | `boolean` | Optional, default is 'false' |
 | attributes.**price_amount_cents** | `integer` | Required |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Required |
+| relationships.**market** | `object` | Optional |
 | relationships.**payment_gateway** | `object` | Required |
 
 ### Example
@@ -41,15 +42,10 @@ curl -g -X POST \
     "type": "payment_methods",
     "attributes": {
       "payment_source_type": "CreditCard",
+      "currency_code": "EUR",
       "price_amount_cents": 0
     },
     "relationships": {
-      "market": {
-        "data": {
-          "type": "markets",
-          "id": "QWERtyUpBa"
-        }
-      },
       "payment_gateway": {
         "data": {
           "type": "payment_gateways",
@@ -76,6 +72,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     "attributes": {
       "payment_source_type": "CreditCard",
       "name": "Credit Card",
+      "currency_code": "EUR",
       "moto": false,
       "disabled_at": "2018-01-01T12:00:00.000Z",
       "price_amount_cents": 0,

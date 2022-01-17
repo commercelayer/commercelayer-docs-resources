@@ -19,6 +19,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | **type**       | `string` | Required |
 | **id**         | `string` | Required |
 | attributes.**name** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**free_over_amount_cents** | `integer` | Optional |
 | attributes.**reference** | `string` | Optional |
@@ -65,8 +66,8 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     },
     "attributes": {
       "name": "Standard shipping",
-      "disabled_at": "2018-01-01T12:00:00.000Z",
       "currency_code": "EUR",
+      "disabled_at": "2018-01-01T12:00:00.000Z",
       "price_amount_cents": 1000,
       "price_amount_float": 10.0,
       "formatted_price_amount": "€10,00",

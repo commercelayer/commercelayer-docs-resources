@@ -89,6 +89,12 @@ On success, the API responds with a `201 Created` status code, returning the cre
           "self": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/relationships/payment_gateway",
           "related": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/payment_gateway"
         }
+      },
+      "wallet": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/relationships/wallet",
+          "related": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/wallet"
+        }
       }
     },
     "meta": {

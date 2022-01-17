@@ -38,8 +38,8 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
       },
       "attributes": {
         "name": "Standard shipping",
-        "disabled_at": "2018-01-01T12:00:00.000Z",
         "currency_code": "EUR",
+        "disabled_at": "2018-01-01T12:00:00.000Z",
         "price_amount_cents": 1000,
         "price_amount_float": 10.0,
         "formatted_price_amount": "€10,00",
@@ -118,6 +118,7 @@ Remember that when you fetch a list of resources you get <a href="https://docs.c
 The list of shipping methods can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
+* `currency_code`
 * `disabled_at`
 * `price_amount_cents`
 * `id`

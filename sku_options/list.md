@@ -38,6 +38,7 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
       },
       "attributes": {
         "name": "Embossing",
+        "currency_code": "EUR",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "price_amount_cents": 1000,
         "price_amount_float": 10.0,
@@ -96,6 +97,7 @@ Remember that when you fetch a list of resources you get <a href="https://docs.c
 The list of SKU options can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
+* `currency_code`
 * `price_amount_cents`
 * `delay_hours`
 * `id`

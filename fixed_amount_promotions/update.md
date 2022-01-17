@@ -19,6 +19,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | **type**       | `string` | Required |
 | **id**         | `string` | Required |
 | attributes.**name** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
 | attributes.**starts_at** | `datetime` | Optional |
 | attributes.**expires_at** | `datetime` | Optional |
 | attributes.**total_usage_limit** | `integer` | Optional |
@@ -69,6 +70,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     },
     "attributes": {
       "name": "Personal promotion",
+      "currency_code": "EUR",
       "starts_at": "2018-01-01T12:00:00.000Z",
       "expires_at": "2018-01-02T12:00:00.000Z",
       "total_usage_limit": 5,

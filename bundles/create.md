@@ -17,15 +17,17 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | **type**       | `string` | Required |
 | attributes.**code** | `string` | Required |
 | attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**description** | `string` | Optional |
 | attributes.**image_url** | `string` | Optional |
 | attributes.**price_amount_cents** | `integer` | Required |
 | attributes.**compare_at_amount_cents** | `integer` | Required |
+| attributes.**_compute_price_amount** | `boolean, value is 'true'` | Optional |
 | attributes.**_compute_compare_at_amount** | `boolean, value is 'true'` | Optional |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Required, unless in scope |
+| relationships.**market** | `object` | Optional |
 | relationships.**sku_list** | `object` | Required |
 
 ### Example
@@ -46,16 +48,11 @@ curl -g -X POST \
     "attributes": {
       "code": "BUNDMM000000FFFFFFXLXX",
       "name": "Black Men T-shirt (XL) with Black Cap and Socks, all with White Logo",
+      "currency_code": "EUR",
       "price_amount_cents": 10000,
       "compare_at_amount_cents": 13000
     },
     "relationships": {
-      "market": {
-        "data": {
-          "type": "markets",
-          "id": "QWERtyUpBa"
-        }
-      },
       "sku_list": {
         "data": {
           "type": "sku_lists",
@@ -82,6 +79,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     "attributes": {
       "code": "BUNDMM000000FFFFFFXLXX",
       "name": "Black Men T-shirt (XL) with Black Cap and Socks, all with White Logo",
+      "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image_url": "https://img.yourdomain.com/bundles/xYZkjABcde.png",
       "price_amount_cents": 10000,

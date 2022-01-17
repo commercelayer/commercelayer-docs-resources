@@ -24,6 +24,7 @@ An external gateway object is returned as part of the response body of each succ
 | attributes.**capture_url** | `string` | The endpoint used by the external gateway to capture payments. |
 | attributes.**void_url** | `string` | The endpoint used by the external gateway to void payments. |
 | attributes.**refund_url** | `string` | The endpoint used by the external gateway to refund payments. |
+| attributes.**token_url** | `string` | The endpoint used by the external gateway to create a customer payment token. |
 | relationships.**payment_methods** | `array` | The associated payment methods. |
 | relationships.**external_payments** | `array` | The associated payments. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |

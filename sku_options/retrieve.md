@@ -37,6 +37,7 @@ On success, the API responds with a `200 OK` status code, returning a single res
     },
     "attributes": {
       "name": "Embossing",
+      "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "price_amount_cents": 1000,
       "price_amount_float": 10.0,

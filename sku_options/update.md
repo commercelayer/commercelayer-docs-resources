@@ -19,6 +19,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | **type**       | `string` | Required |
 | **id**         | `string` | Required |
 | attributes.**name** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
 | attributes.**description** | `string` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**delay_hours** | `integer` | Optional |
@@ -65,6 +66,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     },
     "attributes": {
       "name": "Embossing",
+      "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "price_amount_cents": 1000,
       "price_amount_float": 10.0,

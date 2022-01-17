@@ -14,8 +14,8 @@ A shipping method object is returned as part of the response body of each succes
 | **id**         | `string` | The shipping method unique identifier  |
 | links.**self** | `string` | The shipping method endpoint URL       |
 | attributes.**name** | `string` | The shipping method's name |
+| attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**disabled_at** | `datetime` | Time at which the shipping method was disabled. |
-| attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard, automatically inherited from the associated market. |
 | attributes.**price_amount_cents** | `integer` | The price of this shipping method, in cents. |
 | attributes.**price_amount_float** | `float` | The price of this shipping method, float. |
 | attributes.**formatted_price_amount** | `string` | The price of this shipping method, formatted. |
@@ -30,7 +30,7 @@ A shipping method object is returned as part of the response body of each succes
 | attributes.**reference** | `string` | A string that you can use to add any external identifier to the resource. This can be useful for integrating the resource to an external system, like an ERP, a marketing tool, a CRM, or whatever. |
 | attributes.**reference_origin** | `string` | Any identifier of the third party system that defines the reference code |
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
-| relationships.**market** | `object` | The market where this shipping method is available. |
+| relationships.**market** | `object` | The associated market. |
 | relationships.**shipping_zone** | `object` | The shipping zone that is used to match the order shipping address. |
 | relationships.**shipping_category** | `object` | The shipping category for which this shipping method is available. |
 | relationships.**delivery_lead_time_for_shipment** | `object` | The delivery lead time for the associated shipment. |

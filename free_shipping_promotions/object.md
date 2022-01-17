@@ -14,6 +14,7 @@ A free shipping promotion object is returned as part of the response body of eac
 | **id**         | `string` | The free shipping promotion unique identifier  |
 | links.**self** | `string` | The free shipping promotion endpoint URL       |
 | attributes.**name** | `string` | The promotion's internal name. |
+| attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**starts_at** | `datetime` | The activation date/time of this promotion. |
 | attributes.**expires_at** | `datetime` | The expiration date/time of this promotion (must be after starts_at). |
 | attributes.**total_usage_limit** | `integer` | The total number of times this promotion can be applied. |

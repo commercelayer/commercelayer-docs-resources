@@ -140,7 +140,7 @@ An order object is returned as part of the response body of each successful list
 | relationships.**customer** | `object` | The associated customer. |
 | relationships.**shipping_address** | `object` | The customer's shipping address. |
 | relationships.**billing_address** | `object` | The customer's billing address. |
-| relationships.**available_payment_methods** | `array` | The available payment methods for the shipment. Useful to present the customer with a list of choices during the checkout. Only enabled payment methods are included in the list. |
+| relationships.**available_payment_methods** | `array` | The available payment methods for the order. Useful to present the customer with a list of choices during the checkout. Only enabled payment methods are included in the list. |
 | relationships.**available_customer_payment_sources** | `array` | The available customer payment sources for the order. Useful to present the customer with a list of choices during the checkout. |
 | relationships.**payment_method** | `object` | The associated payment method. |
 | relationships.**payment_source** | `object` | The associated payment source (one stripe payment, braintree payment, adyen payment, paypal payment, or wire transfer). |

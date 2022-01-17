@@ -61,6 +61,12 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
             "self": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/relationships/payment_gateway",
             "related": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/payment_gateway"
           }
+        },
+        "wallet": {
+          "links": {
+            "self": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/relationships/wallet",
+            "related": "https://yourdomain.commercelayer.io/api/external_payments/xYZkjABcde/wallet"
+          }
         }
       },
       "meta": {

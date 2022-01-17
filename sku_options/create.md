@@ -16,6 +16,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**description** | `string` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional, default is '0' |
 | attributes.**delay_hours** | `integer` | Optional, default is '0' |
@@ -41,7 +42,8 @@ curl -g -X POST \
   "data": {
     "type": "sku_options",
     "attributes": {
-      "name": "Embossing"
+      "name": "Embossing",
+      "currency_code": "EUR"
     },
     "relationships": {
       "market": {
@@ -69,6 +71,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "name": "Embossing",
+      "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "price_amount_cents": 1000,
       "price_amount_float": 10.0,

@@ -20,10 +20,12 @@ Here below the list of all the possible arguments that you can pass with the req
 | **id**         | `string` | Required |
 | attributes.**code** | `string` | Optional |
 | attributes.**name** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
 | attributes.**description** | `string` | Optional |
 | attributes.**image_url** | `string` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**compare_at_amount_cents** | `integer` | Optional |
+| attributes.**_compute_price_amount** | `boolean, value is 'true'` | Optional |
 | attributes.**_compute_compare_at_amount** | `boolean, value is 'true'` | Optional |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
@@ -67,6 +69,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     "attributes": {
       "code": "BUNDMM000000FFFFFFXLXX",
       "name": "Black Men T-shirt (XL) with Black Cap and Socks, all with White Logo",
+      "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image_url": "https://img.yourdomain.com/bundles/xYZkjABcde.png",
       "price_amount_cents": 10000,
