@@ -4,26 +4,26 @@ description: How to update an existing authorization via API
 
 # Update an authorization
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing authorization, send a `PATCH` request to the `/api/authorizations/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing authorization, send a `PATCH` request to the `/api/authorizations/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/authorizations/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/authorizations/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**_capture** | `boolean, value is 'true'` | Optional |
-| attributes.**_capture_amount_cents** | `integer` | Optional |
-| attributes.**_void** | `boolean, value is 'true'` | Optional |
+| Body Parameter                          | Type                       | Required |
+| --------------------------------------- | -------------------------- | -------- |
+| **type**                                | `string`                   | Required |
+| **id**                                  | `string`                   | Required |
+| attributes.**reference**                | `string`                   | Optional |
+| attributes.**reference\_origin**        | `string`                   | Optional |
+| attributes.**metadata**                 | `object`                   | Optional |
+| attributes.**\_capture**                | `boolean, value is 'true'` | Optional |
+| attributes.**\_capture\_amount\_cents** | `integer`                  | Optional |
+| attributes.**\_void**                   | `boolean, value is 'true'` | Optional |
 
 ### Example
 
@@ -123,4 +123,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

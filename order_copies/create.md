@@ -4,24 +4,24 @@ description: How to create an order copy via API
 
 # Create an order copy
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new order copy, send a `POST` request to the `/api/order_copies` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new order copy, send a `POST` request to the `/api/order_copies` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/order_copies</b>
+**POST** https://yourdomain.commercelayer.io**/api/order\_copies**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**place_target_order** | `boolean` | Optional |
-| attributes.**cancel_source_order** | `boolean` | Optional |
-| attributes.**reuse_wallet** | `boolean` | Optional, default is 'true' |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**source_order** | `object` | Required |
+| Body Parameter                       | Type      | Required                    |
+| ------------------------------------ | --------- | --------------------------- |
+| **type**                             | `string`  | Required                    |
+| attributes.**place\_target\_order**  | `boolean` | Optional                    |
+| attributes.**cancel\_source\_order** | `boolean` | Optional                    |
+| attributes.**reuse\_wallet**         | `boolean` | Optional, default is 'true' |
+| attributes.**reference**             | `string`  | Optional                    |
+| attributes.**reference\_origin**     | `string`  | Optional                    |
+| attributes.**metadata**              | `object`  | Optional                    |
+| relationships.**source\_order**      | `object`  | Required                    |
 
 ### Example
 
@@ -112,4 +112,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

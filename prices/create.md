@@ -4,25 +4,25 @@ description: How to create a price via API
 
 # Create a price
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new price, send a `POST` request to the `/api/prices` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new price, send a `POST` request to the `/api/prices` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/prices</b>
+**POST** https://yourdomain.commercelayer.io**/api/prices**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**sku_code** | `string` | Optional |
-| attributes.**amount_cents** | `integer` | Required |
-| attributes.**compare_at_amount_cents** | `integer` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**price_list** | `object` | Required |
-| relationships.**sku** | `object` | Optional |
+| Body Parameter                            | Type      | Required |
+| ----------------------------------------- | --------- | -------- |
+| **type**                                  | `string`  | Required |
+| attributes.**sku\_code**                  | `string`  | Optional |
+| attributes.**amount\_cents**              | `integer` | Required |
+| attributes.**compare\_at\_amount\_cents** | `integer` | Required |
+| attributes.**reference**                  | `string`  | Optional |
+| attributes.**reference\_origin**          | `string`  | Optional |
+| attributes.**metadata**                   | `object`  | Optional |
+| relationships.**price\_list**             | `object`  | Required |
+| relationships.**sku**                     | `object`  | Optional |
 
 ### Example
 
@@ -112,4 +112,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

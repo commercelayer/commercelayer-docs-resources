@@ -4,26 +4,26 @@ description: How to create an in stock subscription via API
 
 # Create an in stock subscription
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new in stock subscription, send a `POST` request to the `/api/in_stock_subscriptions` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new in stock subscription, send a `POST` request to the `/api/in_stock_subscriptions` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/in_stock_subscriptions</b>
+**POST** https://yourdomain.commercelayer.io**/api/in\_stock\_subscriptions**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**customer_email** | `string` | Optional |
-| attributes.**sku_code** | `string` | Optional |
-| attributes.**stock_threshold** | `integer` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Required |
-| relationships.**customer** | `object` | Required |
-| relationships.**sku** | `object` | Required |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| attributes.**customer\_email**   | `string`  | Optional |
+| attributes.**sku\_code**         | `string`  | Optional |
+| attributes.**stock\_threshold**  | `integer` | Optional |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
+| relationships.**market**         | `object`  | Required |
+| relationships.**customer**       | `object`  | Required |
+| relationships.**sku**            | `object`  | Required |
 
 ### Example
 
@@ -117,4 +117,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

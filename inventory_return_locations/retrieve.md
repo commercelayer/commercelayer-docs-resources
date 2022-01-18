@@ -4,11 +4,11 @@ description: How to fetch a specific inventory return location via API
 
 # Retrieve an inventory return location
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single inventory return location, send a `GET` request to the `/api/inventory_return_locations/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single inventory return location, send a `GET` request to the `/api/inventory_return_locations/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/inventory_return_locations/:id</b>
+**GET** https://yourdomain.commercelayer.io**/api/inventory\_return\_locations/:id**
 
 ### **Example**
 
@@ -67,4 +67,3 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
-

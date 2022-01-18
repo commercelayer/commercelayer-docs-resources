@@ -4,11 +4,11 @@ description: How to fetch a collection of in stock subscriptions via API
 
 # List all in stock subscriptions
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of in stock subscriptions, send a `GET` request to the `/api/in_stock_subscriptions` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of in stock subscriptions, send a `GET` request to the `/api/in_stock_subscriptions` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/in_stock_subscriptions</b>
+**GET** https://yourdomain.commercelayer.io**/api/in\_stock\_subscriptions**
 
 ### **Example**
 
@@ -91,11 +91,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of in stock subscriptions can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of in stock subscriptions can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `status`
 * `id`
@@ -103,4 +103,3 @@ The list of in stock subscriptions can be <a href="https://docs.commercelayer.io
 * `updated_at`
 * `reference`
 * `reference_origin`
-

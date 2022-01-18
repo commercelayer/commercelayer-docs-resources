@@ -4,11 +4,11 @@ description: How to fetch a collection of order copies via API
 
 # List all order copies
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of order copies, send a `GET` request to the `/api/order_copies` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of order copies, send a `GET` request to the `/api/order_copies` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/order_copies</b>
+**GET** https://yourdomain.commercelayer.io**/api/order\_copies**
 
 ### **Example**
 
@@ -100,11 +100,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of order copies can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of order copies can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `status`
 * `started_at`
@@ -116,4 +116,3 @@ The list of order copies can be <a href="https://docs.commercelayer.io/developer
 * `updated_at`
 * `reference`
 * `reference_origin`
-

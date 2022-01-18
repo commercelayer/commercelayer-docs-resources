@@ -4,11 +4,11 @@ description: How to delete an existing fixed price promotion via API
 
 # Delete a fixed price promotion
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a fixed price promotion, send a `DELETE` request to the `/api/fixed_price_promotions/:id` endpoint, where `id` is the id of the fixed price promotion that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a fixed price promotion, send a `DELETE` request to the `/api/fixed_price_promotions/:id` endpoint, where `id` is the id of the fixed price promotion that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/fixed_price_promotions/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/fixed\_price\_promotions/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

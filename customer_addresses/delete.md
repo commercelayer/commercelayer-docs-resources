@@ -4,11 +4,11 @@ description: How to delete an existing customer address via API
 
 # Delete a customer address
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a customer address, send a `DELETE` request to the `/api/customer_addresses/:id` endpoint, where `id` is the id of the customer address that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a customer address, send a `DELETE` request to the `/api/customer_addresses/:id` endpoint, where `id` is the id of the customer address that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/customer_addresses/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/customer\_addresses/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

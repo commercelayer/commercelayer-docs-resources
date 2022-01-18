@@ -4,11 +4,11 @@ description: How to delete an existing adjustment via API
 
 # Delete an adjustment
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an adjustment, send a `DELETE` request to the `/api/adjustments/:id` endpoint, where `id` is the id of the adjustment that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an adjustment, send a `DELETE` request to the `/api/adjustments/:id` endpoint, where `id` is the id of the adjustment that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/adjustments/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/adjustments/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

@@ -4,11 +4,11 @@ description: How to fetch a collection of inventory models via API
 
 # List all inventory models
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of inventory models, send a `GET` request to the `/api/inventory_models` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of inventory models, send a `GET` request to the `/api/inventory_models` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/inventory_models</b>
+**GET** https://yourdomain.commercelayer.io**/api/inventory\_models**
 
 ### **Example**
 
@@ -90,11 +90,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of inventory models can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of inventory models can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `name`
 * `strategy`
@@ -103,4 +103,3 @@ The list of inventory models can be <a href="https://docs.commercelayer.io/devel
 * `updated_at`
 * `reference`
 * `reference_origin`
-

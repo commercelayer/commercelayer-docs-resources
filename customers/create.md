@@ -4,23 +4,23 @@ description: How to create a customer via API
 
 # Create a customer
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new customer, send a `POST` request to the `/api/customers` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new customer, send a `POST` request to the `/api/customers` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/customers</b>
+**POST** https://yourdomain.commercelayer.io**/api/customers**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**email** | `string` | Required |
-| attributes.**password** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**customer_group** | `object` | Optional |
+| Body Parameter                    | Type     | Required |
+| --------------------------------- | -------- | -------- |
+| **type**                          | `string` | Required |
+| attributes.**email**              | `string` | Required |
+| attributes.**password**           | `string` | Optional |
+| attributes.**reference**          | `string` | Optional |
+| attributes.**reference\_origin**  | `string` | Optional |
+| attributes.**metadata**           | `object` | Optional |
+| relationships.**customer\_group** | `object` | Optional |
 
 ### Example
 
@@ -126,4 +126,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,44 +4,44 @@ description: How to update an existing parcel via API
 
 # Update a parcel
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing parcel, send a `PATCH` request to the `/api/parcels/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing parcel, send a `PATCH` request to the `/api/parcels/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/parcels/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/parcels/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**weight** | `float` | Optional |
-| attributes.**unit_of_weight** | `string` | Optional |
-| attributes.**eel_pfc** | `string` | Optional |
-| attributes.**contents_type** | `string` | Optional |
-| attributes.**contents_explanation** | `string` | Optional |
-| attributes.**customs_certify** | `boolean` | Optional |
-| attributes.**customs_signer** | `string` | Optional |
-| attributes.**non_delivery_option** | `string` | Optional |
-| attributes.**restriction_type** | `string` | Optional |
-| attributes.**restriction_comments** | `string` | Optional |
-| attributes.**customs_info_required** | `boolean` | Optional |
-| attributes.**tracking_number** | `string` | Optional |
-| attributes.**tracking_status** | `string` | Optional |
-| attributes.**tracking_status_detail** | `string` | Optional |
-| attributes.**tracking_status_updated_at** | `datetime` | Optional |
-| attributes.**tracking_details** | `string` | Optional |
-| attributes.**carrier_weight_oz** | `string` | Optional |
-| attributes.**signed_by** | `string` | Optional |
-| attributes.**incoterm** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**shipment** | `object` | Optional |
-| relationships.**package** | `object` | Optional |
+| Body Parameter                               | Type       | Required |
+| -------------------------------------------- | ---------- | -------- |
+| **type**                                     | `string`   | Required |
+| **id**                                       | `string`   | Required |
+| attributes.**weight**                        | `float`    | Optional |
+| attributes.**unit\_of\_weight**              | `string`   | Optional |
+| attributes.**eel\_pfc**                      | `string`   | Optional |
+| attributes.**contents\_type**                | `string`   | Optional |
+| attributes.**contents\_explanation**         | `string`   | Optional |
+| attributes.**customs\_certify**              | `boolean`  | Optional |
+| attributes.**customs\_signer**               | `string`   | Optional |
+| attributes.**non\_delivery\_option**         | `string`   | Optional |
+| attributes.**restriction\_type**             | `string`   | Optional |
+| attributes.**restriction\_comments**         | `string`   | Optional |
+| attributes.**customs\_info\_required**       | `boolean`  | Optional |
+| attributes.**tracking\_number**              | `string`   | Optional |
+| attributes.**tracking\_status**              | `string`   | Optional |
+| attributes.**tracking\_status\_detail**      | `string`   | Optional |
+| attributes.**tracking\_status\_updated\_at** | `datetime` | Optional |
+| attributes.**tracking\_details**             | `string`   | Optional |
+| attributes.**carrier\_weight\_oz**           | `string`   | Optional |
+| attributes.**signed\_by**                    | `string`   | Optional |
+| attributes.**incoterm**                      | `string`   | Optional |
+| attributes.**reference**                     | `string`   | Optional |
+| attributes.**reference\_origin**             | `string`   | Optional |
+| attributes.**metadata**                      | `object`   | Optional |
+| relationships.**shipment**                   | `object`   | Optional |
+| relationships.**package**                    | `object`   | Optional |
 
 ### Example
 
@@ -145,4 +145,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

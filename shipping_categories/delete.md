@@ -4,11 +4,11 @@ description: How to delete an existing shipping category via API
 
 # Delete a shipping category
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a shipping category, send a `DELETE` request to the `/api/shipping_categories/:id` endpoint, where `id` is the id of the shipping category that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a shipping category, send a `DELETE` request to the `/api/shipping_categories/:id` endpoint, where `id` is the id of the shipping category that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/shipping_categories/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/shipping\_categories/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

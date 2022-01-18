@@ -4,11 +4,11 @@ description: How to delete an existing parcel line item via API
 
 # Delete a parcel line item
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a parcel line item, send a `DELETE` request to the `/api/parcel_line_items/:id` endpoint, where `id` is the id of the parcel line item that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a parcel line item, send a `DELETE` request to the `/api/parcel_line_items/:id` endpoint, where `id` is the id of the parcel line item that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/parcel_line_items/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/parcel\_line\_items/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

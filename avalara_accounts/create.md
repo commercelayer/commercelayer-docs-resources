@@ -4,26 +4,26 @@ description: How to create an avalara account via API
 
 # Create an avalara account
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new avalara account, send a `POST` request to the `/api/avalara_accounts` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new avalara account, send a `POST` request to the `/api/avalara_accounts` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/avalara_accounts</b>
+**POST** https://yourdomain.commercelayer.io**/api/avalara\_accounts**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**username** | `string` | Required |
-| attributes.**password** | `string` | Required |
-| attributes.**company_code** | `string` | Required |
-| attributes.**ddp** | `string` | Optional |
-| relationships.**tax_categories** | `array` | Optional |
+| Body Parameter                    | Type     | Required |
+| --------------------------------- | -------- | -------- |
+| **type**                          | `string` | Required |
+| attributes.**name**               | `string` | Required |
+| attributes.**reference**          | `string` | Optional |
+| attributes.**reference\_origin**  | `string` | Optional |
+| attributes.**metadata**           | `object` | Optional |
+| attributes.**username**           | `string` | Required |
+| attributes.**password**           | `string` | Required |
+| attributes.**company\_code**      | `string` | Required |
+| attributes.**ddp**                | `string` | Optional |
+| relationships.**tax\_categories** | `array`  | Optional |
 
 ### Example
 
@@ -103,4 +103,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

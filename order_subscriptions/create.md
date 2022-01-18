@@ -4,27 +4,27 @@ description: How to create an order subscription via API
 
 # Create an order subscription
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new order subscription, send a `POST` request to the `/api/order_subscriptions` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new order subscription, send a `POST` request to the `/api/order_subscriptions` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/order_subscriptions</b>
+**POST** https://yourdomain.commercelayer.io**/api/order\_subscriptions**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**frequency** | `string` | Required |
-| attributes.**activate_by_source_order** | `boolean` | Optional |
-| attributes.**starts_at** | `datetime` | Required, unless activate_by_source_order |
-| attributes.**expires_at** | `datetime` | Optional |
-| attributes.**options** | `object` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Optional |
-| relationships.**source_order** | `object` | Required |
+| Body Parameter                             | Type       | Required                                     |
+| ------------------------------------------ | ---------- | -------------------------------------------- |
+| **type**                                   | `string`   | Required                                     |
+| attributes.**frequency**                   | `string`   | Required                                     |
+| attributes.**activate\_by\_source\_order** | `boolean`  | Optional                                     |
+| attributes.**starts\_at**                  | `datetime` | Required, unless activate\_by\_source\_order |
+| attributes.**expires\_at**                 | `datetime` | Optional                                     |
+| attributes.**options**                     | `object`   | Optional                                     |
+| attributes.**reference**                   | `string`   | Optional                                     |
+| attributes.**reference\_origin**           | `string`   | Optional                                     |
+| attributes.**metadata**                    | `object`   | Optional                                     |
+| relationships.**market**                   | `object`   | Optional                                     |
+| relationships.**source\_order**            | `object`   | Required                                     |
 
 ### Example
 
@@ -132,4 +132,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

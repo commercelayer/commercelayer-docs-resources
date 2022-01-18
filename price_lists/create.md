@@ -4,23 +4,23 @@ description: How to create a price list via API
 
 # Create a price list
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new price list, send a `POST` request to the `/api/price_lists` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new price list, send a `POST` request to the `/api/price_lists` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/price_lists</b>
+**POST** https://yourdomain.commercelayer.io**/api/price\_lists**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**currency_code** | `string` | Required |
-| attributes.**tax_included** | `boolean` | Optional, default is 'true' |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                   | Type      | Required                    |
+| -------------------------------- | --------- | --------------------------- |
+| **type**                         | `string`  | Required                    |
+| attributes.**name**              | `string`  | Required                    |
+| attributes.**currency\_code**    | `string`  | Required                    |
+| attributes.**tax\_included**     | `boolean` | Optional, default is 'true' |
+| attributes.**reference**         | `string`  | Optional                    |
+| attributes.**reference\_origin** | `string`  | Optional                    |
+| attributes.**metadata**          | `object`  | Optional                    |
 
 ### Example
 
@@ -91,4 +91,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,24 +4,24 @@ description: How to create a checkout.com gateway via API
 
 # Create a checkout.com gateway
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new checkout.com gateway, send a `POST` request to the `/api/checkout_com_gateways` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new checkout.com gateway, send a `POST` request to the `/api/checkout_com_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/checkout_com_gateways</b>
+**POST** https://yourdomain.commercelayer.io**/api/checkout\_com\_gateways**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**secret_key** | `string` | Required |
-| attributes.**public_key** | `string` | Required |
-| relationships.**checkout_com_payments** | `array` | Optional |
+| Body Parameter                            | Type     | Required |
+| ----------------------------------------- | -------- | -------- |
+| **type**                                  | `string` | Required |
+| attributes.**name**                       | `string` | Required |
+| attributes.**reference**                  | `string` | Optional |
+| attributes.**reference\_origin**          | `string` | Optional |
+| attributes.**metadata**                   | `object` | Optional |
+| attributes.**secret\_key**                | `string` | Required |
+| attributes.**public\_key**                | `string` | Required |
+| relationships.**checkout\_com\_payments** | `array`  | Optional |
 
 ### Example
 
@@ -94,4 +94,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

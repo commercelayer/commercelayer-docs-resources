@@ -4,31 +4,31 @@ description: How to create a SKU via API
 
 # Create a SKU
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new SKU, send a `POST` request to the `/api/skus` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new SKU, send a `POST` request to the `/api/skus` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/skus</b>
+**POST** https://yourdomain.commercelayer.io**/api/skus**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**code** | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**description** | `string` | Optional |
-| attributes.**image_url** | `string` | Optional |
-| attributes.**pieces_per_pack** | `integer` | Optional |
-| attributes.**weight** | `float` | Optional |
-| attributes.**unit_of_weight** | `string` | Optional |
-| attributes.**hs_tariff_number** | `string` | Optional |
-| attributes.**do_not_ship** | `boolean` | Optional |
-| attributes.**do_not_track** | `boolean` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**shipping_category** | `object` | Required |
+| Body Parameter                       | Type      | Required |
+| ------------------------------------ | --------- | -------- |
+| **type**                             | `string`  | Required |
+| attributes.**code**                  | `string`  | Required |
+| attributes.**name**                  | `string`  | Required |
+| attributes.**description**           | `string`  | Optional |
+| attributes.**image\_url**            | `string`  | Optional |
+| attributes.**pieces\_per\_pack**     | `integer` | Optional |
+| attributes.**weight**                | `float`   | Optional |
+| attributes.**unit\_of\_weight**      | `string`  | Optional |
+| attributes.**hs\_tariff\_number**    | `string`  | Optional |
+| attributes.**do\_not\_ship**         | `boolean` | Optional |
+| attributes.**do\_not\_track**        | `boolean` | Optional |
+| attributes.**reference**             | `string`  | Optional |
+| attributes.**reference\_origin**     | `string`  | Optional |
+| attributes.**metadata**              | `object`  | Optional |
+| relationships.**shipping\_category** | `object`  | Required |
 
 ### Example
 
@@ -226,4 +226,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,24 +4,24 @@ description: How to create a braintree payment via API
 
 # Create a braintree payment
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new braintree payment, send a `POST` request to the `/api/braintree_payments` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new braintree payment, send a `POST` request to the `/api/braintree_payments` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/braintree_payments</b>
+**POST** https://yourdomain.commercelayer.io**/api/braintree\_payments**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**payment_id** | `string` | Optional |
-| attributes.**local** | `boolean` | Optional |
-| attributes.**options** | `object` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**order** | `object` | Required |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| attributes.**payment\_id**       | `string`  | Optional |
+| attributes.**local**             | `boolean` | Optional |
+| attributes.**options**           | `object`  | Optional |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
+| relationships.**order**          | `object`  | Required |
 
 ### Example
 
@@ -100,4 +100,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

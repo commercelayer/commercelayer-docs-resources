@@ -4,11 +4,11 @@ description: How to delete an existing merchant via API
 
 # Delete a merchant
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a merchant, send a `DELETE` request to the `/api/merchants/:id` endpoint, where `id` is the id of the merchant that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a merchant, send a `DELETE` request to the `/api/merchants/:id` endpoint, where `id` is the id of the merchant that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/merchants/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/merchants/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

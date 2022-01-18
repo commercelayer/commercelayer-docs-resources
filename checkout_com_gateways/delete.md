@@ -4,11 +4,11 @@ description: How to delete an existing checkout.com gateway via API
 
 # Delete a checkout.com gateway
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a checkout.com gateway, send a `DELETE` request to the `/api/checkout_com_gateways/:id` endpoint, where `id` is the id of the checkout.com gateway that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a checkout.com gateway, send a `DELETE` request to the `/api/checkout_com_gateways/:id` endpoint, where `id` is the id of the checkout.com gateway that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/checkout_com_gateways/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/checkout\_com\_gateways/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

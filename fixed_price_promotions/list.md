@@ -4,11 +4,11 @@ description: How to fetch a collection of fixed price promotions via API
 
 # List all fixed price promotions
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of fixed price promotions, send a `GET` request to the `/api/fixed_price_promotions` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of fixed price promotions, send a `GET` request to the `/api/fixed_price_promotions` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/fixed_price_promotions</b>
+**GET** https://yourdomain.commercelayer.io**/api/fixed\_price\_promotions**
 
 ### **Example**
 
@@ -127,11 +127,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of fixed price promotions can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of fixed price promotions can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `name`
 * `currency_code`
@@ -143,4 +143,3 @@ The list of fixed price promotions can be <a href="https://docs.commercelayer.io
 * `reference`
 * `reference_origin`
 * `fixed_amount_cents`
-

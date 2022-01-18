@@ -4,11 +4,11 @@ description: How to delete an existing market via API
 
 # Delete a market
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a market, send a `DELETE` request to the `/api/markets/:id` endpoint, where `id` is the id of the market that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a market, send a `DELETE` request to the `/api/markets/:id` endpoint, where `id` is the id of the market that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/markets/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/markets/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

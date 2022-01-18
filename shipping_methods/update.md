@@ -4,30 +4,30 @@ description: How to update an existing shipping method via API
 
 # Update a shipping method
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing shipping method, send a `PATCH` request to the `/api/shipping_methods/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing shipping method, send a `PATCH` request to the `/api/shipping_methods/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/shipping_methods/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/shipping\_methods/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**name** | `string` | Optional |
-| attributes.**currency_code** | `string` | Optional |
-| attributes.**price_amount_cents** | `integer` | Optional |
-| attributes.**free_over_amount_cents** | `integer` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Optional |
-| relationships.**shipping_zone** | `object` | Optional |
-| relationships.**shipping_category** | `object` | Optional |
+| Body Parameter                           | Type      | Required |
+| ---------------------------------------- | --------- | -------- |
+| **type**                                 | `string`  | Required |
+| **id**                                   | `string`  | Required |
+| attributes.**name**                      | `string`  | Optional |
+| attributes.**currency\_code**            | `string`  | Optional |
+| attributes.**price\_amount\_cents**      | `integer` | Optional |
+| attributes.**free\_over\_amount\_cents** | `integer` | Optional |
+| attributes.**reference**                 | `string`  | Optional |
+| attributes.**reference\_origin**         | `string`  | Optional |
+| attributes.**metadata**                  | `object`  | Optional |
+| relationships.**market**                 | `object`  | Optional |
+| relationships.**shipping\_zone**         | `object`  | Optional |
+| relationships.**shipping\_category**     | `object`  | Optional |
 
 ### Example
 
@@ -125,4 +125,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

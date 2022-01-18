@@ -4,11 +4,11 @@ description: How to fetch a collection of customer password resets via API
 
 # List all customer password resets
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of customer password resets, send a `GET` request to the `/api/customer_password_resets` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of customer password resets, send a `GET` request to the `/api/customer_password_resets` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/customer_password_resets</b>
+**GET** https://yourdomain.commercelayer.io**/api/customer\_password\_resets**
 
 ### **Example**
 
@@ -78,15 +78,14 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of customer password resets can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of customer password resets can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `id`
 * `created_at`
 * `updated_at`
 * `reference`
 * `reference_origin`
-

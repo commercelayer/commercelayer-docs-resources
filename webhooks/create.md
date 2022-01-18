@@ -4,24 +4,24 @@ description: How to create a webhook via API
 
 # Create a webhook
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new webhook, send a `POST` request to the `/api/webhooks` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new webhook, send a `POST` request to the `/api/webhooks` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/webhooks</b>
+**POST** https://yourdomain.commercelayer.io**/api/webhooks**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Optional, default to "webhook |
-| attributes.**topic** | `string` | Required |
-| attributes.**callback_url** | `string` | Required |
-| attributes.**include_resources** | `array` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                    | Type     | Required                      |
+| --------------------------------- | -------- | ----------------------------- |
+| **type**                          | `string` | Required                      |
+| attributes.**name**               | `string` | Optional, default to "webhook |
+| attributes.**topic**              | `string` | Required                      |
+| attributes.**callback\_url**      | `string` | Required                      |
+| attributes.**include\_resources** | `array`  | Optional                      |
+| attributes.**reference**          | `string` | Optional                      |
+| attributes.**reference\_origin**  | `string` | Optional                      |
+| attributes.**metadata**           | `object` | Optional                      |
 
 ### Example
 
@@ -93,4 +93,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

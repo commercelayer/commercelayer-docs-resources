@@ -4,22 +4,22 @@ description: How to create a customer payment source via API
 
 # Create a customer payment source
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new customer payment source, send a `POST` request to the `/api/customer_payment_sources` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new customer payment source, send a `POST` request to the `/api/customer_payment_sources` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/customer_payment_sources</b>
+**POST** https://yourdomain.commercelayer.io**/api/customer\_payment\_sources**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**customer** | `object` | Required |
-| relationships.**payment_source** | `object` | Required |
+| Body Parameter                    | Type     | Required |
+| --------------------------------- | -------- | -------- |
+| **type**                          | `string` | Required |
+| attributes.**reference**          | `string` | Optional |
+| attributes.**reference\_origin**  | `string` | Optional |
+| attributes.**metadata**           | `object` | Optional |
+| relationships.**customer**        | `object` | Required |
+| relationships.**payment\_source** | `object` | Required |
 
 ### Example
 
@@ -100,4 +100,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

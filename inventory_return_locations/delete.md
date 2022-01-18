@@ -4,11 +4,11 @@ description: How to delete an existing inventory return location via API
 
 # Delete an inventory return location
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an inventory return location, send a `DELETE` request to the `/api/inventory_return_locations/:id` endpoint, where `id` is the id of the inventory return location that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an inventory return location, send a `DELETE` request to the `/api/inventory_return_locations/:id` endpoint, where `id` is the id of the inventory return location that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/inventory_return_locations/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/inventory\_return\_locations/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

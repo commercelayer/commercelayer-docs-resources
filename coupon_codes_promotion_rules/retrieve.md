@@ -4,11 +4,11 @@ description: How to fetch a specific coupon codes promotion rule via API
 
 # Retrieve a coupon codes promotion rule
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single coupon codes promotion rule, send a `GET` request to the `/api/coupon_codes_promotion_rules/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single coupon codes promotion rule, send a `GET` request to the `/api/coupon_codes_promotion_rules/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/coupon_codes_promotion_rules/:id</b>
+**GET** https://yourdomain.commercelayer.io**/api/coupon\_codes\_promotion\_rules/:id**
 
 ### **Example**
 
@@ -66,4 +66,3 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
-

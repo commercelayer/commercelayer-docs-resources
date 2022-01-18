@@ -4,25 +4,25 @@ description: How to update an existing manual gateway via API
 
 # Update a manual gateway
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing manual gateway, send a `PATCH` request to the `/api/manual_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing manual gateway, send a `PATCH` request to the `/api/manual_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/manual_gateways/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/manual\_gateways/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**name** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**require_capture** | `boolean` | Optional |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| **id**                           | `string`  | Required |
+| attributes.**name**              | `string`  | Optional |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
+| attributes.**require\_capture**  | `boolean` | Optional |
 
 ### Example
 
@@ -86,4 +86,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

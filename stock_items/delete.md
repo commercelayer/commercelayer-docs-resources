@@ -4,11 +4,11 @@ description: How to delete an existing stock item via API
 
 # Delete a stock item
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a stock item, send a `DELETE` request to the `/api/stock_items/:id` endpoint, where `id` is the id of the stock item that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a stock item, send a `DELETE` request to the `/api/stock_items/:id` endpoint, where `id` is the id of the stock item that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/stock_items/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/stock\_items/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

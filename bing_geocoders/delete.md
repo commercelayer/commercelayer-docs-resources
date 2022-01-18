@@ -4,11 +4,11 @@ description: How to delete an existing bing geocoder via API
 
 # Delete a bing geocoder
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a bing geocoder, send a `DELETE` request to the `/api/bing_geocoders/:id` endpoint, where `id` is the id of the bing geocoder that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a bing geocoder, send a `DELETE` request to the `/api/bing_geocoders/:id` endpoint, where `id` is the id of the bing geocoder that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/bing_geocoders/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/bing\_geocoders/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

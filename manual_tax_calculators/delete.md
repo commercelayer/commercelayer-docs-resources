@@ -4,11 +4,11 @@ description: How to delete an existing manual tax calculator via API
 
 # Delete a manual tax calculator
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a manual tax calculator, send a `DELETE` request to the `/api/manual_tax_calculators/:id` endpoint, where `id` is the id of the manual tax calculator that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a manual tax calculator, send a `DELETE` request to the `/api/manual_tax_calculators/:id` endpoint, where `id` is the id of the manual tax calculator that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/manual_tax_calculators/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/manual\_tax\_calculators/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

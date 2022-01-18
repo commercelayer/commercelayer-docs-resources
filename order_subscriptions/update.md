@@ -4,27 +4,27 @@ description: How to update an existing order subscription via API
 
 # Update an order subscription
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing order subscription, send a `PATCH` request to the `/api/order_subscriptions/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing order subscription, send a `PATCH` request to the `/api/order_subscriptions/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/order_subscriptions/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/order\_subscriptions/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**expires_at** | `datetime` | Optional |
-| attributes.**_activate** | `boolean, value is 'true'` | Optional |
-| attributes.**_deactivate** | `boolean, value is 'true'` | Optional |
-| attributes.**_cancel** | `boolean, value is 'true'` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                   | Type                       | Required |
+| -------------------------------- | -------------------------- | -------- |
+| **type**                         | `string`                   | Required |
+| **id**                           | `string`                   | Required |
+| attributes.**expires\_at**       | `datetime`                 | Optional |
+| attributes.**\_activate**        | `boolean, value is 'true'` | Optional |
+| attributes.**\_deactivate**      | `boolean, value is 'true'` | Optional |
+| attributes.**\_cancel**          | `boolean, value is 'true'` | Optional |
+| attributes.**reference**         | `string`                   | Optional |
+| attributes.**reference\_origin** | `string`                   | Optional |
+| attributes.**metadata**          | `object`                   | Optional |
 
 ### Example
 
@@ -124,4 +124,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,11 +4,11 @@ description: How to fetch a collection of packages via API
 
 # List all packages
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of packages, send a `GET` request to the `/api/packages` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of packages, send a `GET` request to the `/api/packages` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/packages</b>
+**GET** https://yourdomain.commercelayer.io**/api/packages**
 
 ### **Example**
 
@@ -93,11 +93,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of packages can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of packages can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `name`
 * `id`
@@ -105,4 +105,3 @@ The list of packages can be <a href="https://docs.commercelayer.io/developers/so
 * `updated_at`
 * `reference`
 * `reference_origin`
-

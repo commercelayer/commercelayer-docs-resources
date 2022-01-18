@@ -4,23 +4,23 @@ description: How to create an adjustment via API
 
 # Create an adjustment
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new adjustment, send a `POST` request to the `/api/adjustments` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new adjustment, send a `POST` request to the `/api/adjustments` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/adjustments</b>
+**POST** https://yourdomain.commercelayer.io**/api/adjustments**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**currency_code** | `string` | Required |
-| attributes.**amount_cents** | `integer` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| attributes.**name**              | `string`  | Required |
+| attributes.**currency\_code**    | `string`  | Required |
+| attributes.**amount\_cents**     | `integer` | Required |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
 
 ### Example
 
@@ -82,4 +82,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,41 +4,41 @@ description: How to create a parcel via API
 
 # Create a parcel
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new parcel, send a `POST` request to the `/api/parcels` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new parcel, send a `POST` request to the `/api/parcels` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/parcels</b>
+**POST** https://yourdomain.commercelayer.io**/api/parcels**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**weight** | `float` | Optional |
-| attributes.**unit_of_weight** | `string` | Optional |
-| attributes.**eel_pfc** | `string` | Optional |
-| attributes.**contents_type** | `string` | Optional |
-| attributes.**contents_explanation** | `string` | Optional |
-| attributes.**customs_certify** | `boolean` | Optional |
-| attributes.**customs_signer** | `string` | Optional |
-| attributes.**non_delivery_option** | `string` | Optional |
-| attributes.**restriction_type** | `string` | Optional |
-| attributes.**restriction_comments** | `string` | Optional |
-| attributes.**customs_info_required** | `boolean` | Optional, default 'false' |
-| attributes.**tracking_number** | `string` | Optional |
-| attributes.**tracking_status** | `string` | Optional |
-| attributes.**tracking_status_detail** | `string` | Optional |
-| attributes.**tracking_status_updated_at** | `datetime` | Optional |
-| attributes.**tracking_details** | `string` | Optional |
-| attributes.**carrier_weight_oz** | `string` | Optional |
-| attributes.**signed_by** | `string` | Optional |
-| attributes.**incoterm** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**shipment** | `object` | Required |
-| relationships.**package** | `object` | Required |
+| Body Parameter                               | Type       | Required                  |
+| -------------------------------------------- | ---------- | ------------------------- |
+| **type**                                     | `string`   | Required                  |
+| attributes.**weight**                        | `float`    | Optional                  |
+| attributes.**unit\_of\_weight**              | `string`   | Optional                  |
+| attributes.**eel\_pfc**                      | `string`   | Optional                  |
+| attributes.**contents\_type**                | `string`   | Optional                  |
+| attributes.**contents\_explanation**         | `string`   | Optional                  |
+| attributes.**customs\_certify**              | `boolean`  | Optional                  |
+| attributes.**customs\_signer**               | `string`   | Optional                  |
+| attributes.**non\_delivery\_option**         | `string`   | Optional                  |
+| attributes.**restriction\_type**             | `string`   | Optional                  |
+| attributes.**restriction\_comments**         | `string`   | Optional                  |
+| attributes.**customs\_info\_required**       | `boolean`  | Optional, default 'false' |
+| attributes.**tracking\_number**              | `string`   | Optional                  |
+| attributes.**tracking\_status**              | `string`   | Optional                  |
+| attributes.**tracking\_status\_detail**      | `string`   | Optional                  |
+| attributes.**tracking\_status\_updated\_at** | `datetime` | Optional                  |
+| attributes.**tracking\_details**             | `string`   | Optional                  |
+| attributes.**carrier\_weight\_oz**           | `string`   | Optional                  |
+| attributes.**signed\_by**                    | `string`   | Optional                  |
+| attributes.**incoterm**                      | `string`   | Optional                  |
+| attributes.**reference**                     | `string`   | Optional                  |
+| attributes.**reference\_origin**             | `string`   | Optional                  |
+| attributes.**metadata**                      | `object`   | Optional                  |
+| relationships.**shipment**                   | `object`   | Required                  |
+| relationships.**package**                    | `object`   | Required                  |
 
 ### Example
 
@@ -152,4 +152,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

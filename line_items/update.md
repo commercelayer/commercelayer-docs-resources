@@ -4,28 +4,28 @@ description: How to update an existing line item via API
 
 # Update a line item
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing line item, send a `PATCH` request to the `/api/line_items/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing line item, send a `PATCH` request to the `/api/line_items/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/line_items/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/line\_items/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**sku_code** | `string` | Optional |
-| attributes.**bundle_code** | `string` | Optional |
-| attributes.**quantity** | `integer` | Optional |
-| attributes.**name** | `string` | Optional |
-| attributes.**image_url** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| **id**                           | `string`  | Required |
+| attributes.**sku\_code**         | `string`  | Optional |
+| attributes.**bundle\_code**      | `string`  | Optional |
+| attributes.**quantity**          | `integer` | Optional |
+| attributes.**name**              | `string`  | Optional |
+| attributes.**image\_url**        | `string`  | Optional |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
 
 ### Example
 
@@ -164,4 +164,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

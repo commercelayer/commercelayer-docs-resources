@@ -4,23 +4,23 @@ description: How to create an external tax calculator via API
 
 # Create an external tax calculator
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new external tax calculator, send a `POST` request to the `/api/external_tax_calculators` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new external tax calculator, send a `POST` request to the `/api/external_tax_calculators` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/external_tax_calculators</b>
+**POST** https://yourdomain.commercelayer.io**/api/external\_tax\_calculators**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**tax_calculator_url** | `string` | Required |
-| relationships.**tax_categories** | `array` | Optional |
+| Body Parameter                      | Type     | Required |
+| ----------------------------------- | -------- | -------- |
+| **type**                            | `string` | Required |
+| attributes.**name**                 | `string` | Required |
+| attributes.**reference**            | `string` | Optional |
+| attributes.**reference\_origin**    | `string` | Optional |
+| attributes.**metadata**             | `object` | Optional |
+| attributes.**tax\_calculator\_url** | `string` | Required |
+| relationships.**tax\_categories**   | `array`  | Optional |
 
 ### Example
 
@@ -96,4 +96,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,11 +4,11 @@ description: How to delete an existing inventory stock location via API
 
 # Delete an inventory stock location
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an inventory stock location, send a `DELETE` request to the `/api/inventory_stock_locations/:id` endpoint, where `id` is the id of the inventory stock location that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an inventory stock location, send a `DELETE` request to the `/api/inventory_stock_locations/:id` endpoint, where `id` is the id of the inventory stock location that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/inventory_stock_locations/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/inventory\_stock\_locations/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

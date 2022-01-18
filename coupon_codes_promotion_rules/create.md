@@ -4,22 +4,22 @@ description: How to create a coupon codes promotion rule via API
 
 # Create a coupon codes promotion rule
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new coupon codes promotion rule, send a `POST` request to the `/api/coupon_codes_promotion_rules` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new coupon codes promotion rule, send a `POST` request to the `/api/coupon_codes_promotion_rules` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/coupon_codes_promotion_rules</b>
+**POST** https://yourdomain.commercelayer.io**/api/coupon\_codes\_promotion\_rules**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**promotion** | `object` | Required |
-| relationships.**coupons** | `array` | Optional |
+| Body Parameter                   | Type     | Required |
+| -------------------------------- | -------- | -------- |
+| **type**                         | `string` | Required |
+| attributes.**reference**         | `string` | Optional |
+| attributes.**reference\_origin** | `string` | Optional |
+| attributes.**metadata**          | `object` | Optional |
+| relationships.**promotion**      | `object` | Required |
+| relationships.**coupons**        | `array`  | Optional |
 
 ### Example
 
@@ -91,4 +91,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

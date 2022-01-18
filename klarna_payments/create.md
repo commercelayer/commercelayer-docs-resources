@@ -4,21 +4,21 @@ description: How to create a klarna payment via API
 
 # Create a klarna payment
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new klarna payment, send a `POST` request to the `/api/klarna_payments` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new klarna payment, send a `POST` request to the `/api/klarna_payments` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/klarna_payments</b>
+**POST** https://yourdomain.commercelayer.io**/api/klarna\_payments**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**order** | `object` | Required |
+| Body Parameter                   | Type     | Required |
+| -------------------------------- | -------- | -------- |
+| **type**                         | `string` | Required |
+| attributes.**reference**         | `string` | Optional |
+| attributes.**reference\_origin** | `string` | Optional |
+| attributes.**metadata**          | `object` | Optional |
+| relationships.**order**          | `object` | Required |
 
 ### Example
 
@@ -98,4 +98,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,30 +4,30 @@ description: How to update an existing shipping zone via API
 
 # Update a shipping zone
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing shipping zone, send a `PATCH` request to the `/api/shipping_zones/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing shipping zone, send a `PATCH` request to the `/api/shipping_zones/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/shipping_zones/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/shipping\_zones/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**name** | `string` | Optional |
-| attributes.**country_code_regex** | `string` | Optional |
-| attributes.**not_country_code_regex** | `string` | Optional |
-| attributes.**state_code_regex** | `string` | Optional |
-| attributes.**not_state_code_regex** | `string` | Optional |
-| attributes.**zip_code_regex** | `string` | Optional |
-| attributes.**not_zip_code_regex** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                           | Type     | Required |
+| ---------------------------------------- | -------- | -------- |
+| **type**                                 | `string` | Required |
+| **id**                                   | `string` | Required |
+| attributes.**name**                      | `string` | Optional |
+| attributes.**country\_code\_regex**      | `string` | Optional |
+| attributes.**not\_country\_code\_regex** | `string` | Optional |
+| attributes.**state\_code\_regex**        | `string` | Optional |
+| attributes.**not\_state\_code\_regex**   | `string` | Optional |
+| attributes.**zip\_code\_regex**          | `string` | Optional |
+| attributes.**not\_zip\_code\_regex**     | `string` | Optional |
+| attributes.**reference**                 | `string` | Optional |
+| attributes.**reference\_origin**         | `string` | Optional |
+| attributes.**metadata**                  | `object` | Optional |
 
 ### Example
 
@@ -96,4 +96,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

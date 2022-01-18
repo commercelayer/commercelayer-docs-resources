@@ -4,32 +4,32 @@ description: How to update an existing shipment via API
 
 # Update a shipment
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing shipment, send a `PATCH` request to the `/api/shipments/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing shipment, send a `PATCH` request to the `/api/shipments/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/shipments/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/shipments/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**_on_hold** | `boolean, value is 'true'` | Optional |
-| attributes.**_picking** | `boolean, value is 'true'` | Optional |
-| attributes.**_packing** | `boolean, value is 'true'` | Optional |
-| attributes.**_ready_to_ship** | `boolean, value is 'true'` | Optional |
-| attributes.**_ship** | `boolean, value is 'true'` | Optional |
-| attributes.**_get_rates** | `boolean, value is 'true'` | Optional |
-| attributes.**selected_rate_id** | `string` | Optional |
-| attributes.**_purchase** | `boolean, value is 'true'` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**shipping_method** | `object` | Optional |
+| Body Parameter                     | Type                       | Required |
+| ---------------------------------- | -------------------------- | -------- |
+| **type**                           | `string`                   | Required |
+| **id**                             | `string`                   | Required |
+| attributes.**\_on\_hold**          | `boolean, value is 'true'` | Optional |
+| attributes.**\_picking**           | `boolean, value is 'true'` | Optional |
+| attributes.**\_packing**           | `boolean, value is 'true'` | Optional |
+| attributes.**\_ready\_to\_ship**   | `boolean, value is 'true'` | Optional |
+| attributes.**\_ship**              | `boolean, value is 'true'` | Optional |
+| attributes.**\_get\_rates**        | `boolean, value is 'true'` | Optional |
+| attributes.**selected\_rate\_id**  | `string`                   | Optional |
+| attributes.**\_purchase**          | `boolean, value is 'true'` | Optional |
+| attributes.**reference**           | `string`                   | Optional |
+| attributes.**reference\_origin**   | `string`                   | Optional |
+| attributes.**metadata**            | `object`                   | Optional |
+| relationships.**shipping\_method** | `object`                   | Optional |
 
 ### Example
 
@@ -192,4 +192,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

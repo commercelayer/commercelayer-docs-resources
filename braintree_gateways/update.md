@@ -4,32 +4,32 @@ description: How to update an existing braintree gateway via API
 
 # Update a braintree gateway
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing braintree gateway, send a `PATCH` request to the `/api/braintree_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing braintree gateway, send a `PATCH` request to the `/api/braintree_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/braintree_gateways/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/braintree\_gateways/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**name** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**merchant_account_id** | `string` | Optional |
-| attributes.**merchant_id** | `string` | Optional |
-| attributes.**public_key** | `string` | Optional |
-| attributes.**private_key** | `string` | Optional |
-| attributes.**descriptor_name** | `string` | Optional |
-| attributes.**descriptor_phone** | `string` | Optional |
-| attributes.**descriptor_url** | `string` | Optional |
-| relationships.**braintree_payments** | `array` | Optional |
+| Body Parameter                        | Type     | Required |
+| ------------------------------------- | -------- | -------- |
+| **type**                              | `string` | Required |
+| **id**                                | `string` | Required |
+| attributes.**name**                   | `string` | Optional |
+| attributes.**reference**              | `string` | Optional |
+| attributes.**reference\_origin**      | `string` | Optional |
+| attributes.**metadata**               | `object` | Optional |
+| attributes.**merchant\_account\_id**  | `string` | Optional |
+| attributes.**merchant\_id**           | `string` | Optional |
+| attributes.**public\_key**            | `string` | Optional |
+| attributes.**private\_key**           | `string` | Optional |
+| attributes.**descriptor\_name**       | `string` | Optional |
+| attributes.**descriptor\_phone**      | `string` | Optional |
+| attributes.**descriptor\_url**        | `string` | Optional |
+| relationships.**braintree\_payments** | `array`  | Optional |
 
 ### Example
 
@@ -102,4 +102,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

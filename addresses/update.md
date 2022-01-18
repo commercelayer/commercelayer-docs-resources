@@ -4,40 +4,40 @@ description: How to update an existing address via API
 
 # Update an address
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing address, send a `PATCH` request to the `/api/addresses/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing address, send a `PATCH` request to the `/api/addresses/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/addresses/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/addresses/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**business** | `boolean` | Optional |
-| attributes.**first_name** | `string` | Optional |
-| attributes.**last_name** | `string` | Optional |
-| attributes.**company** | `string` | Optional |
-| attributes.**line_1** | `string` | Optional |
-| attributes.**line_2** | `string` | Optional |
-| attributes.**city** | `string` | Optional |
-| attributes.**zip_code** | `string` | Optional |
-| attributes.**state_code** | `string` | Optional |
-| attributes.**country_code** | `string` | Optional |
-| attributes.**phone** | `string` | Optional |
-| attributes.**email** | `string` | Optional |
-| attributes.**notes** | `string` | Optional |
-| attributes.**lat** | `float` | Optional |
-| attributes.**lng** | `float` | Optional |
-| attributes.**billing_info** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**geocoder** | `object` | Optional |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| **id**                           | `string`  | Required |
+| attributes.**business**          | `boolean` | Optional |
+| attributes.**first\_name**       | `string`  | Optional |
+| attributes.**last\_name**        | `string`  | Optional |
+| attributes.**company**           | `string`  | Optional |
+| attributes.**line\_1**           | `string`  | Optional |
+| attributes.**line\_2**           | `string`  | Optional |
+| attributes.**city**              | `string`  | Optional |
+| attributes.**zip\_code**         | `string`  | Optional |
+| attributes.**state\_code**       | `string`  | Optional |
+| attributes.**country\_code**     | `string`  | Optional |
+| attributes.**phone**             | `string`  | Optional |
+| attributes.**email**             | `string`  | Optional |
+| attributes.**notes**             | `string`  | Optional |
+| attributes.**lat**               | `float`   | Optional |
+| attributes.**lng**               | `float`   | Optional |
+| attributes.**billing\_info**     | `string`  | Optional |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
+| relationships.**geocoder**       | `object`  | Optional |
 
 ### Example
 
@@ -123,4 +123,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,21 +4,21 @@ description: How to create a customer password reset via API
 
 # Create a customer password reset
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new customer password reset, send a `POST` request to the `/api/customer_password_resets` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new customer password reset, send a `POST` request to the `/api/customer_password_resets` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/customer_password_resets</b>
+**POST** https://yourdomain.commercelayer.io**/api/customer\_password\_resets**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**customer_email** | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                   | Type     | Required |
+| -------------------------------- | -------- | -------- |
+| **type**                         | `string` | Required |
+| attributes.**customer\_email**   | `string` | Required |
+| attributes.**reference**         | `string` | Optional |
+| attributes.**reference\_origin** | `string` | Optional |
+| attributes.**metadata**          | `object` | Optional |
 
 ### Example
 
@@ -82,4 +82,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

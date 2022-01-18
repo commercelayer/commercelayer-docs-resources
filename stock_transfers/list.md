@@ -4,11 +4,11 @@ description: How to fetch a collection of stock transfers via API
 
 # List all stock transfers
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of stock transfers, send a `GET` request to the `/api/stock_transfers` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of stock transfers, send a `GET` request to the `/api/stock_transfers` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/stock_transfers</b>
+**GET** https://yourdomain.commercelayer.io**/api/stock\_transfers**
 
 ### **Example**
 
@@ -104,11 +104,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of stock transfers can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of stock transfers can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `status`
 * `completed_at`
@@ -118,4 +118,3 @@ The list of stock transfers can be <a href="https://docs.commercelayer.io/develo
 * `updated_at`
 * `reference`
 * `reference_origin`
-

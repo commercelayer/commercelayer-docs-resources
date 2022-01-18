@@ -4,11 +4,11 @@ description: How to delete an existing stock transfer via API
 
 # Delete a stock transfer
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a stock transfer, send a `DELETE` request to the `/api/stock_transfers/:id` endpoint, where `id` is the id of the stock transfer that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a stock transfer, send a `DELETE` request to the `/api/stock_transfers/:id` endpoint, where `id` is the id of the stock transfer that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/stock_transfers/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/stock\_transfers/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

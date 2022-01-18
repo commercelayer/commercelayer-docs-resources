@@ -4,11 +4,11 @@ description: How to fetch a specific taxjar account via API
 
 # Retrieve a taxjar account
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single taxjar account, send a `GET` request to the `/api/taxjar_accounts/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single taxjar account, send a `GET` request to the `/api/taxjar_accounts/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/taxjar_accounts/:id</b>
+**GET** https://yourdomain.commercelayer.io**/api/taxjar\_accounts/:id**
 
 ### **Example**
 
@@ -73,4 +73,3 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
-

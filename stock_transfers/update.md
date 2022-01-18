@@ -4,32 +4,32 @@ description: How to update an existing stock transfer via API
 
 # Update a stock transfer
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing stock transfer, send a `PATCH` request to the `/api/stock_transfers/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing stock transfer, send a `PATCH` request to the `/api/stock_transfers/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/stock_transfers/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/stock\_transfers/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**sku_code** | `string` | Optional |
-| attributes.**_upcoming** | `boolean, value is 'true'` | Optional |
-| attributes.**_picking** | `boolean, value is 'true'` | Optional |
-| attributes.**_in_transit** | `boolean, value is 'true'` | Optional |
-| attributes.**_complete** | `boolean, value is 'true'` | Optional |
-| attributes.**_cancel** | `boolean, value is 'true'` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**sku** | `object` | Optional |
-| relationships.**origin_stock_location** | `object` | Optional |
-| relationships.**destination_stock_location** | `object` | Optional |
+| Body Parameter                                 | Type                       | Required |
+| ---------------------------------------------- | -------------------------- | -------- |
+| **type**                                       | `string`                   | Required |
+| **id**                                         | `string`                   | Required |
+| attributes.**sku\_code**                       | `string`                   | Optional |
+| attributes.**\_upcoming**                      | `boolean, value is 'true'` | Optional |
+| attributes.**\_picking**                       | `boolean, value is 'true'` | Optional |
+| attributes.**\_in\_transit**                   | `boolean, value is 'true'` | Optional |
+| attributes.**\_complete**                      | `boolean, value is 'true'` | Optional |
+| attributes.**\_cancel**                        | `boolean, value is 'true'` | Optional |
+| attributes.**reference**                       | `string`                   | Optional |
+| attributes.**reference\_origin**               | `string`                   | Optional |
+| attributes.**metadata**                        | `object`                   | Optional |
+| relationships.**sku**                          | `object`                   | Optional |
+| relationships.**origin\_stock\_location**      | `object`                   | Optional |
+| relationships.**destination\_stock\_location** | `object`                   | Optional |
 
 ### Example
 
@@ -120,4 +120,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

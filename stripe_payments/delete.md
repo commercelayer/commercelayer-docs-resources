@@ -4,11 +4,11 @@ description: How to delete an existing stripe payment via API
 
 # Delete a stripe payment
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a stripe payment, send a `DELETE` request to the `/api/stripe_payments/:id` endpoint, where `id` is the id of the stripe payment that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a stripe payment, send a `DELETE` request to the `/api/stripe_payments/:id` endpoint, where `id` is the id of the stripe payment that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/stripe_payments/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/stripe\_payments/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

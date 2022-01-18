@@ -4,23 +4,23 @@ description: How to create a stripe gateway via API
 
 # Create a stripe gateway
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new stripe gateway, send a `POST` request to the `/api/stripe_gateways` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new stripe gateway, send a `POST` request to the `/api/stripe_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/stripe_gateways</b>
+**POST** https://yourdomain.commercelayer.io**/api/stripe\_gateways**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| attributes.**login** | `string` | Required |
-| attributes.**publishable_key** | `string` | Optional |
+| Body Parameter                   | Type     | Required |
+| -------------------------------- | -------- | -------- |
+| **type**                         | `string` | Required |
+| attributes.**name**              | `string` | Required |
+| attributes.**reference**         | `string` | Optional |
+| attributes.**reference\_origin** | `string` | Optional |
+| attributes.**metadata**          | `object` | Optional |
+| attributes.**login**             | `string` | Required |
+| attributes.**publishable\_key**  | `string` | Optional |
 
 ### Example
 
@@ -92,4 +92,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

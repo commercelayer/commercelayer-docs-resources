@@ -4,11 +4,11 @@ description: How to fetch a collection of tax categories via API
 
 # List all tax categories
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of tax categories, send a `GET` request to the `/api/tax_categories` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of tax categories, send a `GET` request to the `/api/tax_categories` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/tax_categories</b>
+**GET** https://yourdomain.commercelayer.io**/api/tax\_categories**
 
 ### **Example**
 
@@ -89,11 +89,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of tax categories can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of tax categories can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `code`
 * `id`
@@ -101,4 +101,3 @@ The list of tax categories can be <a href="https://docs.commercelayer.io/develop
 * `updated_at`
 * `reference`
 * `reference_origin`
-

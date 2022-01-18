@@ -4,11 +4,11 @@ description: How to delete an existing adyen gateway via API
 
 # Delete an adyen gateway
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an adyen gateway, send a `DELETE` request to the `/api/adyen_gateways/:id` endpoint, where `id` is the id of the adyen gateway that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an adyen gateway, send a `DELETE` request to the `/api/adyen_gateways/:id` endpoint, where `id` is the id of the adyen gateway that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/adyen_gateways/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/adyen\_gateways/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

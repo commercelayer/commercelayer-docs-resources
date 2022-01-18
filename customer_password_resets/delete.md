@@ -4,11 +4,11 @@ description: How to delete an existing customer password reset via API
 
 # Delete a customer password reset
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a customer password reset, send a `DELETE` request to the `/api/customer_password_resets/:id` endpoint, where `id` is the id of the customer password reset that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a customer password reset, send a `DELETE` request to the `/api/customer_password_resets/:id` endpoint, where `id` is the id of the customer password reset that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/customer_password_resets/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/customer\_password\_resets/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

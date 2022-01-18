@@ -4,11 +4,11 @@ description: How to delete an existing price via API
 
 # Delete a price
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a price, send a `DELETE` request to the `/api/prices/:id` endpoint, where `id` is the id of the price that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a price, send a `DELETE` request to the `/api/prices/:id` endpoint, where `id` is the id of the price that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/prices/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/prices/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

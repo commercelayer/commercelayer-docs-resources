@@ -4,11 +4,11 @@ description: How to delete an existing external promotion via API
 
 # Delete an external promotion
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an external promotion, send a `DELETE` request to the `/api/external_promotions/:id` endpoint, where `id` is the id of the external promotion that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an external promotion, send a `DELETE` request to the `/api/external_promotions/:id` endpoint, where `id` is the id of the external promotion that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/external_promotions/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/external\_promotions/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

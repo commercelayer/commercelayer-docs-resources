@@ -4,25 +4,25 @@ description: How to create a line item option via API
 
 # Create a line item option
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new line item option, send a `POST` request to the `/api/line_item_options` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new line item option, send a `POST` request to the `/api/line_item_options` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/line_item_options</b>
+**POST** https://yourdomain.commercelayer.io**/api/line\_item\_options**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Optional |
-| attributes.**quantity** | `integer` | Required |
-| attributes.**options** | `object` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**line_item** | `object` | Required |
-| relationships.**sku_option** | `object` | Required |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| attributes.**name**              | `string`  | Optional |
+| attributes.**quantity**          | `integer` | Required |
+| attributes.**options**           | `object`  | Required |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
+| relationships.**line\_item**     | `object`  | Required |
+| relationships.**sku\_option**    | `object`  | Required |
 
 ### Example
 
@@ -120,4 +120,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

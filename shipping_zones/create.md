@@ -4,27 +4,27 @@ description: How to create a shipping zone via API
 
 # Create a shipping zone
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new shipping zone, send a `POST` request to the `/api/shipping_zones` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new shipping zone, send a `POST` request to the `/api/shipping_zones` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/shipping_zones</b>
+**POST** https://yourdomain.commercelayer.io**/api/shipping\_zones**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**country_code_regex** | `string` | Optional |
-| attributes.**not_country_code_regex** | `string` | Optional |
-| attributes.**state_code_regex** | `string` | Optional |
-| attributes.**not_state_code_regex** | `string` | Optional |
-| attributes.**zip_code_regex** | `string` | Optional |
-| attributes.**not_zip_code_regex** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
+| Body Parameter                           | Type     | Required |
+| ---------------------------------------- | -------- | -------- |
+| **type**                                 | `string` | Required |
+| attributes.**name**                      | `string` | Required |
+| attributes.**country\_code\_regex**      | `string` | Optional |
+| attributes.**not\_country\_code\_regex** | `string` | Optional |
+| attributes.**state\_code\_regex**        | `string` | Optional |
+| attributes.**not\_state\_code\_regex**   | `string` | Optional |
+| attributes.**zip\_code\_regex**          | `string` | Optional |
+| attributes.**not\_zip\_code\_regex**     | `string` | Optional |
+| attributes.**reference**                 | `string` | Optional |
+| attributes.**reference\_origin**         | `string` | Optional |
+| attributes.**metadata**                  | `object` | Optional |
 
 ### Example
 
@@ -92,4 +92,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,11 +4,11 @@ description: How to delete an existing price list via API
 
 # Delete a price list
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a price list, send a `DELETE` request to the `/api/price_lists/:id` endpoint, where `id` is the id of the price list that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) a price list, send a `DELETE` request to the `/api/price_lists/:id` endpoint, where `id` is the id of the price list that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/price_lists/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/price\_lists/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

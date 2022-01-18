@@ -4,25 +4,25 @@ description: How to create a SKU list item via API
 
 # Create a SKU list item
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new SKU list item, send a `POST` request to the `/api/sku_list_items` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new SKU list item, send a `POST` request to the `/api/sku_list_items` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/sku_list_items</b>
+**POST** https://yourdomain.commercelayer.io**/api/sku\_list\_items**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**position** | `integer` | Optional |
-| attributes.**sku_code** | `string` | Optional |
-| attributes.**quantity** | `integer` | Optional, default to '1' |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**sku_list** | `object` | Required |
-| relationships.**sku** | `object` | Required |
+| Body Parameter                   | Type      | Required                 |
+| -------------------------------- | --------- | ------------------------ |
+| **type**                         | `string`  | Required                 |
+| attributes.**position**          | `integer` | Optional                 |
+| attributes.**sku\_code**         | `string`  | Optional                 |
+| attributes.**quantity**          | `integer` | Optional, default to '1' |
+| attributes.**reference**         | `string`  | Optional                 |
+| attributes.**reference\_origin** | `string`  | Optional                 |
+| attributes.**metadata**          | `object`  | Optional                 |
+| relationships.**sku\_list**      | `object`  | Required                 |
+| relationships.**sku**            | `object`  | Required                 |
 
 ### Example
 
@@ -103,4 +103,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

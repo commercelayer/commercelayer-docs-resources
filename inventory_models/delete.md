@@ -4,11 +4,11 @@ description: How to delete an existing inventory model via API
 
 # Delete an inventory model
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an inventory model, send a `DELETE` request to the `/api/inventory_models/:id` endpoint, where `id` is the id of the inventory model that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an inventory model, send a `DELETE` request to the `/api/inventory_models/:id` endpoint, where `id` is the id of the inventory model that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/inventory_models/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/inventory\_models/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

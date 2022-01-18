@@ -4,11 +4,11 @@ description: How to fetch the application via API
 
 # Retrieve the application
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> the application, send a `GET` request to the `/api/application` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) the application, send a `GET` request to the `/api/application` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/application</b>
+**GET** https://yourdomain.commercelayer.io**/api/application**
 
 ### **Example**
 
@@ -56,4 +56,3 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,24 +4,24 @@ description: How to create a gift card recipient via API
 
 # Create a gift card recipient
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new gift card recipient, send a `POST` request to the `/api/gift_card_recipients` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new gift card recipient, send a `POST` request to the `/api/gift_card_recipients` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/gift_card_recipients</b>
+**POST** https://yourdomain.commercelayer.io**/api/gift\_card\_recipients**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**email** | `string` | Required |
-| attributes.**first_name** | `string` | Optional |
-| attributes.**last_name** | `string` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**customer** | `object` | Optional |
+| Body Parameter                   | Type     | Required |
+| -------------------------------- | -------- | -------- |
+| **type**                         | `string` | Required |
+| attributes.**email**             | `string` | Required |
+| attributes.**first\_name**       | `string` | Optional |
+| attributes.**last\_name**        | `string` | Optional |
+| attributes.**reference**         | `string` | Optional |
+| attributes.**reference\_origin** | `string` | Optional |
+| attributes.**metadata**          | `object` | Optional |
+| relationships.**customer**       | `object` | Optional |
 
 ### Example
 
@@ -91,4 +91,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

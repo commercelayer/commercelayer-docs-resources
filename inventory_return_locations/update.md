@@ -4,26 +4,26 @@ description: How to update an existing inventory return location via API
 
 # Update an inventory return location
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing inventory return location, send a `PATCH` request to the `/api/inventory_return_locations/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing inventory return location, send a `PATCH` request to the `/api/inventory_return_locations/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/inventory_return_locations/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/inventory\_return\_locations/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**priority** | `integer` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**stock_location** | `object` | Optional |
-| relationships.**inventory_model** | `object` | Optional |
+| Body Parameter                     | Type      | Required |
+| ---------------------------------- | --------- | -------- |
+| **type**                           | `string`  | Required |
+| **id**                             | `string`  | Required |
+| attributes.**priority**            | `integer` | Optional |
+| attributes.**reference**           | `string`  | Optional |
+| attributes.**reference\_origin**   | `string`  | Optional |
+| attributes.**metadata**            | `object`  | Optional |
+| relationships.**stock\_location**  | `object`  | Optional |
+| relationships.**inventory\_model** | `object`  | Optional |
 
 ### Example
 
@@ -92,4 +92,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

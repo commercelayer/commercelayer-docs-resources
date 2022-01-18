@@ -4,27 +4,27 @@ description: How to update an existing stock location via API
 
 # Update a stock location
 
-To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing stock location, send a `PATCH` request to the `/api/stock_locations/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To [update](https://docs.commercelayer.io/developers/updating-resources) an existing stock location, send a `PATCH` request to the `/api/stock_locations/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io<b>/api/stock_locations/:id</b>
+**PATCH** https://yourdomain.commercelayer.io**/api/stock\_locations/:id**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| **id**         | `string` | Required |
-| attributes.**name** | `string` | Optional |
-| attributes.**label_format** | `string` | Optional |
-| attributes.**suppress_etd** | `boolean` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**address** | `object` | Optional |
+| Body Parameter                   | Type      | Required |
+| -------------------------------- | --------- | -------- |
+| **type**                         | `string`  | Required |
+| **id**                           | `string`  | Required |
+| attributes.**name**              | `string`  | Optional |
+| attributes.**label\_format**     | `string`  | Optional |
+| attributes.**suppress\_etd**     | `boolean` | Optional |
+| attributes.**reference**         | `string`  | Optional |
+| attributes.**reference\_origin** | `string`  | Optional |
+| attributes.**metadata**          | `object`  | Optional |
+| relationships.**address**        | `object`  | Optional |
 
 ### Example
 
@@ -120,4 +120,3 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -4,24 +4,24 @@ description: How to create a delivery lead time via API
 
 # Create a delivery lead time
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new delivery lead time, send a `POST` request to the `/api/delivery_lead_times` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new delivery lead time, send a `POST` request to the `/api/delivery_lead_times` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/delivery_lead_times</b>
+**POST** https://yourdomain.commercelayer.io**/api/delivery\_lead\_times**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**min_hours** | `integer` | Required |
-| attributes.**max_hours** | `integer` | Required |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**stock_location** | `object` | Required |
-| relationships.**shipping_method** | `object` | Required |
+| Body Parameter                     | Type      | Required |
+| ---------------------------------- | --------- | -------- |
+| **type**                           | `string`  | Required |
+| attributes.**min\_hours**          | `integer` | Required |
+| attributes.**max\_hours**          | `integer` | Required |
+| attributes.**reference**           | `string`  | Optional |
+| attributes.**reference\_origin**   | `string`  | Optional |
+| attributes.**metadata**            | `object`  | Optional |
+| relationships.**stock\_location**  | `object`  | Required |
+| relationships.**shipping\_method** | `object`  | Required |
 
 ### Example
 
@@ -113,4 +113,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-

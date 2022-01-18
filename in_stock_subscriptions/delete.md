@@ -4,11 +4,11 @@ description: How to delete an existing in stock subscription via API
 
 # Delete an in stock subscription
 
-To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an in stock subscription, send a `DELETE` request to the `/api/in_stock_subscriptions/:id` endpoint, where `id` is the id of the in stock subscription that you want to delete.
+To [delete](https://docs.commercelayer.io/developers/deleting-resources) an in stock subscription, send a `DELETE` request to the `/api/in_stock_subscriptions/:id` endpoint, where `id` is the id of the in stock subscription that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io<b>/api/in_stock_subscriptions/:id</b>
+**DELETE** https://yourdomain.commercelayer.io**/api/in\_stock\_subscriptions/:id**
 
 ### Example
 
@@ -28,4 +28,3 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
-

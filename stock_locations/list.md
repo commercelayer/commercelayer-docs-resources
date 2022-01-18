@@ -4,11 +4,11 @@ description: How to fetch a collection of stock locations via API
 
 # List all stock locations
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of stock locations, send a `GET` request to the `/api/stock_locations` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of stock locations, send a `GET` request to the `/api/stock_locations` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/stock_locations</b>
+**GET** https://yourdomain.commercelayer.io**/api/stock\_locations**
 
 ### **Example**
 
@@ -109,15 +109,14 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of stock locations can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of stock locations can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `id`
 * `created_at`
 * `updated_at`
 * `reference`
 * `reference_origin`
-

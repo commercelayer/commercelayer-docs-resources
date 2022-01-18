@@ -4,11 +4,11 @@ description: How to fetch a collection of coupon codes promotion rules via API
 
 # List all coupon codes promotion rules
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of coupon codes promotion rules, send a `GET` request to the `/api/coupon_codes_promotion_rules` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of coupon codes promotion rules, send a `GET` request to the `/api/coupon_codes_promotion_rules` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/coupon_codes_promotion_rules</b>
+**GET** https://yourdomain.commercelayer.io**/api/coupon\_codes\_promotion\_rules**
 
 ### **Example**
 
@@ -81,15 +81,14 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of coupon codes promotion rules can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of coupon codes promotion rules can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `id`
 * `created_at`
 * `updated_at`
 * `reference`
 * `reference_origin`
-

@@ -4,11 +4,11 @@ description: How to fetch a collection of prices via API
 
 # List all prices
 
-To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of prices, send a `GET` request to the `/api/prices` endpoint.
+To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of prices, send a `GET` request to the `/api/prices` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io<b>/api/prices</b>
+**GET** https://yourdomain.commercelayer.io**/api/prices**
 
 ### **Example**
 
@@ -95,11 +95,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
+Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
 
 ### Sortable attributes
 
-The list of prices can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
+The list of prices can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
 
 * `amount_cents`
 * `compare_at_amount_cents`
@@ -108,4 +108,3 @@ The list of prices can be <a href="https://docs.commercelayer.io/developers/sort
 * `updated_at`
 * `reference`
 * `reference_origin`
-

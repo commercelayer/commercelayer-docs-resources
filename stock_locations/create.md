@@ -4,24 +4,24 @@ description: How to create a stock location via API
 
 # Create a stock location
 
-To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new stock location, send a `POST` request to the `/api/stock_locations` endpoint, passing the resource arguments in the request body.
+To [create](https://docs.commercelayer.io/developers/creating-resources) a new stock location, send a `POST` request to the `/api/stock_locations` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io<b>/api/stock_locations</b>
+**POST** https://yourdomain.commercelayer.io**/api/stock\_locations**
 
 ### Arguments
 
-| Body Parameter | Type     | Required |
-| -------------- | -------- | -------- |
-| **type**       | `string` | Required |
-| attributes.**name** | `string` | Required |
-| attributes.**label_format** | `string` | Optional, default is 'pdf' |
-| attributes.**suppress_etd** | `boolean` | Optional |
-| attributes.**reference** | `string` | Optional |
-| attributes.**reference_origin** | `string` | Optional |
-| attributes.**metadata** | `object` | Optional |
-| relationships.**address** | `object` | Required |
+| Body Parameter                   | Type      | Required                   |
+| -------------------------------- | --------- | -------------------------- |
+| **type**                         | `string`  | Required                   |
+| attributes.**name**              | `string`  | Required                   |
+| attributes.**label\_format**     | `string`  | Optional, default is 'pdf' |
+| attributes.**suppress\_etd**     | `boolean` | Optional                   |
+| attributes.**reference**         | `string`  | Optional                   |
+| attributes.**reference\_origin** | `string`  | Optional                   |
+| attributes.**metadata**          | `object`  | Optional                   |
+| relationships.**address**        | `object`  | Required                   |
 
 ### Example
 
@@ -124,4 +124,3 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
-
