@@ -8,7 +8,7 @@ description: >-
 
 Commerce Layer integrates with **100+ shipping carriers** via [Easypost](https://www.easypost.com/carriers).
 
-You can set up a carrier account from the admin UI. All you need to do is choose the market you want the carrier account to be associated with, select the carrier type, and provide all the credentials requested by the selected shipping service.
+You can set up a carrier account from the admin UI. All you need to do is select the carrier type and provide all the credentials requested by the selected shipping service.
 
 Configuring a carrier account for a market is optional and enables you to purchase and print shipping labels in one click and provide real-time tracking updates to your customers. You can connect more carriers to the same market to get more rate options and choose the best one for each shipment.
 
