@@ -11,3 +11,7 @@ Commerce Layer provides a promotional engine built on top of two main resources:
 At the moment [fixed amount](https://docs.commercelayer.io/api/resources/fixed\_amount\_promotions), [free shipping](https://docs.commercelayer.io/api/resources/free\_shipping\_promotions), and [percentage discount](https://docs.commercelayer.io/api/resources/percentage\_discount\_promotions) are available (more to come). For any other cases, evaluate the option to leverage [external promotions](https://docs.commercelayer.io/api/resources/external\_promotions).
 
 The number of promotions that can be activated for a single market is subject to limitations: only **a maximum of 10 active promotions per market** is allowed, regardless of their type.
+
+{% hint style="info" %}
+This is an **immutable API**, meaning that create, update, and delete operations are not allowed on this endpoint. You can only fetch a list of promotions or a specific single one.
+{% endhint %}
