@@ -13,6 +13,7 @@ The currently supported gateways are:
 * [Adyen](../adyen\_gateways/)
 * [Braintree](../braintree\_gateways/)
 * [Checkout.com](../checkout\_com\_gateways/)
+* [Klarna](../klarna-gateways/)
 * [PayPal](../paypal\_gateways/)
 * [Stripe](../stripe\_gateways/)
 
