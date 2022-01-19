@@ -12,6 +12,6 @@ description: >-
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/parcels-and-packages) and explore the flowchart that illustrates how the parcel resource relates with the other API entities.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/parcels-and-packages) and explore the flowchart that illustrates how the parcel resource relates to the other API entities.
 
 </details>

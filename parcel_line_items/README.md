@@ -15,6 +15,6 @@ Parcel line items track the SKUs in the related [parcel](../parcels/).&#x20;
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/parcels-and-packages) and explore the flowchart that illustrates how the parcel line item resource relates with the other API entities.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/parcels-and-packages) and explore the flowchart that illustrates how the parcel line item resource relates to the other API entities.
 
 </details>

@@ -14,7 +14,7 @@ You can set up a geocoder from the admin UI. All you need to do is choose a mean
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/geocoders) and explore the flowchart that illustrates how the geocoder resource relates with the other API entities.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/geocoders) and explore the flowchart that illustrates how the geocoder resource relates to the other API entities.
 
 </details>
 

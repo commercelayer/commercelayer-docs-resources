@@ -16,7 +16,7 @@ Configuring a carrier account for a market is optional and enables you to purcha
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipping-carriers) and explore the flowchart that illustrates how the carrier account resource relates with the other API entities.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipping-carriers) and explore the flowchart that illustrates how the carrier account resource relates to the other API entities.
 
 </details>
 

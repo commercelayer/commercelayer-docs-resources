@@ -6,4 +6,8 @@ description: >-
 
 # Free shipping promotions
 
-Commerce Layer provides a promotional engine built on top of two main resources: [promotions](https://docs.commercelayer.io/api/resources/promotions) and [promotion rules](https://docs.commercelayer.io/api/resources/promotion\_rules). Free shipping promotions can be defined by market and — when triggered — are responsible for setting to zero the shipping amount of the market orders. Within the time window given by their activation and expiration dates, free shipping promotions that have not reached their total usage limit are considered active. If no promotion rule is associated with an active free shipping promotion, the related discount is applied to all the orders of the market in scope. Otherwise, if one or more promotion rules are defined, the promotion is triggered only when it matches all of them.
+Commerce Layer provides a promotional engine built on top of two main resources: [promotions](https://docs.commercelayer.io/api/resources/promotions) and [promotion rules](https://docs.commercelayer.io/api/resources/promotion\_rules).
+
+When triggered, free shipping promotions are responsible for setting to zero the shipping amount of the orders involved.
+
+Within the time window given by their activation and expiration dates, free shipping promotions that have not reached their total usage limit are considered active. If no promotion rule is associated with an active free shipping promotion, the related discount is applied to all the orders in the specified currency (or to all the orders of the market in scope, if the promotion is restricted to a specific market). Otherwise, if one or more promotion rules are defined, the promotion is triggered only when it matches all of them.

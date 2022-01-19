@@ -15,7 +15,7 @@ Stock line items track the SKUs in an order's shipment.
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipments-and-shipping-categories) and explore the flowchart that illustrates how the stock line item resource relates with the other API entities.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipments-and-shipping-categories) and explore the flowchart that illustrates how the stock line item resource relates to the other API entities.
 
 </details>
 

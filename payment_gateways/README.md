@@ -13,7 +13,7 @@ The currently supported gateways are:
 * [Adyen](../adyen\_gateways/)
 * [Braintree](../braintree\_gateways/)
 * [Checkout.com](../checkout\_com\_gateways/)
-* [Klarna](../klarna-gateways/)
+* [Klarna](../klarna\_gateways/)
 * [PayPal](../paypal\_gateways/)
 * [Stripe](../stripe\_gateways/)
 
@@ -30,7 +30,7 @@ Configuring a payment gateway for a market lets you safely process payments thro
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/payment-gateways) and explore the flowchart that illustrates how the payment gateway resource relates with the other API entities.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/payment-gateways) and explore the flowchart that illustrates how the payment gateway resource relates to the other API entities.
 
 </details>
 

@@ -14,7 +14,7 @@ Fetching a void returns all the information and messages provided by the [paymen
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the void resource relates with the order and the transaction APIs.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the void resource relates to the order and the transaction APIs.
 
 </details>
 

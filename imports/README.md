@@ -12,4 +12,10 @@ After creating an import, you can poll the resource until the import is complete
 
 When you import a list of resources, you can choose to delete any record that is not included in the list, by setting the `cleanup_records` variable to `true`. In that case, after the import is complete, you also get the number of destroyed records through the `destroyed_count` attribute.
 
-For the complete list of importable resources and any further information about the import process (e.g. import limits, unique key, examples) please check the [related guide](https://docs.commercelayer.io/developers/importing-resources).
+<details>
+
+<summary>How-to</summary>
+
+Check the related [guide](https://docs.commercelayer.io/developers/external-resources/external-payment-gateways) for the complete list of importable resources and any further information about the import process (e.g. import limits, unique key, examples).
+
+</details>

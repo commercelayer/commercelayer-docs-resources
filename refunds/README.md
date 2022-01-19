@@ -17,7 +17,7 @@ Fetching a refund returns all the information and messages provided by the [paym
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the refund resource relates with the order and the other transaction APIs.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the refund resource relates to the order and the other transaction APIs.
 
 </details>
 

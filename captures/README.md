@@ -14,6 +14,6 @@ Fetching a capture returns all the information and messages provided by the [pay
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the capture resource relates with the order and the other transaction APIs.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the capture resource relates to the order and the other transaction APIs.
 
 </details>

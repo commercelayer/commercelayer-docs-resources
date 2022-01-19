@@ -14,6 +14,6 @@ Fetching an authorization returns all the information and messages provided by t
 
 <summary>Data model</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the authorization resource relates with the order and the transaction APIs.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/orders-management) and explore the flowchart that illustrates how the authorization resource relates to the order and the other transaction APIs.
 
 </details>
