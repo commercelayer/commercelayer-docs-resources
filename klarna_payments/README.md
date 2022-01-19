@@ -6,4 +6,4 @@ description: >-
 
 # Klarna payments
 
-Klarna payments are a type of payment source that lets you process payments through Klarna — [https://www.klarna.com/](https://www.klarna.com)
+Klarna payments are a type of payment source that lets you process payments through [Klarna gateways](../klarna\_gateways/).
