@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the SKU list promotion rule resource's attributes and relationships.
+description: A comprehensive list of the SKU list promotion rule resource's attributes and relationships
 ---
 
 # The SKU list promotion rule object

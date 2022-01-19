@@ -4,30 +4,30 @@ description: How to update an existing in stock subscription via API
 
 # Update an in stock subscription
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing in stock subscription, send a `PATCH` request to the `/api/in_stock_subscriptions/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing in stock subscription, send a `PATCH` request to the `/api/in_stock_subscriptions/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/in\_stock\_subscriptions/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/in_stock_subscriptions/:id</b>
 
 ### Arguments
 
-| Body Parameter                   | Type                       | Required |
-| -------------------------------- | -------------------------- | -------- |
-| **type**                         | `string`                   | Required |
-| **id**                           | `string`                   | Required |
-| attributes.**sku\_code**         | `string`                   | Optional |
-| attributes.**stock\_threshold**  | `integer`                  | Optional |
-| attributes.**\_activate**        | `boolean, value is 'true'` | Optional |
-| attributes.**\_deactivate**      | `boolean, value is 'true'` | Optional |
-| attributes.**reference**         | `string`                   | Optional |
-| attributes.**reference\_origin** | `string`                   | Optional |
-| attributes.**metadata**          | `object`                   | Optional |
-| relationships.**market**         | `object`                   | Optional |
-| relationships.**customer**       | `object`                   | Optional |
-| relationships.**sku**            | `object`                   | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**sku_code** | `string` | Optional |
+| attributes.**stock_threshold** | `integer` | Optional |
+| attributes.**_activate** | `boolean, value is 'true'` | Optional |
+| attributes.**_deactivate** | `boolean, value is 'true'` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**market** | `object` | Optional |
+| relationships.**customer** | `object` | Optional |
+| relationships.**sku** | `object` | Optional |
 
 ### Example
 
@@ -105,3 +105,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

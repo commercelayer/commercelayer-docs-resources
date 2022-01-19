@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the tax calculator resource's attributes and relationships.
+description: A comprehensive list of the tax calculator resource's attributes and relationships
 ---
 
 # The tax calculator object

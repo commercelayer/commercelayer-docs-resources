@@ -4,31 +4,31 @@ description: How to create a line item via API
 
 # Create a line item
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new line item, send a `POST` request to the `/api/line_items` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new line item, send a `POST` request to the `/api/line_items` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/line\_items**
+**POST** https://yourdomain.commercelayer.io<b>/api/line_items</b>
 
 ### Arguments
 
-| Body Parameter                     | Type                        | Required |
-| ---------------------------------- | --------------------------- | -------- |
-| **type**                           | `string`                    | Required |
-| attributes.**sku\_code**           | `string`                    | Optional |
-| attributes.**bundle\_code**        | `string`                    | Optional |
-| attributes.**quantity**            | `integer`                   | Required |
-| attributes.**\_external\_price**   | `boolean, value is 'false'` | Optional |
-| attributes.**\_update\_quantity**  | `boolean, value is 'true'`  | Optional |
-| attributes.**unit\_amount\_cents** | `integer`                   | Optional |
-| attributes.**name**                | `string`                    | Optional |
-| attributes.**image\_url**          | `string`                    | Optional |
-| attributes.**item\_type**          | `string`                    | Optional |
-| attributes.**reference**           | `string`                    | Optional |
-| attributes.**reference\_origin**   | `string`                    | Optional |
-| attributes.**metadata**            | `object`                    | Optional |
-| relationships.**order**            | `object`                    | Required |
-| relationships.**item**             | `object`                    | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**sku_code** | `string` | Optional |
+| attributes.**bundle_code** | `string` | Optional |
+| attributes.**quantity** | `integer` | Required |
+| attributes.**_external_price** | `boolean, value is 'false'` | Optional |
+| attributes.**_update_quantity** | `boolean, value is 'true'` | Optional |
+| attributes.**unit_amount_cents** | `integer` | Optional |
+| attributes.**name** | `string` | Optional |
+| attributes.**image_url** | `string` | Optional |
+| attributes.**item_type** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**order** | `object` | Required |
+| relationships.**item** | `object` | Optional |
 
 ### Example
 
@@ -174,3 +174,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the fixed price promotion resource's attributes and relationships.
+description: A comprehensive list of the fixed price promotion resource's attributes and relationships
 ---
 
 # The fixed price promotion object

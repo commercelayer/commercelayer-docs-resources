@@ -4,24 +4,24 @@ description: How to create an inventory stock location via API
 
 # Create an inventory stock location
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new inventory stock location, send a `POST` request to the `/api/inventory_stock_locations` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new inventory stock location, send a `POST` request to the `/api/inventory_stock_locations` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/inventory\_stock\_locations**
+**POST** https://yourdomain.commercelayer.io<b>/api/inventory_stock_locations</b>
 
 ### Arguments
 
-| Body Parameter                     | Type      | Required |
-| ---------------------------------- | --------- | -------- |
-| **type**                           | `string`  | Required |
-| attributes.**priority**            | `integer` | Required |
-| attributes.**on\_hold**            | `boolean` | Optional |
-| attributes.**reference**           | `string`  | Optional |
-| attributes.**reference\_origin**   | `string`  | Optional |
-| attributes.**metadata**            | `object`  | Optional |
-| relationships.**stock\_location**  | `object`  | Required |
-| relationships.**inventory\_model** | `object`  | Required |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**priority** | `integer` | Required |
+| attributes.**on_hold** | `boolean` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**stock_location** | `object` | Required |
+| relationships.**inventory_model** | `object` | Required |
 
 ### Example
 
@@ -104,3 +104,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

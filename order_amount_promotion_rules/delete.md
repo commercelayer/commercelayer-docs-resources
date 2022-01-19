@@ -4,11 +4,11 @@ description: How to delete an existing order amount promotion rule via API
 
 # Delete an order amount promotion rule
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) an order amount promotion rule, send a `DELETE` request to the `/api/order_amount_promotion_rules/:id` endpoint, where `id` is the id of the order amount promotion rule that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an order amount promotion rule, send a `DELETE` request to the `/api/order_amount_promotion_rules/:id` endpoint, where `id` is the id of the order amount promotion rule that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/order\_amount\_promotion\_rules/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/order_amount_promotion_rules/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

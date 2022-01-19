@@ -4,11 +4,11 @@ description: How to fetch a specific customer subscription via API
 
 # Retrieve a customer subscription
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single customer subscription, send a `GET` request to the `/api/customer_subscriptions/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single customer subscription, send a `GET` request to the `/api/customer_subscriptions/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/customer\_subscriptions/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/customer_subscriptions/:id</b>
 
 ### **Example**
 
@@ -61,3 +61,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

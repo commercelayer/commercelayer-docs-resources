@@ -4,11 +4,11 @@ description: How to fetch a collection of return line items via API
 
 # List all return line items
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of return line items, send a `GET` request to the `/api/return_line_items` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of return line items, send a `GET` request to the `/api/return_line_items` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/return\_line\_items**
+**GET** https://yourdomain.commercelayer.io<b>/api/return_line_items</b>
 
 ### **Example**
 
@@ -89,11 +89,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of return line items can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of return line items can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `quantity`
 * `restocked_at`
@@ -102,3 +102,4 @@ The list of return line items can be [sorted](https://docs.commercelayer.io/deve
 * `updated_at`
 * `reference`
 * `reference_origin`
+

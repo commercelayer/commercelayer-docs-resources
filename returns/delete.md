@@ -4,11 +4,11 @@ description: How to delete an existing return via API
 
 # Delete a return
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a return, send a `DELETE` request to the `/api/returns/:id` endpoint, where `id` is the id of the return that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a return, send a `DELETE` request to the `/api/returns/:id` endpoint, where `id` is the id of the return that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/returns/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/returns/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

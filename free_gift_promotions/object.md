@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the free gift promotion resource's attributes and relationships.
+description: A comprehensive list of the free gift promotion resource's attributes and relationships
 ---
 
 # The free gift promotion object

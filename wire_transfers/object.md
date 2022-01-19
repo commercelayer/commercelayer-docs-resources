@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the wire transfer resource's attributes and relationships.
+description: A comprehensive list of the wire transfer resource's attributes and relationships
 ---
 
 # The wire transfer object

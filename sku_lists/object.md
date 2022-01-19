@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the SKU list resource's attributes and relationships.
+description: A comprehensive list of the SKU list resource's attributes and relationships
 ---
 
 # The SKU list object

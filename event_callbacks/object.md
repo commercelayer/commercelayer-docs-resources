@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the event callback resource's attributes and relationships.
+description: A comprehensive list of the event callback resource's attributes and relationships
 ---
 
 # The event callback object

@@ -4,11 +4,11 @@ description: How to fetch a collection of delivery lead times via API
 
 # List all delivery lead times
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of delivery lead times, send a `GET` request to the `/api/delivery_lead_times` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of delivery lead times, send a `GET` request to the `/api/delivery_lead_times` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/delivery\_lead\_times**
+**GET** https://yourdomain.commercelayer.io<b>/api/delivery_lead_times</b>
 
 ### **Example**
 
@@ -91,11 +91,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of delivery lead times can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of delivery lead times can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `min_hours`
 * `max_hours`
@@ -104,3 +104,4 @@ The list of delivery lead times can be [sorted](https://docs.commercelayer.io/de
 * `updated_at`
 * `reference`
 * `reference_origin`
+

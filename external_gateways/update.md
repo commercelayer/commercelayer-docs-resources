@@ -4,29 +4,29 @@ description: How to update an existing external gateway via API
 
 # Update an external gateway
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing external gateway, send a `PATCH` request to the `/api/external_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing external gateway, send a `PATCH` request to the `/api/external_gateways/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/external\_gateways/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/external_gateways/:id</b>
 
 ### Arguments
 
-| Body Parameter                   | Type     | Required |
-| -------------------------------- | -------- | -------- |
-| **type**                         | `string` | Required |
-| **id**                           | `string` | Required |
-| attributes.**name**              | `string` | Optional |
-| attributes.**reference**         | `string` | Optional |
-| attributes.**reference\_origin** | `string` | Optional |
-| attributes.**metadata**          | `object` | Optional |
-| attributes.**authorize\_url**    | `string` | Optional |
-| attributes.**capture\_url**      | `string` | Optional |
-| attributes.**void\_url**         | `string` | Optional |
-| attributes.**refund\_url**       | `string` | Optional |
-| attributes.**token\_url**        | `string` | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**name** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**authorize_url** | `string` | Optional |
+| attributes.**capture_url** | `string` | Optional |
+| attributes.**void_url** | `string` | Optional |
+| attributes.**refund_url** | `string` | Optional |
+| attributes.**token_url** | `string` | Optional |
 
 ### Example
 
@@ -101,3 +101,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

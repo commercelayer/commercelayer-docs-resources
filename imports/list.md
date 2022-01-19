@@ -4,11 +4,11 @@ description: How to fetch a collection of imports via API
 
 # List all imports
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of imports, send a `GET` request to the `/api/imports` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of imports, send a `GET` request to the `/api/imports` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/imports**
+**GET** https://yourdomain.commercelayer.io<b>/api/imports</b>
 
 ### **Example**
 
@@ -103,11 +103,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of imports can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of imports can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `resource_type`
 * `parent_resource_id`
@@ -125,3 +125,4 @@ The list of imports can be [sorted](https://docs.commercelayer.io/developers/sor
 * `updated_at`
 * `reference`
 * `reference_origin`
+

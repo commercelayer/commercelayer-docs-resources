@@ -4,11 +4,11 @@ description: How to fetch the organization via API
 
 # Retrieve the organization
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) the organization, send a `GET` request to the `/api/organization` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> the organization, send a `GET` request to the `/api/organization` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/organization**
+**GET** https://yourdomain.commercelayer.io<b>/api/organization</b>
 
 ### **Example**
 
@@ -67,3 +67,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

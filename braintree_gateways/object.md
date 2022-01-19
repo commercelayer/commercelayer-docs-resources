@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the braintree gateway resource's attributes and relationships.
+description: A comprehensive list of the braintree gateway resource's attributes and relationships
 ---
 
 # The braintree gateway object

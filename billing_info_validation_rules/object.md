@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the billing info validation rule resource's attributes and relationships.
+description: A comprehensive list of the billing info validation rule resource's attributes and relationships
 ---
 
 # The billing info validation rule object

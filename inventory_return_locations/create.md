@@ -4,23 +4,23 @@ description: How to create an inventory return location via API
 
 # Create an inventory return location
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new inventory return location, send a `POST` request to the `/api/inventory_return_locations` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new inventory return location, send a `POST` request to the `/api/inventory_return_locations` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/inventory\_return\_locations**
+**POST** https://yourdomain.commercelayer.io<b>/api/inventory_return_locations</b>
 
 ### Arguments
 
-| Body Parameter                     | Type      | Required |
-| ---------------------------------- | --------- | -------- |
-| **type**                           | `string`  | Required |
-| attributes.**priority**            | `integer` | Required |
-| attributes.**reference**           | `string`  | Optional |
-| attributes.**reference\_origin**   | `string`  | Optional |
-| attributes.**metadata**            | `object`  | Optional |
-| relationships.**stock\_location**  | `object`  | Required |
-| relationships.**inventory\_model** | `object`  | Required |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**priority** | `integer` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**stock_location** | `object` | Required |
+| relationships.**inventory_model** | `object` | Required |
 
 ### Example
 
@@ -102,3 +102,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the adjustment resource's attributes and relationships.
+description: A comprehensive list of the adjustment resource's attributes and relationships
 ---
 
 # The adjustment object

@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the shipping category resource's attributes and relationships.
+description: A comprehensive list of the shipping category resource's attributes and relationships
 ---
 
 # The shipping category object

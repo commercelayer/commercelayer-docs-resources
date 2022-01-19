@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the tax rule resource's attributes and relationships.
+description: A comprehensive list of the tax rule resource's attributes and relationships
 ---
 
 # The tax rule object

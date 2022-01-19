@@ -4,11 +4,11 @@ description: How to delete an existing google geocoder via API
 
 # Delete a google geocoder
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a google geocoder, send a `DELETE` request to the `/api/google_geocoders/:id` endpoint, where `id` is the id of the google geocoder that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a google geocoder, send a `DELETE` request to the `/api/google_geocoders/:id` endpoint, where `id` is the id of the google geocoder that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/google\_geocoders/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/google_geocoders/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

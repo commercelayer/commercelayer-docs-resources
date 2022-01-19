@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the stripe payment resource's attributes and relationships.
+description: A comprehensive list of the stripe payment resource's attributes and relationships
 ---
 
 # The stripe payment object

@@ -4,11 +4,11 @@ description: How to fetch a specific order via API
 
 # Retrieve an order
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single order, send a `GET` request to the `/api/orders/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single order, send a `GET` request to the `/api/orders/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/orders/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/orders/:id</b>
 
 ### **Example**
 
@@ -261,3 +261,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

@@ -4,11 +4,11 @@ description: How to delete an existing shipping method via API
 
 # Delete a shipping method
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a shipping method, send a `DELETE` request to the `/api/shipping_methods/:id` endpoint, where `id` is the id of the shipping method that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a shipping method, send a `DELETE` request to the `/api/shipping_methods/:id` endpoint, where `id` is the id of the shipping method that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/shipping\_methods/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/shipping_methods/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

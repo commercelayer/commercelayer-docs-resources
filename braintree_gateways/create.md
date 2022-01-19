@@ -4,29 +4,29 @@ description: How to create a braintree gateway via API
 
 # Create a braintree gateway
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new braintree gateway, send a `POST` request to the `/api/braintree_gateways` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new braintree gateway, send a `POST` request to the `/api/braintree_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/braintree\_gateways**
+**POST** https://yourdomain.commercelayer.io<b>/api/braintree_gateways</b>
 
 ### Arguments
 
-| Body Parameter                        | Type     | Required |
-| ------------------------------------- | -------- | -------- |
-| **type**                              | `string` | Required |
-| attributes.**name**                   | `string` | Required |
-| attributes.**reference**              | `string` | Optional |
-| attributes.**reference\_origin**      | `string` | Optional |
-| attributes.**metadata**               | `object` | Optional |
-| attributes.**merchant\_account\_id**  | `string` | Required |
-| attributes.**merchant\_id**           | `string` | Required |
-| attributes.**public\_key**            | `string` | Required |
-| attributes.**private\_key**           | `string` | Required |
-| attributes.**descriptor\_name**       | `string` | Optional |
-| attributes.**descriptor\_phone**      | `string` | Optional |
-| attributes.**descriptor\_url**        | `string` | Optional |
-| relationships.**braintree\_payments** | `array`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**merchant_account_id** | `string` | Required |
+| attributes.**merchant_id** | `string` | Required |
+| attributes.**public_key** | `string` | Required |
+| attributes.**private_key** | `string` | Required |
+| attributes.**descriptor_name** | `string` | Optional |
+| attributes.**descriptor_phone** | `string` | Optional |
+| attributes.**descriptor_url** | `string` | Optional |
+| relationships.**braintree_payments** | `array` | Optional |
 
 ### Example
 
@@ -102,3 +102,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

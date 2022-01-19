@@ -4,32 +4,32 @@ description: How to update an existing market via API
 
 # Update a market
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing market, send a `PATCH` request to the `/api/markets/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing market, send a `PATCH` request to the `/api/markets/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/markets/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/markets/:id</b>
 
 ### Arguments
 
-| Body Parameter                       | Type     | Required |
-| ------------------------------------ | -------- | -------- |
-| **type**                             | `string` | Required |
-| **id**                               | `string` | Required |
-| attributes.**name**                  | `string` | Optional |
-| attributes.**facebook\_pixel\_id**   | `string` | Optional |
-| attributes.**checkout\_url**         | `string` | Optional |
-| attributes.**external\_prices\_url** | `string` | Optional |
-| attributes.**reference**             | `string` | Optional |
-| attributes.**reference\_origin**     | `string` | Optional |
-| attributes.**metadata**              | `object` | Optional |
-| relationships.**merchant**           | `object` | Optional |
-| relationships.**price\_list**        | `object` | Optional |
-| relationships.**inventory\_model**   | `object` | Optional |
-| relationships.**tax\_calculator**    | `object` | Optional |
-| relationships.**customer\_group**    | `object` | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**name** | `string` | Optional |
+| attributes.**facebook_pixel_id** | `string` | Optional |
+| attributes.**checkout_url** | `string` | Optional |
+| attributes.**external_prices_url** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**merchant** | `object` | Optional |
+| relationships.**price_list** | `object` | Optional |
+| relationships.**inventory_model** | `object` | Optional |
+| relationships.**tax_calculator** | `object` | Optional |
+| relationships.**customer_group** | `object` | Optional |
 
 ### Example
 
@@ -127,3 +127,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

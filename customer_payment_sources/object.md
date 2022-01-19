@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the customer payment source resource's attributes and relationships.
+description: A comprehensive list of the customer payment source resource's attributes and relationships
 ---
 
 # The customer payment source object

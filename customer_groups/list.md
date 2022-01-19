@@ -4,11 +4,11 @@ description: How to fetch a collection of customer groups via API
 
 # List all customer groups
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of customer groups, send a `GET` request to the `/api/customer_groups` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of customer groups, send a `GET` request to the `/api/customer_groups` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/customer\_groups**
+**GET** https://yourdomain.commercelayer.io<b>/api/customer_groups</b>
 
 ### **Example**
 
@@ -88,11 +88,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of customer groups can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of customer groups can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
 * `id`
@@ -100,3 +100,4 @@ The list of customer groups can be [sorted](https://docs.commercelayer.io/develo
 * `updated_at`
 * `reference`
 * `reference_origin`
+

@@ -4,27 +4,27 @@ description: How to create a shipping method via API
 
 # Create a shipping method
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new shipping method, send a `POST` request to the `/api/shipping_methods` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new shipping method, send a `POST` request to the `/api/shipping_methods` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/shipping\_methods**
+**POST** https://yourdomain.commercelayer.io<b>/api/shipping_methods</b>
 
 ### Arguments
 
-| Body Parameter                           | Type      | Required                             |
-| ---------------------------------------- | --------- | ------------------------------------ |
-| **type**                                 | `string`  | Required                             |
-| attributes.**name**                      | `string`  | Required                             |
-| attributes.**currency\_code**            | `string`  | Required, unless inherited by market |
-| attributes.**price\_amount\_cents**      | `integer` | Required                             |
-| attributes.**free\_over\_amount\_cents** | `integer` | Optional                             |
-| attributes.**reference**                 | `string`  | Optional                             |
-| attributes.**reference\_origin**         | `string`  | Optional                             |
-| attributes.**metadata**                  | `object`  | Optional                             |
-| relationships.**market**                 | `object`  | Optional                             |
-| relationships.**shipping\_zone**         | `object`  | Required                             |
-| relationships.**shipping\_category**     | `object`  | Required                             |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
+| attributes.**price_amount_cents** | `integer` | Required |
+| attributes.**free_over_amount_cents** | `integer` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**market** | `object` | Optional |
+| relationships.**shipping_zone** | `object` | Required |
+| relationships.**shipping_category** | `object` | Required |
 
 ### Example
 
@@ -137,3 +137,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

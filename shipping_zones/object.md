@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the shipping zone resource's attributes and relationships.
+description: A comprehensive list of the shipping zone resource's attributes and relationships
 ---
 
 # The shipping zone object

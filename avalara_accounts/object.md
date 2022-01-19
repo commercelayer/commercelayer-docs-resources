@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the avalara account resource's attributes and relationships.
+description: A comprehensive list of the avalara account resource's attributes and relationships
 ---
 
 # The avalara account object

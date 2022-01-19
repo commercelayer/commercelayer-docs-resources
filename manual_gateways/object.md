@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the manual gateway resource's attributes and relationships.
+description: A comprehensive list of the manual gateway resource's attributes and relationships
 ---
 
 # The manual gateway object

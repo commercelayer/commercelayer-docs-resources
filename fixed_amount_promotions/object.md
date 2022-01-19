@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the fixed amount promotion resource's attributes and relationships.
+description: A comprehensive list of the fixed amount promotion resource's attributes and relationships
 ---
 
 # The fixed amount promotion object

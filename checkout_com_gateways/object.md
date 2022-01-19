@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the checkout.com gateway resource's attributes and relationships.
+description: A comprehensive list of the checkout.com gateway resource's attributes and relationships
 ---
 
 # The checkout.com gateway object

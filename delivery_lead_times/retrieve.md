@@ -4,11 +4,11 @@ description: How to fetch a specific delivery lead time via API
 
 # Retrieve a delivery lead time
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single delivery lead time, send a `GET` request to the `/api/delivery_lead_times/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single delivery lead time, send a `GET` request to the `/api/delivery_lead_times/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/delivery\_lead\_times/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/delivery_lead_times/:id</b>
 
 ### **Example**
 
@@ -76,3 +76,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

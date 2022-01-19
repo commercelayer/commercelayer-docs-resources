@@ -4,11 +4,11 @@ description: How to delete an existing line item option via API
 
 # Delete a line item option
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a line item option, send a `DELETE` request to the `/api/line_item_options/:id` endpoint, where `id` is the id of the line item option that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a line item option, send a `DELETE` request to the `/api/line_item_options/:id` endpoint, where `id` is the id of the line item option that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/line\_item\_options/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/line_item_options/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

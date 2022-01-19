@@ -4,11 +4,11 @@ description: How to fetch a collection of klarna payments via API
 
 # List all klarna payments
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of klarna payments, send a `GET` request to the `/api/klarna_payments` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of klarna payments, send a `GET` request to the `/api/klarna_payments` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/klarna\_payments**
+**GET** https://yourdomain.commercelayer.io<b>/api/klarna_payments</b>
 
 ### **Example**
 
@@ -89,14 +89,15 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of klarna payments can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of klarna payments can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `id`
 * `created_at`
 * `updated_at`
 * `reference`
 * `reference_origin`
+

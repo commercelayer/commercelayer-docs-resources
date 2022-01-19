@@ -4,11 +4,11 @@ description: How to delete an existing order copy via API
 
 # Delete an order copy
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) an order copy, send a `DELETE` request to the `/api/order_copies/:id` endpoint, where `id` is the id of the order copy that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an order copy, send a `DELETE` request to the `/api/order_copies/:id` endpoint, where `id` is the id of the order copy that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/order\_copies/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/order_copies/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

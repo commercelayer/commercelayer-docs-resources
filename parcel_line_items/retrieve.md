@@ -4,11 +4,11 @@ description: How to fetch a specific parcel line item via API
 
 # Retrieve a parcel line item
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single parcel line item, send a `GET` request to the `/api/parcel_line_items/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single parcel line item, send a `GET` request to the `/api/parcel_line_items/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/parcel\_line\_items/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/parcel_line_items/:id</b>
 
 ### **Example**
 
@@ -74,3 +74,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

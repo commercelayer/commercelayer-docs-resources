@@ -4,21 +4,21 @@ description: How to create a billing info validation rule via API
 
 # Create a billing info validation rule
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new billing info validation rule, send a `POST` request to the `/api/billing_info_validation_rules` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new billing info validation rule, send a `POST` request to the `/api/billing_info_validation_rules` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/billing\_info\_validation\_rules**
+**POST** https://yourdomain.commercelayer.io<b>/api/billing_info_validation_rules</b>
 
 ### Arguments
 
-| Body Parameter                   | Type     | Required |
-| -------------------------------- | -------- | -------- |
-| **type**                         | `string` | Required |
-| attributes.**reference**         | `string` | Optional |
-| attributes.**reference\_origin** | `string` | Optional |
-| attributes.**metadata**          | `object` | Optional |
-| relationships.**market**         | `object` | Required |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**market** | `object` | Required |
 
 ### Example
 
@@ -84,3 +84,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

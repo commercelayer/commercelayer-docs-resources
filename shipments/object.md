@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the shipment resource's attributes and relationships.
+description: A comprehensive list of the shipment resource's attributes and relationships
 ---
 
 # The shipment object

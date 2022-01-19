@@ -4,23 +4,23 @@ description: How to create an external payment via API
 
 # Create an external payment
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new external payment, send a `POST` request to the `/api/external_payments` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new external payment, send a `POST` request to the `/api/external_payments` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/external\_payments**
+**POST** https://yourdomain.commercelayer.io<b>/api/external_payments</b>
 
 ### Arguments
 
-| Body Parameter                        | Type     | Required |
-| ------------------------------------- | -------- | -------- |
-| **type**                              | `string` | Required |
-| attributes.**payment\_source\_token** | `string` | Required |
-| attributes.**options**                | `object` | Optional |
-| attributes.**reference**              | `string` | Optional |
-| attributes.**reference\_origin**      | `string` | Optional |
-| attributes.**metadata**               | `object` | Optional |
-| relationships.**order**               | `object` | Required |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**payment_source_token** | `string` | Required |
+| attributes.**options** | `object` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**order** | `object` | Required |
 
 ### Example
 
@@ -105,3 +105,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

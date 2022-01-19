@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the delivery lead time resource's attributes and relationships.
+description: A comprehensive list of the delivery lead time resource's attributes and relationships
 ---
 
 # The delivery lead time object

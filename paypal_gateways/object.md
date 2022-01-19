@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the paypal gateway resource's attributes and relationships.
+description: A comprehensive list of the paypal gateway resource's attributes and relationships
 ---
 
 # The paypal gateway object

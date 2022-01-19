@@ -4,27 +4,27 @@ description: How to update an existing SKU list promotion rule via API
 
 # Update a SKU list promotion rule
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing SKU list promotion rule, send a `PATCH` request to the `/api/sku_list_promotion_rules/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing SKU list promotion rule, send a `PATCH` request to the `/api/sku_list_promotion_rules/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/sku\_list\_promotion\_rules/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/sku_list_promotion_rules/:id</b>
 
 ### Arguments
 
-| Body Parameter                   | Type      | Required |
-| -------------------------------- | --------- | -------- |
-| **type**                         | `string`  | Required |
-| **id**                           | `string`  | Required |
-| attributes.**reference**         | `string`  | Optional |
-| attributes.**reference\_origin** | `string`  | Optional |
-| attributes.**metadata**          | `object`  | Optional |
-| attributes.**all\_skus**         | `boolean` | Optional |
-| attributes.**min\_quantity**     | `integer` | Optional |
-| relationships.**promotion**      | `object`  | Optional |
-| relationships.**sku\_list**      | `object`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**all_skus** | `boolean` | Optional |
+| attributes.**min_quantity** | `integer` | Optional |
+| relationships.**promotion** | `object` | Optional |
+| relationships.**sku_list** | `object` | Optional |
 
 ### Example
 
@@ -100,3 +100,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

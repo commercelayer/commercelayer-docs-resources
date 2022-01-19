@@ -4,11 +4,11 @@ description: How to delete an existing customer payment source via API
 
 # Delete a customer payment source
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a customer payment source, send a `DELETE` request to the `/api/customer_payment_sources/:id` endpoint, where `id` is the id of the customer payment source that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a customer payment source, send a `DELETE` request to the `/api/customer_payment_sources/:id` endpoint, where `id` is the id of the customer payment source that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/customer\_payment\_sources/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/customer_payment_sources/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

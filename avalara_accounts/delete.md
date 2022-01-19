@@ -4,11 +4,11 @@ description: How to delete an existing avalara account via API
 
 # Delete an avalara account
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) an avalara account, send a `DELETE` request to the `/api/avalara_accounts/:id` endpoint, where `id` is the id of the avalara account that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an avalara account, send a `DELETE` request to the `/api/avalara_accounts/:id` endpoint, where `id` is the id of the avalara account that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/avalara\_accounts/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/avalara_accounts/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

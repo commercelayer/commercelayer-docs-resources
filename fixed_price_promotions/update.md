@@ -4,35 +4,35 @@ description: How to update an existing fixed price promotion via API
 
 # Update a fixed price promotion
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing fixed price promotion, send a `PATCH` request to the `/api/fixed_price_promotions/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing fixed price promotion, send a `PATCH` request to the `/api/fixed_price_promotions/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/fixed\_price\_promotions/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/fixed_price_promotions/:id</b>
 
 ### Arguments
 
-| Body Parameter                                   | Type       | Required |
-| ------------------------------------------------ | ---------- | -------- |
-| **type**                                         | `string`   | Required |
-| **id**                                           | `string`   | Required |
-| attributes.**name**                              | `string`   | Optional |
-| attributes.**currency\_code**                    | `string`   | Optional |
-| attributes.**starts\_at**                        | `datetime` | Optional |
-| attributes.**expires\_at**                       | `datetime` | Optional |
-| attributes.**total\_usage\_limit**               | `integer`  | Optional |
-| attributes.**reference**                         | `string`   | Optional |
-| attributes.**reference\_origin**                 | `string`   | Optional |
-| attributes.**metadata**                          | `object`   | Optional |
-| attributes.**fixed\_amount\_cents**              | `integer`  | Optional |
-| relationships.**market**                         | `object`   | Optional |
-| relationships.**promotion\_rules**               | `array`    | Optional |
-| relationships.**order\_amount\_promotion\_rule** | `object`   | Optional |
-| relationships.**sku\_list\_promotion\_rule**     | `object`   | Optional |
-| relationships.**coupon\_codes\_promotion\_rule** | `object`   | Optional |
-| relationships.**sku\_list**                      | `object`   | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**name** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
+| attributes.**starts_at** | `datetime` | Optional |
+| attributes.**expires_at** | `datetime` | Optional |
+| attributes.**total_usage_limit** | `integer` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**fixed_amount_cents** | `integer` | Optional |
+| relationships.**market** | `object` | Optional |
+| relationships.**promotion_rules** | `array` | Optional |
+| relationships.**order_amount_promotion_rule** | `object` | Optional |
+| relationships.**sku_list_promotion_rule** | `object` | Optional |
+| relationships.**coupon_codes_promotion_rule** | `object` | Optional |
+| relationships.**sku_list** | `object` | Optional |
 
 ### Example
 
@@ -146,3 +146,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

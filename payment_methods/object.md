@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the payment method resource's attributes and relationships.
+description: A comprehensive list of the payment method resource's attributes and relationships
 ---
 
 # The payment method object

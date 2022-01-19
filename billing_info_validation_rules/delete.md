@@ -4,11 +4,11 @@ description: How to delete an existing billing info validation rule via API
 
 # Delete a billing info validation rule
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a billing info validation rule, send a `DELETE` request to the `/api/billing_info_validation_rules/:id` endpoint, where `id` is the id of the billing info validation rule that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a billing info validation rule, send a `DELETE` request to the `/api/billing_info_validation_rules/:id` endpoint, where `id` is the id of the billing info validation rule that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/billing\_info\_validation\_rules/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/billing_info_validation_rules/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

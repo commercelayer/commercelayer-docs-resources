@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the klarna payment resource's attributes and relationships.
+description: A comprehensive list of the klarna payment resource's attributes and relationships
 ---
 
 # The klarna payment object

@@ -4,11 +4,11 @@ description: How to delete an existing parcel via API
 
 # Delete a parcel
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a parcel, send a `DELETE` request to the `/api/parcels/:id` endpoint, where `id` is the id of the parcel that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a parcel, send a `DELETE` request to the `/api/parcels/:id` endpoint, where `id` is the id of the parcel that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/parcels/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/parcels/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

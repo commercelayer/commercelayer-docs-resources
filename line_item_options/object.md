@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the line item option resource's attributes and relationships.
+description: A comprehensive list of the line item option resource's attributes and relationships
 ---
 
 # The line item option object

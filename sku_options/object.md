@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the SKU option resource's attributes and relationships.
+description: A comprehensive list of the SKU option resource's attributes and relationships
 ---
 
 # The SKU option object

@@ -4,11 +4,11 @@ description: How to fetch a collection of klarna gateways via API
 
 # List all klarna gateways
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of klarna gateways, send a `GET` request to the `/api/klarna_gateways` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of klarna gateways, send a `GET` request to the `/api/klarna_gateways` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/klarna\_gateways**
+**GET** https://yourdomain.commercelayer.io<b>/api/klarna_gateways</b>
 
 ### **Example**
 
@@ -82,11 +82,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of klarna gateways can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of klarna gateways can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
 * `id`
@@ -94,3 +94,4 @@ The list of klarna gateways can be [sorted](https://docs.commercelayer.io/develo
 * `updated_at`
 * `reference`
 * `reference_origin`
+

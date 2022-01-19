@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the stock line item resource's attributes and relationships.
+description: A comprehensive list of the stock line item resource's attributes and relationships
 ---
 
 # The stock line item object

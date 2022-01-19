@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the price list resource's attributes and relationships.
+description: A comprehensive list of the price list resource's attributes and relationships
 ---
 
 # The price list object

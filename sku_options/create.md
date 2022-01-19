@@ -4,27 +4,27 @@ description: How to create a SKU option via API
 
 # Create a SKU option
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new SKU option, send a `POST` request to the `/api/sku_options` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new SKU option, send a `POST` request to the `/api/sku_options` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/sku\_options**
+**POST** https://yourdomain.commercelayer.io<b>/api/sku_options</b>
 
 ### Arguments
 
-| Body Parameter                      | Type      | Required                             |
-| ----------------------------------- | --------- | ------------------------------------ |
-| **type**                            | `string`  | Required                             |
-| attributes.**name**                 | `string`  | Required                             |
-| attributes.**currency\_code**       | `string`  | Required, unless inherited by market |
-| attributes.**description**          | `string`  | Optional                             |
-| attributes.**price\_amount\_cents** | `integer` | Optional, default is '0'             |
-| attributes.**delay\_hours**         | `integer` | Optional, default is '0'             |
-| attributes.**sku\_code\_regex**     | `string`  | Optional                             |
-| attributes.**reference**            | `string`  | Optional                             |
-| attributes.**reference\_origin**    | `string`  | Optional                             |
-| attributes.**metadata**             | `object`  | Optional                             |
-| relationships.**market**            | `object`  | Required                             |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
+| attributes.**description** | `string` | Optional |
+| attributes.**price_amount_cents** | `integer` | Optional, default is '0' |
+| attributes.**delay_hours** | `integer` | Optional, default is '0' |
+| attributes.**sku_code_regex** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**market** | `object` | Required |
 
 ### Example
 
@@ -109,3 +109,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

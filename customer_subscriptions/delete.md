@@ -4,11 +4,11 @@ description: How to delete an existing customer subscription via API
 
 # Delete a customer subscription
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a customer subscription, send a `DELETE` request to the `/api/customer_subscriptions/:id` endpoint, where `id` is the id of the customer subscription that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a customer subscription, send a `DELETE` request to the `/api/customer_subscriptions/:id` endpoint, where `id` is the id of the customer subscription that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/customer\_subscriptions/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/customer_subscriptions/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

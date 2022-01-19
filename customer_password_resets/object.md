@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the customer password reset resource's attributes and relationships.
+description: A comprehensive list of the customer password reset resource's attributes and relationships
 ---
 
 # The customer password reset object

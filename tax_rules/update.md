@@ -4,36 +4,36 @@ description: How to update an existing tax rule via API
 
 # Update a tax rule
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing tax rule, send a `PATCH` request to the `/api/tax_rules/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing tax rule, send a `PATCH` request to the `/api/tax_rules/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/tax\_rules/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/tax_rules/:id</b>
 
 ### Arguments
 
-| Body Parameter                            | Type      | Required |
-| ----------------------------------------- | --------- | -------- |
-| **type**                                  | `string`  | Required |
-| **id**                                    | `string`  | Required |
-| attributes.**name**                       | `string`  | Optional |
-| attributes.**tax\_rate**                  | `float`   | Optional |
-| attributes.**country\_code\_regex**       | `string`  | Optional |
-| attributes.**not\_country\_code\_regex**  | `string`  | Optional |
-| attributes.**state\_code\_regex**         | `string`  | Optional |
-| attributes.**not\_state\_code\_regex**    | `string`  | Optional |
-| attributes.**zip\_code\_regex**           | `string`  | Optional |
-| attributes.**not\_zip\_code\_regex**      | `string`  | Optional |
-| attributes.**freight\_taxable**           | `boolean` | Optional |
-| attributes.**payment\_method\_taxable**   | `boolean` | Optional |
-| attributes.**gift\_card\_taxable**        | `boolean` | Optional |
-| attributes.**adjustment\_taxable**        | `boolean` | Optional |
-| attributes.**reference**                  | `string`  | Optional |
-| attributes.**reference\_origin**          | `string`  | Optional |
-| attributes.**metadata**                   | `object`  | Optional |
-| relationships.**manual\_tax\_calculator** | `object`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**name** | `string` | Optional |
+| attributes.**tax_rate** | `float` | Optional |
+| attributes.**country_code_regex** | `string` | Optional |
+| attributes.**not_country_code_regex** | `string` | Optional |
+| attributes.**state_code_regex** | `string` | Optional |
+| attributes.**not_state_code_regex** | `string` | Optional |
+| attributes.**zip_code_regex** | `string` | Optional |
+| attributes.**not_zip_code_regex** | `string` | Optional |
+| attributes.**freight_taxable** | `boolean` | Optional |
+| attributes.**payment_method_taxable** | `boolean` | Optional |
+| attributes.**gift_card_taxable** | `boolean` | Optional |
+| attributes.**adjustment_taxable** | `boolean` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**manual_tax_calculator** | `object` | Optional |
 
 ### Example
 
@@ -112,3 +112,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

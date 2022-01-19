@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the gift card resource's attributes and relationships.
+description: A comprehensive list of the gift card resource's attributes and relationships
 ---
 
 # The gift card object

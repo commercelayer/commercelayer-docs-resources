@@ -4,25 +4,25 @@ description: How to create a parcel line item via API
 
 # Create a parcel line item
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new parcel line item, send a `POST` request to the `/api/parcel_line_items` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new parcel line item, send a `POST` request to the `/api/parcel_line_items` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/parcel\_line\_items**
+**POST** https://yourdomain.commercelayer.io<b>/api/parcel_line_items</b>
 
 ### Arguments
 
-| Body Parameter                         | Type      | Required |
-| -------------------------------------- | --------- | -------- |
-| **type**                               | `string`  | Required |
-| attributes.**sku\_code**               | `string`  | Optional |
-| attributes.**quantity**                | `integer` | Required |
-| attributes.**reference**               | `string`  | Optional |
-| attributes.**reference\_origin**       | `string`  | Optional |
-| attributes.**metadata**                | `object`  | Optional |
-| relationships.**parcel**               | `object`  | Required |
-| relationships.**stock\_line\_item**    | `object`  | Required |
-| relationships.**shipment\_line\_item** | `object`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**sku_code** | `string` | Optional |
+| attributes.**quantity** | `integer` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**parcel** | `object` | Required |
+| relationships.**stock_line_item** | `object` | Required |
+| relationships.**shipment_line_item** | `object` | Optional |
 
 ### Example
 
@@ -111,3 +111,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

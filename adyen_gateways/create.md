@@ -4,26 +4,26 @@ description: How to create an adyen gateway via API
 
 # Create an adyen gateway
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new adyen gateway, send a `POST` request to the `/api/adyen_gateways` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new adyen gateway, send a `POST` request to the `/api/adyen_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/adyen\_gateways**
+**POST** https://yourdomain.commercelayer.io<b>/api/adyen_gateways</b>
 
 ### Arguments
 
-| Body Parameter                    | Type     | Required |
-| --------------------------------- | -------- | -------- |
-| **type**                          | `string` | Required |
-| attributes.**name**               | `string` | Required |
-| attributes.**reference**          | `string` | Optional |
-| attributes.**reference\_origin**  | `string` | Optional |
-| attributes.**metadata**           | `object` | Optional |
-| attributes.**merchant\_account**  | `string` | Required |
-| attributes.**api\_key**           | `string` | Required |
-| attributes.**public\_key**        | `string` | Optional |
-| attributes.**live\_url\_prefix**  | `string` | Required |
-| relationships.**adyen\_payments** | `array`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**merchant_account** | `string` | Required |
+| attributes.**api_key** | `string` | Required |
+| attributes.**public_key** | `string` | Optional |
+| attributes.**live_url_prefix** | `string` | Required |
+| relationships.**adyen_payments** | `array` | Optional |
 
 ### Example
 
@@ -95,3 +95,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

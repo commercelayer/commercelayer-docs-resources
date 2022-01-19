@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the attachment resource's attributes and relationships.
+description: A comprehensive list of the attachment resource's attributes and relationships
 ---
 
 # The attachment object

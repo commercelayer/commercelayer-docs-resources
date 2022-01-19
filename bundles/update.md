@@ -4,32 +4,32 @@ description: How to update an existing bundle via API
 
 # Update a bundle
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing bundle, send a `PATCH` request to the `/api/bundles/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing bundle, send a `PATCH` request to the `/api/bundles/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/bundles/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/bundles/:id</b>
 
 ### Arguments
 
-| Body Parameter                                | Type                       | Required |
-| --------------------------------------------- | -------------------------- | -------- |
-| **type**                                      | `string`                   | Required |
-| **id**                                        | `string`                   | Required |
-| attributes.**code**                           | `string`                   | Optional |
-| attributes.**name**                           | `string`                   | Optional |
-| attributes.**currency\_code**                 | `string`                   | Optional |
-| attributes.**description**                    | `string`                   | Optional |
-| attributes.**image\_url**                     | `string`                   | Optional |
-| attributes.**price\_amount\_cents**           | `integer`                  | Optional |
-| attributes.**compare\_at\_amount\_cents**     | `integer`                  | Optional |
-| attributes.**\_compute\_price\_amount**       | `boolean, value is 'true'` | Optional |
-| attributes.**\_compute\_compare\_at\_amount** | `boolean, value is 'true'` | Optional |
-| attributes.**reference**                      | `string`                   | Optional |
-| attributes.**reference\_origin**              | `string`                   | Optional |
-| attributes.**metadata**                       | `object`                   | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**code** | `string` | Optional |
+| attributes.**name** | `string` | Optional |
+| attributes.**currency_code** | `string` | Optional |
+| attributes.**description** | `string` | Optional |
+| attributes.**image_url** | `string` | Optional |
+| attributes.**price_amount_cents** | `integer` | Optional |
+| attributes.**compare_at_amount_cents** | `integer` | Optional |
+| attributes.**_compute_price_amount** | `boolean, value is 'true'` | Optional |
+| attributes.**_compute_compare_at_amount** | `boolean, value is 'true'` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
 
 ### Example
 
@@ -121,3 +121,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

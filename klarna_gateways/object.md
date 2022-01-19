@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the klarna gateway resource's attributes and relationships.
+description: A comprehensive list of the klarna gateway resource's attributes and relationships
 ---
 
 # The klarna gateway object

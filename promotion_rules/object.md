@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the promotion rule resource's attributes and relationships.
+description: A comprehensive list of the promotion rule resource's attributes and relationships
 ---
 
 # The promotion rule object

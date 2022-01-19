@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the stock transfer resource's attributes and relationships.
+description: A comprehensive list of the stock transfer resource's attributes and relationships
 ---
 
 # The stock transfer object

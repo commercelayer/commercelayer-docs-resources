@@ -4,31 +4,31 @@ description: How to create a bundle via API
 
 # Create a bundle
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new bundle, send a `POST` request to the `/api/bundles` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new bundle, send a `POST` request to the `/api/bundles` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/bundles**
+**POST** https://yourdomain.commercelayer.io<b>/api/bundles</b>
 
 ### Arguments
 
-| Body Parameter                                | Type                       | Required                             |
-| --------------------------------------------- | -------------------------- | ------------------------------------ |
-| **type**                                      | `string`                   | Required                             |
-| attributes.**code**                           | `string`                   | Required                             |
-| attributes.**name**                           | `string`                   | Required                             |
-| attributes.**currency\_code**                 | `string`                   | Required, unless inherited by market |
-| attributes.**description**                    | `string`                   | Optional                             |
-| attributes.**image\_url**                     | `string`                   | Optional                             |
-| attributes.**price\_amount\_cents**           | `integer`                  | Required                             |
-| attributes.**compare\_at\_amount\_cents**     | `integer`                  | Required                             |
-| attributes.**\_compute\_price\_amount**       | `boolean, value is 'true'` | Optional                             |
-| attributes.**\_compute\_compare\_at\_amount** | `boolean, value is 'true'` | Optional                             |
-| attributes.**reference**                      | `string`                   | Optional                             |
-| attributes.**reference\_origin**              | `string`                   | Optional                             |
-| attributes.**metadata**                       | `object`                   | Optional                             |
-| relationships.**market**                      | `object`                   | Optional                             |
-| relationships.**sku\_list**                   | `object`                   | Required                             |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**code** | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
+| attributes.**description** | `string` | Optional |
+| attributes.**image_url** | `string` | Optional |
+| attributes.**price_amount_cents** | `integer` | Required |
+| attributes.**compare_at_amount_cents** | `integer` | Required |
+| attributes.**_compute_price_amount** | `boolean, value is 'true'` | Optional |
+| attributes.**_compute_compare_at_amount** | `boolean, value is 'true'` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**market** | `object` | Optional |
+| relationships.**sku_list** | `object` | Required |
 
 ### Example
 
@@ -131,3 +131,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

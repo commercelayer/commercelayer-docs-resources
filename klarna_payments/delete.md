@@ -4,11 +4,11 @@ description: How to delete an existing klarna payment via API
 
 # Delete a klarna payment
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a klarna payment, send a `DELETE` request to the `/api/klarna_payments/:id` endpoint, where `id` is the id of the klarna payment that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a klarna payment, send a `DELETE` request to the `/api/klarna_payments/:id` endpoint, where `id` is the id of the klarna payment that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/klarna\_payments/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/klarna_payments/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

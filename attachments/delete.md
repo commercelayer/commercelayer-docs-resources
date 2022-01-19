@@ -4,11 +4,11 @@ description: How to delete an existing attachment via API
 
 # Delete an attachment
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) an attachment, send a `DELETE` request to the `/api/attachments/:id` endpoint, where `id` is the id of the attachment that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an attachment, send a `DELETE` request to the `/api/attachments/:id` endpoint, where `id` is the id of the attachment that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/attachments/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/attachments/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

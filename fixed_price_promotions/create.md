@@ -4,32 +4,32 @@ description: How to create a fixed price promotion via API
 
 # Create a fixed price promotion
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new fixed price promotion, send a `POST` request to the `/api/fixed_price_promotions` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new fixed price promotion, send a `POST` request to the `/api/fixed_price_promotions` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/fixed\_price\_promotions**
+**POST** https://yourdomain.commercelayer.io<b>/api/fixed_price_promotions</b>
 
 ### Arguments
 
-| Body Parameter                                   | Type       | Required                             |
-| ------------------------------------------------ | ---------- | ------------------------------------ |
-| **type**                                         | `string`   | Required                             |
-| attributes.**name**                              | `string`   | Required                             |
-| attributes.**currency\_code**                    | `string`   | Required, unless inherited by market |
-| attributes.**starts\_at**                        | `datetime` | Required                             |
-| attributes.**expires\_at**                       | `datetime` | Required                             |
-| attributes.**total\_usage\_limit**               | `integer`  | Required                             |
-| attributes.**reference**                         | `string`   | Optional                             |
-| attributes.**reference\_origin**                 | `string`   | Optional                             |
-| attributes.**metadata**                          | `object`   | Optional                             |
-| attributes.**fixed\_amount\_cents**              | `integer`  | Required                             |
-| relationships.**market**                         | `object`   | Required, unless in scope            |
-| relationships.**promotion\_rules**               | `array`    | Optional                             |
-| relationships.**order\_amount\_promotion\_rule** | `object`   | Optional                             |
-| relationships.**sku\_list\_promotion\_rule**     | `object`   | Optional                             |
-| relationships.**coupon\_codes\_promotion\_rule** | `object`   | Optional                             |
-| relationships.**sku\_list**                      | `object`   | Required                             |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
+| attributes.**starts_at** | `datetime` | Required |
+| attributes.**expires_at** | `datetime` | Required |
+| attributes.**total_usage_limit** | `integer` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**fixed_amount_cents** | `integer` | Required |
+| relationships.**market** | `object` | Required, unless in scope |
+| relationships.**promotion_rules** | `array` | Optional |
+| relationships.**order_amount_promotion_rule** | `object` | Optional |
+| relationships.**sku_list_promotion_rule** | `object` | Optional |
+| relationships.**coupon_codes_promotion_rule** | `object` | Optional |
+| relationships.**sku_list** | `object` | Required |
 
 ### Example
 
@@ -161,3 +161,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

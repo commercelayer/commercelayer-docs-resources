@@ -4,24 +4,24 @@ description: How to create an attachment via API
 
 # Create an attachment
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new attachment, send a `POST` request to the `/api/attachments` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new attachment, send a `POST` request to the `/api/attachments` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/attachments**
+**POST** https://yourdomain.commercelayer.io<b>/api/attachments</b>
 
 ### Arguments
 
-| Body Parameter                   | Type     | Required |
-| -------------------------------- | -------- | -------- |
-| **type**                         | `string` | Required |
-| attributes.**name**              | `string` | Required |
-| attributes.**description**       | `string` | Optional |
-| attributes.**url**               | `string` | Optional |
-| attributes.**reference**         | `string` | Optional |
-| attributes.**reference\_origin** | `string` | Optional |
-| attributes.**metadata**          | `object` | Optional |
-| relationships.**attachable**     | `object` | Required |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**description** | `string` | Optional |
+| attributes.**url** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**attachable** | `object` | Required |
 
 ### Example
 
@@ -93,3 +93,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

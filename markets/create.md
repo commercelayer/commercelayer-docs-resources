@@ -4,29 +4,29 @@ description: How to create a market via API
 
 # Create a market
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new market, send a `POST` request to the `/api/markets` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new market, send a `POST` request to the `/api/markets` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/markets**
+**POST** https://yourdomain.commercelayer.io<b>/api/markets</b>
 
 ### Arguments
 
-| Body Parameter                       | Type     | Required |
-| ------------------------------------ | -------- | -------- |
-| **type**                             | `string` | Required |
-| attributes.**name**                  | `string` | Required |
-| attributes.**facebook\_pixel\_id**   | `string` | Optional |
-| attributes.**checkout\_url**         | `string` | Optional |
-| attributes.**external\_prices\_url** | `string` | Optional |
-| attributes.**reference**             | `string` | Optional |
-| attributes.**reference\_origin**     | `string` | Optional |
-| attributes.**metadata**              | `object` | Optional |
-| relationships.**merchant**           | `object` | Required |
-| relationships.**price\_list**        | `object` | Required |
-| relationships.**inventory\_model**   | `object` | Required |
-| relationships.**tax\_calculator**    | `object` | Optional |
-| relationships.**customer\_group**    | `object` | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**facebook_pixel_id** | `string` | Optional |
+| attributes.**checkout_url** | `string` | Optional |
+| attributes.**external_prices_url** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**merchant** | `object` | Required |
+| relationships.**price_list** | `object` | Required |
+| relationships.**inventory_model** | `object` | Required |
+| relationships.**tax_calculator** | `object` | Optional |
+| relationships.**customer_group** | `object` | Optional |
 
 ### Example
 
@@ -143,3 +143,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

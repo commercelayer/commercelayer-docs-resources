@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the package resource's attributes and relationships.
+description: A comprehensive list of the package resource's attributes and relationships
 ---
 
 # The package object

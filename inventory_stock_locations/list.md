@@ -4,11 +4,11 @@ description: How to fetch a collection of inventory stock locations via API
 
 # List all inventory stock locations
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of inventory stock locations, send a `GET` request to the `/api/inventory_stock_locations` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of inventory stock locations, send a `GET` request to the `/api/inventory_stock_locations` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/inventory\_stock\_locations**
+**GET** https://yourdomain.commercelayer.io<b>/api/inventory_stock_locations</b>
 
 ### **Example**
 
@@ -83,11 +83,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of inventory stock locations can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of inventory stock locations can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `priority`
 * `on_hold`
@@ -96,3 +96,4 @@ The list of inventory stock locations can be [sorted](https://docs.commercelayer
 * `updated_at`
 * `reference`
 * `reference_origin`
+

@@ -4,11 +4,11 @@ description: How to fetch a collection of adjustments via API
 
 # List all adjustments
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of adjustments, send a `GET` request to the `/api/adjustments` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of adjustments, send a `GET` request to the `/api/adjustments` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/adjustments**
+**GET** https://yourdomain.commercelayer.io<b>/api/adjustments</b>
 
 ### **Example**
 
@@ -74,11 +74,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of adjustments can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of adjustments can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
 * `currency_code`
@@ -88,3 +88,4 @@ The list of adjustments can be [sorted](https://docs.commercelayer.io/developers
 * `updated_at`
 * `reference`
 * `reference_origin`
+

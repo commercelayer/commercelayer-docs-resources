@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the in stock subscription resource's attributes and relationships.
+description: A comprehensive list of the in stock subscription resource's attributes and relationships
 ---
 
 # The in stock subscription object

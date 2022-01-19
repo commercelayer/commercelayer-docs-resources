@@ -4,24 +4,24 @@ description: How to create an import via API
 
 # Create an import
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new import, send a `POST` request to the `/api/imports` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new import, send a `POST` request to the `/api/imports` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/imports**
+**POST** https://yourdomain.commercelayer.io<b>/api/imports</b>
 
 ### Arguments
 
-| Body Parameter                      | Type      | Required |
-| ----------------------------------- | --------- | -------- |
-| **type**                            | `string`  | Required |
-| attributes.**resource\_type**       | `string`  | Required |
-| attributes.**parent\_resource\_id** | `string`  | Optional |
-| attributes.**inputs**               | `array`   | Required |
-| attributes.**cleanup\_records**     | `boolean` | Optional |
-| attributes.**reference**            | `string`  | Optional |
-| attributes.**reference\_origin**    | `string`  | Optional |
-| attributes.**metadata**             | `object`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**resource_type** | `string` | Required |
+| attributes.**parent_resource_id** | `string` | Optional |
+| attributes.**inputs** | `array` | Required |
+| attributes.**cleanup_records** | `boolean` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
 
 ### Example
 
@@ -120,3 +120,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

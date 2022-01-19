@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the percentage discount promotion resource's attributes and relationships.
+description: A comprehensive list of the percentage discount promotion resource's attributes and relationships
 ---
 
 # The percentage discount promotion object

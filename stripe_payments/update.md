@@ -4,26 +4,26 @@ description: How to update an existing stripe payment via API
 
 # Update a stripe payment
 
-To [update](https://docs.commercelayer.io/developers/updating-resources) an existing stripe payment, send a `PATCH` request to the `/api/stripe_payments/:id` endpoint, where `id` is the ID of the resource that you want to update.
+To <a href="https://docs.commercelayer.io/developers/updating-resources" target="_blank">update</a> an existing stripe payment, send a `PATCH` request to the `/api/stripe_payments/:id` endpoint, where `id` is the ID of the resource that you want to update.
 
 Here below the list of all the possible arguments that you can pass with the request body.
 
 ## Request
 
-**PATCH** https://yourdomain.commercelayer.io**/api/stripe\_payments/:id**
+**PATCH** https://yourdomain.commercelayer.io<b>/api/stripe_payments/:id</b>
 
 ### Arguments
 
-| Body Parameter                   | Type                       | Required |
-| -------------------------------- | -------------------------- | -------- |
-| **type**                         | `string`                   | Required |
-| **id**                           | `string`                   | Required |
-| attributes.**options**           | `object`                   | Optional |
-| attributes.**\_refresh**         | `boolean, value is 'true'` | Optional |
-| attributes.**reference**         | `string`                   | Optional |
-| attributes.**reference\_origin** | `string`                   | Optional |
-| attributes.**metadata**          | `object`                   | Optional |
-| relationships.**order**          | `object`                   | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| **id**         | `string` | Required |
+| attributes.**options** | `object` | Optional |
+| attributes.**_refresh** | `boolean, value is 'true'` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**order** | `object` | Optional |
 
 ### Example
 
@@ -103,3 +103,4 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+

@@ -4,27 +4,27 @@ description: How to create a stock transfer via API
 
 # Create a stock transfer
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new stock transfer, send a `POST` request to the `/api/stock_transfers` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new stock transfer, send a `POST` request to the `/api/stock_transfers` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/stock\_transfers**
+**POST** https://yourdomain.commercelayer.io<b>/api/stock_transfers</b>
 
 ### Arguments
 
-| Body Parameter                                 | Type      | Required |
-| ---------------------------------------------- | --------- | -------- |
-| **type**                                       | `string`  | Required |
-| attributes.**sku\_code**                       | `string`  | Optional |
-| attributes.**quantity**                        | `integer` | Required |
-| attributes.**reference**                       | `string`  | Optional |
-| attributes.**reference\_origin**               | `string`  | Optional |
-| attributes.**metadata**                        | `object`  | Optional |
-| relationships.**sku**                          | `object`  | Required |
-| relationships.**origin\_stock\_location**      | `object`  | Required |
-| relationships.**destination\_stock\_location** | `object`  | Required |
-| relationships.**shipment**                     | `object`  | Optional |
-| relationships.**line\_item**                   | `object`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**sku_code** | `string` | Optional |
+| attributes.**quantity** | `integer` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**sku** | `object` | Required |
+| relationships.**origin_stock_location** | `object` | Required |
+| relationships.**destination_stock_location** | `object` | Required |
+| relationships.**shipment** | `object` | Optional |
+| relationships.**line_item** | `object` | Optional |
 
 ### Example
 
@@ -134,3 +134,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

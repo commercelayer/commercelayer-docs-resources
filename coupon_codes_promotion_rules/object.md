@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the coupon codes promotion rule resource's attributes and relationships.
+description: A comprehensive list of the coupon codes promotion rule resource's attributes and relationships
 ---
 
 # The coupon codes promotion rule object

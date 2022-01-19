@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the google geocoder resource's attributes and relationships.
+description: A comprehensive list of the google geocoder resource's attributes and relationships
 ---
 
 # The google geocoder object

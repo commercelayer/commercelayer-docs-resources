@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the parcel line item resource's attributes and relationships.
+description: A comprehensive list of the parcel line item resource's attributes and relationships
 ---
 
 # The parcel line item object

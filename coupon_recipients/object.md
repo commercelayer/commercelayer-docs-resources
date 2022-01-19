@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the coupon recipient resource's attributes and relationships.
+description: A comprehensive list of the coupon recipient resource's attributes and relationships
 ---
 
 # The coupon recipient object

@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the bing geocoder resource's attributes and relationships.
+description: A comprehensive list of the bing geocoder resource's attributes and relationships
 ---
 
 # The bing geocoder object

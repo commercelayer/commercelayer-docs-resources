@@ -4,26 +4,26 @@ description: How to create an external gateway via API
 
 # Create an external gateway
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new external gateway, send a `POST` request to the `/api/external_gateways` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new external gateway, send a `POST` request to the `/api/external_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/external\_gateways**
+**POST** https://yourdomain.commercelayer.io<b>/api/external_gateways</b>
 
 ### Arguments
 
-| Body Parameter                   | Type     | Required |
-| -------------------------------- | -------- | -------- |
-| **type**                         | `string` | Required |
-| attributes.**name**              | `string` | Required |
-| attributes.**reference**         | `string` | Optional |
-| attributes.**reference\_origin** | `string` | Optional |
-| attributes.**metadata**          | `object` | Optional |
-| attributes.**authorize\_url**    | `string` | Optional |
-| attributes.**capture\_url**      | `string` | Optional |
-| attributes.**void\_url**         | `string` | Optional |
-| attributes.**refund\_url**       | `string` | Optional |
-| attributes.**token\_url**        | `string` | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**authorize_url** | `string` | Optional |
+| attributes.**capture_url** | `string` | Optional |
+| attributes.**void_url** | `string` | Optional |
+| attributes.**refund_url** | `string` | Optional |
+| attributes.**token_url** | `string` | Optional |
 
 ### Example
 
@@ -97,3 +97,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

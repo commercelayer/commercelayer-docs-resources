@@ -4,25 +4,25 @@ description: How to create a coupon via API
 
 # Create a coupon
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new coupon, send a `POST` request to the `/api/coupons` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new coupon, send a `POST` request to the `/api/coupons` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/coupons**
+**POST** https://yourdomain.commercelayer.io<b>/api/coupons</b>
 
 ### Arguments
 
-| Body Parameter                       | Type      | Required                     |
-| ------------------------------------ | --------- | ---------------------------- |
-| **type**                             | `string`  | Required                     |
-| attributes.**code**                  | `string`  | Required                     |
-| attributes.**customer\_single\_use** | `boolean` | Optional, default is 'false' |
-| attributes.**usage\_limit**          | `integer` | Required                     |
-| attributes.**recipient\_email**      | `string`  | Optional                     |
-| attributes.**reference**             | `string`  | Optional                     |
-| attributes.**reference\_origin**     | `string`  | Optional                     |
-| attributes.**metadata**              | `object`  | Optional                     |
-| relationships.**promotion\_rule**    | `object`  | Required                     |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**code** | `string` | Required |
+| attributes.**customer_single_use** | `boolean` | Optional, default is 'false' |
+| attributes.**usage_limit** | `integer` | Required |
+| attributes.**recipient_email** | `string` | Optional |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**promotion_rule** | `object` | Required |
 
 ### Example
 
@@ -97,3 +97,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

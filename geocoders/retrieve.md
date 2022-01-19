@@ -4,11 +4,11 @@ description: How to fetch a specific geocoder via API
 
 # Retrieve a geocoder
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single geocoder, send a `GET` request to the `/api/geocoders/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single geocoder, send a `GET` request to the `/api/geocoders/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/geocoders/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/geocoders/:id</b>
 
 ### **Example**
 
@@ -67,3 +67,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

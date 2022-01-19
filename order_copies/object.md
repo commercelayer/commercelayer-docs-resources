@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the order copy resource's attributes and relationships.
+description: A comprehensive list of the order copy resource's attributes and relationships
 ---
 
 # The order copy object

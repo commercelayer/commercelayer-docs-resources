@@ -4,11 +4,11 @@ description: How to fetch a collection of tax rules via API
 
 # List all tax rules
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of tax rules, send a `GET` request to the `/api/tax_rules` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of tax rules, send a `GET` request to the `/api/tax_rules` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/tax\_rules**
+**GET** https://yourdomain.commercelayer.io<b>/api/tax_rules</b>
 
 ### **Example**
 
@@ -92,11 +92,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of tax rules can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of tax rules can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `name`
 * `id`
@@ -104,3 +104,4 @@ The list of tax rules can be [sorted](https://docs.commercelayer.io/developers/s
 * `updated_at`
 * `reference`
 * `reference_origin`
+

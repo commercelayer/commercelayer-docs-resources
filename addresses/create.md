@@ -4,37 +4,37 @@ description: How to create an address via API
 
 # Create an address
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new address, send a `POST` request to the `/api/addresses` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new address, send a `POST` request to the `/api/addresses` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/addresses**
+**POST** https://yourdomain.commercelayer.io<b>/api/addresses</b>
 
 ### Arguments
 
-| Body Parameter                   | Type      | Required                          |
-| -------------------------------- | --------- | --------------------------------- |
-| **type**                         | `string`  | Required                          |
-| attributes.**business**          | `boolean` | Optional, default is 'false'      |
-| attributes.**first\_name**       | `string`  | Required if 'business' is 'false' |
-| attributes.**last\_name**        | `string`  | Required if 'business' is 'false' |
-| attributes.**company**           | `string`  | Required if 'business' is 'true'  |
-| attributes.**line\_1**           | `string`  | Required                          |
-| attributes.**line\_2**           | `string`  | Optional                          |
-| attributes.**city**              | `string`  | Required                          |
-| attributes.**zip\_code**         | `string`  | Required, but for some countries  |
-| attributes.**state\_code**       | `string`  | Required                          |
-| attributes.**country\_code**     | `string`  | Required                          |
-| attributes.**phone**             | `string`  | Required                          |
-| attributes.**email**             | `string`  | Optional                          |
-| attributes.**notes**             | `string`  | Optional                          |
-| attributes.**lat**               | `float`   | Optional                          |
-| attributes.**lng**               | `float`   | Optional                          |
-| attributes.**billing\_info**     | `string`  | Configurable                      |
-| attributes.**reference**         | `string`  | Optional                          |
-| attributes.**reference\_origin** | `string`  | Optional                          |
-| attributes.**metadata**          | `object`  | Optional                          |
-| relationships.**geocoder**       | `object`  | Optional                          |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**business** | `boolean` | Optional, default is 'false' |
+| attributes.**first_name** | `string` | Required if 'business' is 'false' |
+| attributes.**last_name** | `string` | Required if 'business' is 'false' |
+| attributes.**company** | `string` | Required if 'business' is 'true' |
+| attributes.**line_1** | `string` | Required |
+| attributes.**line_2** | `string` | Optional |
+| attributes.**city** | `string` | Required |
+| attributes.**zip_code** | `string` | Required, but for some countries |
+| attributes.**state_code** | `string` | Required |
+| attributes.**country_code** | `string` | Required |
+| attributes.**phone** | `string` | Required |
+| attributes.**email** | `string` | Optional |
+| attributes.**notes** | `string` | Optional |
+| attributes.**lat** | `float` | Optional |
+| attributes.**lng** | `float` | Optional |
+| attributes.**billing_info** | `string` | Configurable |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**geocoder** | `object` | Optional |
 
 ### Example
 
@@ -127,3 +127,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

@@ -4,11 +4,11 @@ description: How to fetch a specific gift card via API
 
 # Retrieve a gift card
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a single gift card, send a `GET` request to the `/api/gift_cards/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a single gift card, send a `GET` request to the `/api/gift_cards/:id` endpoint, where `id` is the ID of the resource that you want to retrieve.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/gift\_cards/:id**
+**GET** https://yourdomain.commercelayer.io<b>/api/gift_cards/:id</b>
 
 ### **Example**
 
@@ -99,3 +99,4 @@ On success, the API responds with a `200 OK` status code, returning a single res
 ```
 {% endtab %}
 {% endtabs %}
+

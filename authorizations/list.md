@@ -4,11 +4,11 @@ description: How to fetch a collection of authorizations via API
 
 # List all authorizations
 
-To [fetch](https://docs.commercelayer.io/developers/fetching-resources) a collection of authorizations, send a `GET` request to the `/api/authorizations` endpoint.
+To <a href="https://docs.commercelayer.io/developers/fetching-resources" target="_blank">fetch</a> a collection of authorizations, send a `GET` request to the `/api/authorizations` endpoint.
 
 ## Request
 
-**GET** https://yourdomain.commercelayer.io**/api/authorizations**
+**GET** https://yourdomain.commercelayer.io<b>/api/authorizations</b>
 
 ### **Example**
 
@@ -112,11 +112,11 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
 {% endtab %}
 {% endtabs %}
 
-Remember that when you fetch a list of resources you get [paginated](https://docs.commercelayer.io/developers/pagination) result.
+Remember that when you fetch a list of resources you get <a href="https://docs.commercelayer.io/developers/pagination" target="_blank">paginated</a> result.
 
 ### Sortable attributes
 
-The list of authorizations can be [sorted](https://docs.commercelayer.io/developers/sorting-results) by the following attributes:
+The list of authorizations can be <a href="https://docs.commercelayer.io/developers/sorting-results" target="_blank">sorted</a> by the following attributes:
 
 * `number`
 * `amount_cents`
@@ -125,3 +125,4 @@ The list of authorizations can be [sorted](https://docs.commercelayer.io/develop
 * `updated_at`
 * `reference`
 * `reference_origin`
+

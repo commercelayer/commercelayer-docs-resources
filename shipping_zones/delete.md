@@ -4,11 +4,11 @@ description: How to delete an existing shipping zone via API
 
 # Delete a shipping zone
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a shipping zone, send a `DELETE` request to the `/api/shipping_zones/:id` endpoint, where `id` is the id of the shipping zone that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a shipping zone, send a `DELETE` request to the `/api/shipping_zones/:id` endpoint, where `id` is the id of the shipping zone that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/shipping\_zones/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/shipping_zones/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

@@ -4,25 +4,25 @@ description: How to create a klarna gateway via API
 
 # Create a klarna gateway
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new klarna gateway, send a `POST` request to the `/api/klarna_gateways` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new klarna gateway, send a `POST` request to the `/api/klarna_gateways` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/klarna\_gateways**
+**POST** https://yourdomain.commercelayer.io<b>/api/klarna_gateways</b>
 
 ### Arguments
 
-| Body Parameter                     | Type     | Required |
-| ---------------------------------- | -------- | -------- |
-| **type**                           | `string` | Required |
-| attributes.**name**                | `string` | Required |
-| attributes.**reference**           | `string` | Optional |
-| attributes.**reference\_origin**   | `string` | Optional |
-| attributes.**metadata**            | `object` | Optional |
-| attributes.**country\_code**       | `string` | Required |
-| attributes.**api\_key**            | `string` | Required |
-| attributes.**api\_secret**         | `string` | Required |
-| relationships.**klarna\_payments** | `array`  | Optional |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**name** | `string` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| attributes.**country_code** | `string` | Required |
+| attributes.**api_key** | `string` | Required |
+| attributes.**api_secret** | `string` | Required |
+| relationships.**klarna_payments** | `array` | Optional |
 
 ### Example
 
@@ -93,3 +93,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

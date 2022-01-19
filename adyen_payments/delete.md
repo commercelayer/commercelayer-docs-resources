@@ -4,11 +4,11 @@ description: How to delete an existing adyen payment via API
 
 # Delete an adyen payment
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) an adyen payment, send a `DELETE` request to the `/api/adyen_payments/:id` endpoint, where `id` is the id of the adyen payment that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> an adyen payment, send a `DELETE` request to the `/api/adyen_payments/:id` endpoint, where `id` is the id of the adyen payment that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/adyen\_payments/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/adyen_payments/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

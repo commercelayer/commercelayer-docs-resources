@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the authorization resource's attributes and relationships.
+description: A comprehensive list of the authorization resource's attributes and relationships
 ---
 
 # The authorization object

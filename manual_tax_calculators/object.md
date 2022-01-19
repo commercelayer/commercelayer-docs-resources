@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the manual tax calculator resource's attributes and relationships.
+description: A comprehensive list of the manual tax calculator resource's attributes and relationships
 ---
 
 # The manual tax calculator object

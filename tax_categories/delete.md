@@ -4,11 +4,11 @@ description: How to delete an existing tax category via API
 
 # Delete a tax category
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a tax category, send a `DELETE` request to the `/api/tax_categories/:id` endpoint, where `id` is the id of the tax category that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a tax category, send a `DELETE` request to the `/api/tax_categories/:id` endpoint, where `id` is the id of the tax category that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/tax\_categories/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/tax_categories/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

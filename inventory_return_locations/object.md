@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the inventory return location resource's attributes and relationships.
+description: A comprehensive list of the inventory return location resource's attributes and relationships
 ---
 
 # The inventory return location object

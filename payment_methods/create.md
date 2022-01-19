@@ -4,26 +4,26 @@ description: How to create a payment method via API
 
 # Create a payment method
 
-To [create](https://docs.commercelayer.io/developers/creating-resources) a new payment method, send a `POST` request to the `/api/payment_methods` endpoint, passing the resource arguments in the request body.
+To <a href="https://docs.commercelayer.io/developers/creating-resources" target="_blank">create</a> a new payment method, send a `POST` request to the `/api/payment_methods` endpoint, passing the resource arguments in the request body.
 
 ## Request
 
-**POST** https://yourdomain.commercelayer.io**/api/payment\_methods**
+**POST** https://yourdomain.commercelayer.io<b>/api/payment_methods</b>
 
 ### Arguments
 
-| Body Parameter                       | Type      | Required                             |
-| ------------------------------------ | --------- | ------------------------------------ |
-| **type**                             | `string`  | Required                             |
-| attributes.**payment\_source\_type** | `string`  | Required                             |
-| attributes.**currency\_code**        | `string`  | Required, unless inherited by market |
-| attributes.**moto**                  | `boolean` | Optional, default is 'false'         |
-| attributes.**price\_amount\_cents**  | `integer` | Required                             |
-| attributes.**reference**             | `string`  | Optional                             |
-| attributes.**reference\_origin**     | `string`  | Optional                             |
-| attributes.**metadata**              | `object`  | Optional                             |
-| relationships.**market**             | `object`  | Optional                             |
-| relationships.**payment\_gateway**   | `object`  | Required                             |
+| Body Parameter | Type     | Required |
+| -------------- | -------- | -------- |
+| **type**       | `string` | Required |
+| attributes.**payment_source_type** | `string` | Required |
+| attributes.**currency_code** | `string` | Required, unless inherited by market |
+| attributes.**moto** | `boolean` | Optional, default is 'false' |
+| attributes.**price_amount_cents** | `integer` | Required |
+| attributes.**reference** | `string` | Optional |
+| attributes.**reference_origin** | `string` | Optional |
+| attributes.**metadata** | `object` | Optional |
+| relationships.**market** | `object` | Optional |
+| relationships.**payment_gateway** | `object` | Required |
 
 ### Example
 
@@ -114,3 +114,4 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+

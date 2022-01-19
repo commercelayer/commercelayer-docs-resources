@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the order amount promotion rule resource's attributes and relationships.
+description: A comprehensive list of the order amount promotion rule resource's attributes and relationships
 ---
 
 # The order amount promotion rule object

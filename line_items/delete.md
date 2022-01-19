@@ -4,11 +4,11 @@ description: How to delete an existing line item via API
 
 # Delete a line item
 
-To [delete](https://docs.commercelayer.io/developers/deleting-resources) a line item, send a `DELETE` request to the `/api/line_items/:id` endpoint, where `id` is the id of the line item that you want to delete.
+To <a href="https://docs.commercelayer.io/developers/deleting-resources" target="_blank">delete</a> a line item, send a `DELETE` request to the `/api/line_items/:id` endpoint, where `id` is the id of the line item that you want to delete.
 
 ## Request
 
-**DELETE** https://yourdomain.commercelayer.io**/api/line\_items/:id**
+**DELETE** https://yourdomain.commercelayer.io<b>/api/line_items/:id</b>
 
 ### Example
 
@@ -28,3 +28,4 @@ curl -g -X DELETE \
 On success, the API responds with a `204 No Content` status code.
 {% endtab %}
 {% endtabs %}
+

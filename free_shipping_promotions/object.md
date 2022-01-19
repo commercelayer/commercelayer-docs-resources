@@ -1,5 +1,5 @@
 ---
-description: A comprehensive list of the free shipping promotion resource's attributes and relationships.
+description: A comprehensive list of the free shipping promotion resource's attributes and relationships
 ---
 
 # The free shipping promotion object
