@@ -6,8 +6,6 @@ description: >-
 
 # Prices
 
-[SKUs](../skus/) can have a price for each [price list](../price\_lists/). When you create a [line item](../line\_items/), it gets the price associated with the order's price list.
+SKUs can have a price for each price list. When you create a line item, it gets the price associated with the order's price list.
 
-{% hint style="info" %}
-Some currencies have a zero exponent and cannot be expressed **in cents** (e.g. `JPY` and `HUF`). In such cases, you have to express the value as it is (e.g. `10000` JPY, not `1000000` JPY).
-{% endhint %}
+Price values (`amount_cents` and `compare_at_amount_cents`) must be expressed **in cents** with the only exception of `HUF` and `JPY` currencies which do not have decimals (e.g. 100$ → `"amount_cents": 10000`, 100Ft → `"amount_cents": 100`, 100¥ → `"amount_cents": 100`).

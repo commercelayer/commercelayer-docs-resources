@@ -6,6 +6,6 @@ description: >-
 
 # Coupon codes promotion rules
 
-Commerce Layer provides a promotional engine built on top of two main resources: [promotions](../promotions/) and [promotion rules](../promotion\_rules/).
+Commerce Layer provides a promotional engine built on top of two main resources: [promotions](https://docs.commercelayer.io/api/resources/promotions) and [promotion rules](https://docs.commercelayer.io/api/resources/promotion\_rules).
 
-Coupon code promotions rules are used to link a promotion to a specific [coupon](../coupons/) so that the promotion is triggered only based on the coupon code.
+Coupon code promotions rules are used to link a promotion to a specific [coupon](https://docs.commercelayer.io/api/resources/coupons) so that the promotion is triggered only based on the coupon code.

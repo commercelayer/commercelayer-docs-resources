@@ -14,6 +14,6 @@ To create a Klarna gateway choose a meaningful name that helps you identify it w
 
 <summary>How-to</summary>
 
-Check the related [guide](https://docs.commercelayer.io/developers/v/how-tos/payments/klarna) to learn more on how Commerce Layer handles the server-side part of the integration process with Klarna.
+Check the related guide to learn more on how Commerce Layer handles the server-side part of the integration process with Klarna.
 
 </details>

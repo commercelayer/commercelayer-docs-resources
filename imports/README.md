@@ -16,6 +16,6 @@ When you import a list of resources, you can choose to delete any record that is
 
 <summary>How-to</summary>
 
-Check the related [guide](https://docs.commercelayer.io/developers/importing-resources) for the complete list of importable resources and any further information about the import process (e.g. import limits, unique key, examples).
+Check the related [guide](https://docs.commercelayer.io/developers/external-resources/external-payment-gateways) for the complete list of importable resources and any further information about the import process (e.g. import limits, unique key, examples).
 
 </details>

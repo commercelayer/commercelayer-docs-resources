@@ -6,7 +6,7 @@ description: >-
 
 # Fixed amount promotions
 
-Commerce Layer provides a promotional engine built on top of two main resources: [promotions](../promotions/) and [promotion rules](../promotion\_rules/).
+Commerce Layer provides a promotional engine built on top of two main resources: [promotions](https://docs.commercelayer.io/api/resources/promotions) and [promotion rules](https://docs.commercelayer.io/api/resources/promotion\_rules).
 
 When triggered, fixed amount promotions are responsible for adding a fixed amount discount to the orders involved.
 
