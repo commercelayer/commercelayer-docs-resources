@@ -4,7 +4,7 @@ description: A detailed list of all Commerce Layer core resources
 
 # Introduction
 
-Commerce Layer is a flexible commerce API that features **300+ endpoints**. This is the official reference where you can explore the complete list of our core resources, in detail.
+Commerce Layer is a flexible commerce API that features **400+ endpoints**. This is the official reference where you can explore the complete list of our core resources, in detail.
 
 ## How it works
 
