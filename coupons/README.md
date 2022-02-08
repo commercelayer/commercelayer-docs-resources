@@ -6,9 +6,13 @@ description: >-
 
 # Coupons
 
-Commerce Layer provides a promotional engine built on top of two main resources: [promotions](https://docs.commercelayer.io/api/resources/promotions) and [promotion rules](https://docs.commercelayer.io/api/resources/promotion\_rules).
+Commerce Layer provides a promotional engine built on top of two main resources: [promotions](../promotions/) and [promotion rules](../promotion\_rules/).
 
-Coupons must be associated with [coupon code](https://docs.commercelayer.io/api/resources/coupon\_codes\_promotion\_rules) promotions rules so that a promotion is triggered when customers enter a specific coupon code at checkout. The coupon can be used multiple times and it is considered valid until its usage count exceeds the threshold set by its usage limit. About that:
+Coupons must be associated with [coupon code](../coupon\_codes\_promotion\_rules/) promotions rules so that a promotion is triggered when customers enter a specific coupon code at checkout. The coupon can be used multiple times and it is considered valid until its usage count exceeds the threshold set by its usage limit. About that:
 
 * Set the `usage_limit` attribute to `1` if you want the code to be used just once.
 * Set the `customer_single_use` attribute to `true` if you want it to be used just once per customer.
+
+{% hint style="info" %}
+Coupon codes minimum length is **8** characters, maximum length is **40** characters.
+{% endhint %}
