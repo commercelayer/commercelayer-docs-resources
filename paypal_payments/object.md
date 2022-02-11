@@ -15,6 +15,7 @@ A paypal payment object is returned as part of the response body of each success
 | links.**self** | `string` | The paypal payment endpoint URL       |
 | attributes.**return_url** | `string` | The URL where the payer is redirected after they approve the payment. |
 | attributes.**cancel_url** | `string` | The URL where the payer is redirected after they cancel the payment. |
+| attributes.**store_payment_source** | `boolean` | Send this attribute if you want Paypal to store the payment source for future usage. |
 | attributes.**note_to_payer** | `string` | A free-form field that you can use to send a note to the payer on PayPal. |
 | attributes.**paypal_payer_id** | `string` | The id of the payer that PayPal passes in the return_url. |
 | attributes.**name** | `string` | The PayPal payer id (if present) |

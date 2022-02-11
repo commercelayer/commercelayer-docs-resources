@@ -21,7 +21,6 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | attributes.**metadata** | `object` | Optional |
 | attributes.**client_id** | `string` | Required |
 | attributes.**client_secret** | `string` | Required |
-| attributes.**mode** | `string` | Required |
 
 ### Example
 
@@ -41,8 +40,7 @@ curl -g -X POST \
     "attributes": {
       "name": "US payment gateway",
       "client_id": "xxxx-yyyy-zzzz",
-      "client_secret": "xxxx-yyyy-zzzz",
-      "mode": "live"
+      "client_secret": "xxxx-yyyy-zzzz"
     }
   }
 }'

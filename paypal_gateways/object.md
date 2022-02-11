@@ -21,7 +21,6 @@ A paypal gateway object is returned as part of the response body of each success
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
 | attributes.**client_id** | `string` | The gateway client ID. |
 | attributes.**client_secret** | `string` | The gateway client secret. |
-| attributes.**mode** | `string` | The gateway mode, either 'sandbox' or 'live'. |
 | relationships.**payment_methods** | `array` | The associated payment methods. |
 | relationships.**paypal_payments** | `array` | The associated payments. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |

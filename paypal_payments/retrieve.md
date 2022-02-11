@@ -38,6 +38,7 @@ On success, the API responds with a `200 OK` status code, returning a single res
     "attributes": {
       "return_url": "https://yourdomain.com/thankyou",
       "cancel_url": "https://yourdomain.com/checkout/payment",
+      "store_payment_source": false,
       "note_to_payer": "Thank you for shopping with us!",
       "paypal_payer_id": "ABCDEFGHG123456",
       "name": "ABCDEFGHG123456",

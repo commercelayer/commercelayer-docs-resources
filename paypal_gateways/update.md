@@ -24,7 +24,6 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**metadata** | `object` | Optional |
 | attributes.**client_id** | `string` | Optional |
 | attributes.**client_secret** | `string` | Optional |
-| attributes.**mode** | `string` | Optional |
 
 ### Example
 
