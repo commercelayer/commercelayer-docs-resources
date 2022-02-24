@@ -24,7 +24,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
-| relationships.**market** | `object` | Required |
+| relationships.**market** | `object` | Optional |
 
 ### Example
 
@@ -44,14 +44,6 @@ curl -g -X POST \
     "attributes": {
       "name": "Embossing",
       "currency_code": "EUR"
-    },
-    "relationships": {
-      "market": {
-        "data": {
-          "type": "markets",
-          "id": "QWERtyUpBa"
-        }
-      }
     }
   }
 }'

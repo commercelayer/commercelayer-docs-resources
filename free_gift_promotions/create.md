@@ -24,7 +24,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | attributes.**reference_origin** | `string` | Optional |
 | attributes.**metadata** | `object` | Optional |
 | attributes.**max_quantity** | `integer` | Optional |
-| relationships.**market** | `object` | Required, unless in scope |
+| relationships.**market** | `object` | Optional |
 | relationships.**promotion_rules** | `array` | Optional |
 | relationships.**order_amount_promotion_rule** | `object` | Optional |
 | relationships.**sku_list_promotion_rule** | `object` | Optional |
@@ -54,12 +54,6 @@ curl -g -X POST \
       "total_usage_limit": 5
     },
     "relationships": {
-      "market": {
-        "data": {
-          "type": "markets",
-          "id": "QWERtyUpBa"
-        }
-      },
       "sku_list": {
         "data": {
           "type": "sku_lists",

@@ -13,7 +13,7 @@ A price list object is returned as part of the response body of each successful 
 | **type**       | `string` | `price_lists`                        |
 | **id**         | `string` | The price list unique identifier  |
 | links.**self** | `string` | The price list endpoint URL       |
-| attributes.**name** | `string` | The market's internal name |
+| attributes.**name** | `string` | The price list's internal name |
 | attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**tax_included** | `boolean` | Indicates if the associated prices include taxes. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
