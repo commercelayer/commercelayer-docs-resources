@@ -70,6 +70,10 @@ On success, the API responds with a `201 Created` status code, returning the cre
       "payment_method": {
         "id": "pm_xxx"
       },
+      "mismatched_amounts": false,
+      "intent_amount_cents": 1000,
+      "intent_amount_float": 10.0,
+      "formatted_intent_amount": "€10,00",
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
       "reference": "ANY-EXTERNAL-REFEFERNCE",

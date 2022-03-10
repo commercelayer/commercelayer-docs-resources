@@ -36,15 +36,19 @@ On success, the API responds with a `200 OK` status code, returning a single res
       "self": "https://yourdomain.commercelayer.io/api/checkout_com_payments/xYZkjABcde"
     },
     "attributes": {
+      "public_key": "pk_test_xxxx-yyyy-zzzz",
       "payment_type": "token",
       "token": "tok_4gzeau5o2uqubbk6fufs3m7p54",
       "session_id": "sid_y3oqhf46pyzuxjbcn2giaqnb44",
+      "success_url": "http://commercelayer.dev/checkout_com/success",
+      "failure_url": "http://commercelayer.dev/checkout_com/failure",
       "source_id": "src_nwd3m4in3hkuddfpjsaevunhdy",
       "customer_token": "cus_udst2tfldj6upmye2reztkmm4i",
       "redirect_uri": "https://api.checkout.com/3ds/pay_mbabizu24mvu3mela5njyhpit4",
       "payment_response": {
         "foo": "bar"
       },
+      "mismatched_amounts": false,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
       "reference": "ANY-EXTERNAL-REFEFERNCE",

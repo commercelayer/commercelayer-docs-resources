@@ -18,6 +18,7 @@ An adyen payment object is returned as part of the response body of each success
 | attributes.**payment_request_data** | `object` | The Adyen payment request data, collected by client. |
 | attributes.**payment_request_details** | `object` | The Adyen additional details request data, collected by client. |
 | attributes.**payment_response** | `object` | The Adyen payment response, used by client (includes 'resultCode' and 'action'). |
+| attributes.**mismatched_amounts** | `boolean` | Indicates if the order current amount differs form the one of the associated authorization. |
 | attributes.**_details** | `boolean, value is 'true'` | Send this attribute if you want to send additional details the payment request. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

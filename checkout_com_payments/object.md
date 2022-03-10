@@ -13,13 +13,17 @@ A checkout.com payment object is returned as part of the response body of each s
 | **type**       | `string` | `checkout_com_payments`                        |
 | **id**         | `string` | The checkout.com payment unique identifier  |
 | links.**self** | `string` | The checkout.com payment endpoint URL       |
+| attributes.**public_key** | `string` | The Checkout.com publishable API key. |
 | attributes.**payment_type** | `string` | The payment source type. |
 | attributes.**token** | `string` | The Checkout.com card or digital wallet token. |
 | attributes.**session_id** | `string` | A payment session ID used to obtain the details. |
+| attributes.**success_url** | `string` | The URL to redirect your customer upon 3DS succeeded authentication. |
+| attributes.**failure_url** | `string` | The URL to redirect your customer upon 3DS failed authentication. |
 | attributes.**source_id** | `string` | The payment source identifier that can be used for subsequent payments. |
 | attributes.**customer_token** | `string` | The customer's unique identifier. This can be passed as a source when making a payment. |
 | attributes.**redirect_uri** | `string` | The URI that the customer should be redirected to in order to complete the payment. |
 | attributes.**payment_response** | `object` | The Checkout.com payment response, used to fetch internal data. |
+| attributes.**mismatched_amounts** | `boolean` | Indicates if the order current amount differs form the one of the associated authorization. |
 | attributes.**_details** | `boolean, value is 'true'` | Send this attribute if you want to send additional details the payment request (i.e. upon 3DS check). |
 | attributes.**_refresh** | `boolean, value is 'true'` | Send this attribute if you want to refresh all the pending transactions, can be used as webhooks fallback logic. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |

@@ -17,6 +17,10 @@ A stripe payment object is returned as part of the response body of each success
 | attributes.**publishable_key** | `string` | The Stripe publishable API key. |
 | attributes.**options** | `object` | Stripe payment options: 'setup_future_usage', 'customer', and 'payment_method' |
 | attributes.**payment_method** | `object` | Stripe 'payment_method', set by webhook. |
+| attributes.**mismatched_amounts** | `boolean` | Indicates if the order current amount differs form the one of the created payment intent. |
+| attributes.**intent_amount_cents** | `integer` | The amount of the associated payment intent, in cents. |
+| attributes.**intent_amount_float** | `float` | The amount of the associated payment intent, float. |
+| attributes.**formatted_intent_amount** | `string` | The amount of the associated payment intent, formatted. |
 | attributes.**_refresh** | `boolean, value is 'true'` | Send this attribute if you want to refresh the payment status, can be used as webhooks fallback logic. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

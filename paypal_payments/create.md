@@ -17,7 +17,6 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | **type**       | `string` | Required |
 | attributes.**return_url** | `string` | Required |
 | attributes.**cancel_url** | `string` | Required |
-| attributes.**store_payment_source** | `boolean` | Optional |
 | attributes.**note_to_payer** | `string` | Optional |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
@@ -70,13 +69,16 @@ On success, the API responds with a `201 Created` status code, returning the cre
     "attributes": {
       "return_url": "https://yourdomain.com/thankyou",
       "cancel_url": "https://yourdomain.com/checkout/payment",
-      "store_payment_source": false,
       "note_to_payer": "Thank you for shopping with us!",
       "paypal_payer_id": "ABCDEFGHG123456",
       "name": "ABCDEFGHG123456",
       "paypal_id": "1234567890",
       "status": "created",
       "approval_url": "https://www.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-1234567890ABCDEFGHG",
+      "mismatched_amounts": false,
+      "intent_amount_cents": 1000,
+      "intent_amount_float": 10.0,
+      "formatted_intent_amount": "€10,00",
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
       "reference": "ANY-EXTERNAL-REFEFERNCE",
