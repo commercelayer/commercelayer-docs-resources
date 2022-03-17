@@ -13,11 +13,11 @@ An order object is returned as part of the response body of each successful list
 | **type**       | `string` | `orders`                        |
 | **id**         | `string` | The order unique identifier  |
 | links.**self** | `string` | The order endpoint URL       |
-| attributes.**number** | `integer` | Unique identifier for the order (numeric) |
+| attributes.**number** | `integer` | Unique identifier for the order (numeric). |
 | attributes.**autorefresh** | `boolean` | Save this attribute as 'false' if you want prevent the order to be refreshed automatically at each change (much faster). |
-| attributes.**status** | `string` | The order status. One of 'draft' (default), 'pending', 'placed', 'approved', or 'cancelled' |
-| attributes.**payment_status** | `string` | The order's payment status. One of 'unpaid' (default), 'authorized', 'paid', 'voided', or 'refunded' |
-| attributes.**fulfillment_status** | `string` | The order's fulfillment status. One of 'unfulfilled' (default), 'in_progress', or 'fulfilled' |
+| attributes.**status** | `string` | The order status. One of 'draft' (default), 'pending', 'placed', 'approved', or 'cancelled'. |
+| attributes.**payment_status** | `string` | The order's payment status. One of 'unpaid' (default), 'authorized', 'paid', 'voided', or 'refunded'. |
+| attributes.**fulfillment_status** | `string` | The order's fulfillment status. One of 'unfulfilled' (default), 'in_progress', or 'fulfilled'. |
 | attributes.**guest** | `boolean` | Indicates if the order has been placed as guest. |
 | attributes.**editable** | `boolean` | Indicates if the order can be edited. |
 | attributes.**customer_email** | `string` | The email address of the associated customer. When creating or updating an order, this is a shortcut to find or create the associated customer by email. |
@@ -84,7 +84,7 @@ An order object is returned as part of the response body of each successful list
 | attributes.**adjustment_taxable_amount_cents** | `integer` | The order's adjustment taxable amount, in cents (equal to discount_adjustment_cents when prices don't include taxes). |
 | attributes.**adjustment_taxable_amount_float** | `float` | The order's adjustment taxable amount, float. |
 | attributes.**formatted_adjustment_taxable_amount** | `string` | The order's adjustment taxable amount, formatted. |
-| attributes.**total_amount_with_taxes_cents** | `integer` | The order's total amount (when prices include taxes) or the order's total + taxes amount (when prices don't include taxes, e.g. US Markets or B2B) |
+| attributes.**total_amount_with_taxes_cents** | `integer` | The order's total amount (when prices include taxes) or the order's total + taxes amount (when prices don't include taxes, e.g. US Markets or B2B). |
 | attributes.**total_amount_with_taxes_float** | `float` | The order's total amount with taxes, float. |
 | attributes.**formatted_total_amount_with_taxes** | `string` | The order's total amount with taxes, formatted. |
 | attributes.**fees_amount_cents** | `integer` | The fees amount that is applied by Commerce Layer, in cents. |
@@ -114,6 +114,7 @@ An order object is returned as part of the response body of each successful list
 | attributes.**_capture** | `boolean, value is 'true'` | Send this attribute if you want to capture an approved order. |
 | attributes.**_refund** | `boolean, value is 'true'` | Send this attribute if you want to refund a captured order. |
 | attributes.**_update_taxes** | `boolean, value is 'true'` | Send this attribute if you want to force tax calculation for this order (a tax calculator must be associated to the order's market). |
+| attributes.**_nullify_payment_source** | `boolean, value is 'true'` | Send this attribute if you want to nullify the payment source for this order. |
 | attributes.**_billing_address_clone_id** | `string` | The id of the address that you want to clone to create the order's billing address. |
 | attributes.**_shipping_address_clone_id** | `string` | The id of the address that you want to clone to create the order's shipping address. |
 | attributes.**_customer_payment_source_id** | `string` | The id of the customer payment source (i.e. credit card) that you want to use as the order's payment source. |

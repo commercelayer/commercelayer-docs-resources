@@ -42,6 +42,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**_capture** | `boolean, value is 'true'` | Optional |
 | attributes.**_refund** | `boolean, value is 'true'` | Optional |
 | attributes.**_update_taxes** | `boolean, value is 'true'` | Optional |
+| attributes.**_nullify_payment_source** | `boolean, value is 'true'` | Optional |
 | attributes.**_billing_address_clone_id** | `string` | Optional |
 | attributes.**_shipping_address_clone_id** | `string` | Optional |
 | attributes.**_customer_payment_source_id** | `string` | Optional |
