@@ -22,6 +22,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | attributes.**username** | `string` | Required |
 | attributes.**password** | `string` | Required |
 | attributes.**company_code** | `string` | Required |
+| attributes.**commit_invoice** | `string` | Optional |
 | attributes.**ddp** | `string` | Optional |
 | relationships.**tax_categories** | `array` | Optional |
 
@@ -73,6 +74,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
       },
       "username": "user@mydomain.com",
       "company_code": "MYCOMPANY",
+      "commit_invoice": "true",
       "ddp": "true"
     },
     "relationships": {

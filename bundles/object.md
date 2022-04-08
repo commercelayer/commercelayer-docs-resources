@@ -18,6 +18,8 @@ A bundle object is returned as part of the response body of each successful list
 | attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**description** | `string` | An internal description of the bundle. |
 | attributes.**image_url** | `string` | The URL of an image that represents the bundle. |
+| attributes.**do_not_ship** | `boolean` | Indicates if the bundle doesn't generate shipments. |
+| attributes.**do_not_track** | `boolean` | Indicates if the bundle doesn't track the stock inventory. |
 | attributes.**price_amount_cents** | `integer` | The bundle price amount for the associated market, in cents. |
 | attributes.**price_amount_float** | `float` | The bundle price amount for the associated market, float. |
 | attributes.**formatted_price_amount** | `string` | The bundle price amount for the associated market, formatted. |

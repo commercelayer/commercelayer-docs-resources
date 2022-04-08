@@ -25,6 +25,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**username** | `string` | Optional |
 | attributes.**password** | `string` | Optional |
 | attributes.**company_code** | `string` | Optional |
+| attributes.**commit_invoice** | `string` | Optional |
 | attributes.**ddp** | `string` | Optional |
 | relationships.**tax_categories** | `array` | Optional |
 
@@ -74,6 +75,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       },
       "username": "user@mydomain.com",
       "company_code": "MYCOMPANY",
+      "commit_invoice": "true",
       "ddp": "true"
     },
     "relationships": {

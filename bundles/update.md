@@ -23,6 +23,8 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**currency_code** | `string` | Optional |
 | attributes.**description** | `string` | Optional |
 | attributes.**image_url** | `string` | Optional |
+| attributes.**do_not_ship** | `boolean` | Optional |
+| attributes.**do_not_track** | `boolean` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**compare_at_amount_cents** | `integer` | Optional |
 | attributes.**_compute_price_amount** | `boolean, value is 'true'` | Optional |
@@ -72,6 +74,8 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image_url": "https://img.yourdomain.com/bundles/xYZkjABcde.png",
+      "do_not_ship": false,
+      "do_not_track": false,
       "price_amount_cents": 10000,
       "price_amount_float": 100.0,
       "formatted_price_amount": "€100,00",

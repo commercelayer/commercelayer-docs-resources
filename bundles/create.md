@@ -20,6 +20,8 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**description** | `string` | Optional |
 | attributes.**image_url** | `string` | Optional |
+| attributes.**do_not_ship** | `boolean` | Optional |
+| attributes.**do_not_track** | `boolean` | Optional |
 | attributes.**price_amount_cents** | `integer` | Required |
 | attributes.**compare_at_amount_cents** | `integer` | Required |
 | attributes.**_compute_price_amount** | `boolean, value is 'true'` | Optional |
@@ -82,6 +84,8 @@ On success, the API responds with a `201 Created` status code, returning the cre
       "currency_code": "EUR",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image_url": "https://img.yourdomain.com/bundles/xYZkjABcde.png",
+      "do_not_ship": false,
+      "do_not_track": false,
       "price_amount_cents": 10000,
       "price_amount_float": 100.0,
       "formatted_price_amount": "€100,00",

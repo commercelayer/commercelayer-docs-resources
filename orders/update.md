@@ -48,6 +48,8 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**_customer_payment_source_id** | `string` | Optional |
 | attributes.**_shipping_address_same_as_billing** | `boolean, value is 'true'` | Optional |
 | attributes.**_billing_address_same_as_shipping** | `boolean, value is 'true'` | Optional |
+| attributes.**_commit_invoice** | `boolean, value is 'true'` | Optional |
+| attributes.**_refund_invoice** | `boolean, value is 'true'` | Optional |
 | attributes.**_save_payment_source_to_customer_wallet** | `boolean, value is 'true'` | Optional |
 | attributes.**_save_shipping_address_to_customer_address_book** | `boolean, value is 'true'` | Optional |
 | attributes.**_save_billing_address_to_customer_address_book** | `boolean, value is 'true'` | Optional |

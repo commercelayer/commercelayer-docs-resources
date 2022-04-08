@@ -47,6 +47,7 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
         },
         "username": "user@mydomain.com",
         "company_code": "MYCOMPANY",
+        "commit_invoice": "true",
         "ddp": "true"
       },
       "relationships": {

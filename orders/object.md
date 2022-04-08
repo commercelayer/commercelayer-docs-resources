@@ -120,6 +120,8 @@ An order object is returned as part of the response body of each successful list
 | attributes.**_customer_payment_source_id** | `string` | The id of the customer payment source (i.e. credit card) that you want to use as the order's payment source. |
 | attributes.**_shipping_address_same_as_billing** | `boolean, value is 'true'` | Send this attribute if you want the shipping address to be cloned from the order's billing address. |
 | attributes.**_billing_address_same_as_shipping** | `boolean, value is 'true'` | Send this attribute if you want the billing address to be cloned from the order's shipping address. |
+| attributes.**_commit_invoice** | `boolean, value is 'true'` | Send this attribute if you want commit the sales tax invoice to the associated tax calculator (currently supported by Avalara). |
+| attributes.**_refund_invoice** | `boolean, value is 'true'` | Send this attribute if you want refund the sales tax invoice to the associated tax calculator (currently supported by Avalara). |
 | attributes.**_save_payment_source_to_customer_wallet** | `boolean, value is 'true'` | Send this attribute if you want the order's payment source to be saved in the customer's wallet as a customer payment source. |
 | attributes.**_save_shipping_address_to_customer_address_book** | `boolean, value is 'true'` | Send this attribute if you want the order's shipping address to be saved in the customer's address book as a customer address. |
 | attributes.**_save_billing_address_to_customer_address_book** | `boolean, value is 'true'` | Send this attribute if you want the order's billing address to be saved in the customer's address book as a customer address. |

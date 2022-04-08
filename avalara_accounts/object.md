@@ -22,6 +22,7 @@ An avalara account object is returned as part of the response body of each succe
 | attributes.**username** | `string` | The Avalara account username. |
 | attributes.**password** | `string` | The Avalara account password. |
 | attributes.**company_code** | `string` | The Avalara company code. |
+| attributes.**commit_invoice** | `string` | Indicates if the transaction will be recorded and visible on the Avalara website. |
 | attributes.**ddp** | `string` | Indicates if the seller is responsible for paying/remitting the customs duty & import tax to the customs authorities. |
 | relationships.**tax_categories** | `array` | The associated tax categories. |
 | relationships.**markets** | `array` | The associated markets. |
