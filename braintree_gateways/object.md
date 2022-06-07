@@ -24,7 +24,7 @@ A braintree gateway object is returned as part of the response body of each succ
 | attributes.**public_key** | `string` | The gateway API public key. |
 | attributes.**private_key** | `string` | The gateway API private key. |
 | attributes.**descriptor_name** | `string` | The dynamic descriptor name. Must be composed by business name (3, 7 or 12 chars), an asterisk (*) and the product name (18, 14 or 9 chars), for a total length of 22 chars. |
-| attributes.**descriptor_phone** | `string` | The dynamic descriptor phone number. |
+| attributes.**descriptor_phone** | `string` | The dynamic descriptor phone number. Must be 10-14 characters and can only contain numbers, dashes, parentheses and periods. |
 | attributes.**descriptor_url** | `string` | The dynamic descriptor URL. |
 | attributes.**webhook_endpoint_url** | `string` | The gateway webhook URL, generated automatically. |
 | relationships.**payment_methods** | `array` | The associated payment methods. |

@@ -181,6 +181,18 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
             "related": "https://yourdomain.commercelayer.io/api/orders/xYZkjABcde/available_customer_payment_sources"
           }
         },
+        "available_free_skus": {
+          "links": {
+            "self": "https://yourdomain.commercelayer.io/api/orders/xYZkjABcde/relationships/available_free_skus",
+            "related": "https://yourdomain.commercelayer.io/api/orders/xYZkjABcde/available_free_skus"
+          }
+        },
+        "available_free_bundles": {
+          "links": {
+            "self": "https://yourdomain.commercelayer.io/api/orders/xYZkjABcde/relationships/available_free_bundles",
+            "related": "https://yourdomain.commercelayer.io/api/orders/xYZkjABcde/available_free_bundles"
+          }
+        },
         "payment_method": {
           "links": {
             "self": "https://yourdomain.commercelayer.io/api/orders/xYZkjABcde/relationships/payment_method",

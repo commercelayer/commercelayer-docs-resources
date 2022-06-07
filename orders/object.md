@@ -145,6 +145,8 @@ An order object is returned as part of the response body of each successful list
 | relationships.**billing_address** | `object` | The customer's billing address. |
 | relationships.**available_payment_methods** | `array` | The available payment methods for the order. Useful to present the customer with a list of choices during the checkout. Only enabled payment methods are included in the list. |
 | relationships.**available_customer_payment_sources** | `array` | The available customer payment sources for the order. Useful to present the customer with a list of choices during the checkout. |
+| relationships.**available_free_skus** | `array` | The available SKUs eligible as free gifts once added to the order. Useful to present the customer with a list of possible free gifts during the checkout. The list is filled by SKUs which belongs to matching free gift promotions. |
+| relationships.**available_free_bundles** | `array` | The available bundles eligible as free gifts once added to the order. Useful to present the customer with a list of possible free gifts during the checkout. The list is filled by bundles which belongs to matching free gift promotions. |
 | relationships.**payment_method** | `object` | The associated payment method. |
 | relationships.**payment_source** | `object` | The associated payment source (one stripe payment, braintree payment, adyen payment, paypal payment, or wire transfer). |
 | relationships.**line_items** | `array` | The associated line items. |
