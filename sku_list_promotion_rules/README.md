@@ -6,6 +6,10 @@ description: >-
 
 # SKU list promotion rules
 
-Commerce Layer provides a promotional engine built on top of two main resources: [promotions](https://docs.commercelayer.io/api/resources/promotions) and [promotion rules](https://docs.commercelayer.io/api/resources/promotion\_rules).
+Commerce Layer provides a promotional engine built on top of two main resources: [promotions](../promotions/) and [promotion rules](../promotion\_rules/).
 
-SKU list promotions rules are used to trigger the associated promotion only if an order contains any (default) or all (set the `all_skus` attribute to `true`) of the SKUs within the specified list. Optionally, is possible to specify a `min_quantity`, which will overwrite previous rules and will be honoured by checking the order's line items quantities and the matching SKU list item (this rule does **not** apply to [bundles](https://docs.commercelayer.io/api/resources/bundles)).
+SKU list promotions rules are used to trigger the associated promotion only if an order contains any (default) or all (set the `all_skus` attribute to `true`) of the SKUs within the specified list. Optionally, is possible to specify a `min_quantity`, which will overwrite previous rules and will be honored by checking the order's line item quantities and the matching SKU list item.
+
+{% hint style="info" %}
+In order for an SKU list promotion rule to apply to [bundles](../bundles/), the two resources must share the same [SKU list](../sku\_lists/) (there is no SKUs partial matching). The `min_quantity` option will be checked against the quantity of the line item associated with the specific bundle.
+{% endhint %}
