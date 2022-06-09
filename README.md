@@ -17,4 +17,6 @@ For each single resource you can find:
 
 See our [Getting started](https://docs.commercelayer.io/developers/) guide for basic information on how to [fetch](https://docs.commercelayer.io/developers/fetching-resources), [create](https://docs.commercelayer.io/developers/creating-resources), [update](https://docs.commercelayer.io/developers/updating-resources) and [delete](https://docs.commercelayer.io/developers/deleting-resources) resources or any other instruction you need to interact with our API.
 
-Check our [how-tos](https://docs.commercelayer.io/developers/v/how-tos/) for step-by-step tutorials and best practices on how to handle the most common ecommerce scenarios.
+Check our [changelog](https://app.gitbook.com/o/-Lfu\_B3DKew-kvoEWzTk/s/8DjTu5pfPzXTm6rzaAmr/) to stay up-to-date with any changes we make on the APIs, apps, and open-source projects (including versioning, product releases, new features, and general improvements).
+
+Read our [how-tos](https://docs.commercelayer.io/developers/v/how-tos/) for step-by-step tutorials and best practices on how to handle the most common ecommerce scenarios.
