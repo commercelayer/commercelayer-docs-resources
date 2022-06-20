@@ -6,7 +6,7 @@ description: >-
 
 # Refunds
 
-A [captured](../captures/) payment can be refunded, either fully or partially. The total refund amount cannot exceed the amount captured — if it’s equal to the amount captured the refund will be full, if it’s less the refund will be partial**:**
+A [captured](../captures/) payment can be refunded, either totally or partially. The total refund amount cannot exceed the amount captured — if it’s equal to the amount captured the refund will be full, if it’s less the refund will be partial**:**
 
 * In case of a **partial refund**, the related order's payment status is moved to `partially_refunded` and a new successful refund transaction is created.
 * In case of a **full refund**, the order status is moved to `cancelled`, its payment status to `refunded`, and a new successful refund transaction is created.

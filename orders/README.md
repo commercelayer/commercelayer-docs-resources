@@ -32,7 +32,7 @@ Read more about the anatomy of an order [here](https://commercelayer.io/docs/dat
 
 </details>
 
-#### Idempotency
+### Idempotency
 
 {% hint style="info" %}
 Order status changes are **idempotent**. The order and payment statuses are granted to be consistent upon multiple updates (e.g. it's possible to place or cancel an order multiple times, without worrying about duplicated transactions and other side effects).
