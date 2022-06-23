@@ -44,5 +44,6 @@ A return object is returned as part of the response body of each successful list
 | relationships.**destination_address** | `object` | The associated stock location address. |
 | relationships.**return_line_items** | `array` | The order line items associated to the return. |
 | relationships.**attachments** | `array` | The associated attachments. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

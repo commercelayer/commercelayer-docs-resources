@@ -66,6 +66,12 @@ On success, the API responds with a `200 OK` status code, returning a single res
           "self": "https://yourdomain.commercelayer.io/api/in_stock_subscriptions/xYZkjABcde/relationships/sku",
           "related": "https://yourdomain.commercelayer.io/api/in_stock_subscriptions/xYZkjABcde/sku"
         }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/in_stock_subscriptions/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/in_stock_subscriptions/xYZkjABcde/events"
+        }
       }
     },
     "meta": {

@@ -60,7 +60,7 @@ curl -g -X PATCH \
     "type": "parcels",
     "id": "xYZkjABcde",
     "attributes": {
-      "weight": 1000.0
+      "eel_pfc": "EEL"
     }
   }
 }'
@@ -134,6 +134,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
         "links": {
           "self": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/relationships/attachments",
           "related": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/attachments"
+        }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/events"
         }
       }
     },

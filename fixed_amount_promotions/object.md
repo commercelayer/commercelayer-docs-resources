@@ -28,6 +28,7 @@ A fixed amount promotion object is returned as part of the response body of each
 | attributes.**fixed_amount_cents** | `integer` | The discount fixed amount to be applied, in cents |
 | attributes.**fixed_amount_float** | `float` | The discount fixed amount to be applied, float. |
 | attributes.**formatted_fixed_amount** | `string` | The discount fixed amount to be applied, formatted. |
+| attributes.**events** | `has_many` | The associated events. |
 | relationships.**market** | `object` | The associated market. |
 | relationships.**promotion_rules** | `array` | The associated promotion rules. |
 | relationships.**order_amount_promotion_rule** | `object` | The associated order amount promotion rule. |

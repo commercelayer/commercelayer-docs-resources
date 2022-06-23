@@ -54,6 +54,12 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
             "self": "https://yourdomain.commercelayer.io/api/customer_password_resets/xYZkjABcde/relationships/customer",
             "related": "https://yourdomain.commercelayer.io/api/customer_password_resets/xYZkjABcde/customer"
           }
+        },
+        "events": {
+          "links": {
+            "self": "https://yourdomain.commercelayer.io/api/customer_password_resets/xYZkjABcde/relationships/events",
+            "related": "https://yourdomain.commercelayer.io/api/customer_password_resets/xYZkjABcde/events"
+          }
         }
       },
       "meta": {

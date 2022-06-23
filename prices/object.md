@@ -28,6 +28,8 @@ A price object is returned as part of the response body of each successful list,
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
 | relationships.**price_list** | `object` | The associated price list. |
 | relationships.**sku** | `object` | The associated SKU. When creating a price, either a SKU relationship or a valid sku_code must be present. |
+| relationships.**price_tiers** | `array` | The associated price tiers. |
+| relationships.**price_volume_tiers** | `array` | The associated price volume tiers. |
 | relationships.**attachments** | `array` | The associated attachments. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

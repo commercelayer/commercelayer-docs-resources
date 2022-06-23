@@ -31,6 +31,7 @@ A shipment object is returned as part of the response body of each successful li
 | attributes.**_purchase** | `boolean, value is 'true'` | Send this attribute if you want to purchase this shipment with the selected rate. |
 | attributes.**purchase_error_code** | `string` | The shipping rate purchase error code, if any. |
 | attributes.**purchase_error_message** | `string` | The shipping rate purchase error message, if any. |
+| attributes.**get_rates_errors** | `array` | Any errors collected when fetching shipping rates. |
 | attributes.**get_rates_started_at** | `datetime` | Time at which the getting of the shipping rates started. |
 | attributes.**get_rates_completed_at** | `datetime` | Time at which the getting of the shipping rates completed. |
 | attributes.**purchase_started_at** | `datetime` | Time at which the purchasing of the shipping rate started. |
@@ -55,5 +56,6 @@ A shipment object is returned as part of the response body of each successful li
 | relationships.**carrier_accounts** | `array` | The carrier accounts available for the order's market. |
 | relationships.**parcels** | `array` | The associated parcels. |
 | relationships.**attachments** | `array` | The associated attachments. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

@@ -114,6 +114,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
           "self": "https://yourdomain.commercelayer.io/api/order_subscriptions/xYZkjABcde/relationships/orders",
           "related": "https://yourdomain.commercelayer.io/api/order_subscriptions/xYZkjABcde/orders"
         }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/order_subscriptions/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/order_subscriptions/xYZkjABcde/events"
+        }
       }
     },
     "meta": {

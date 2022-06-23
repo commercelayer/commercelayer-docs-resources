@@ -43,5 +43,6 @@ A gift card object is returned as part of the response body of each successful l
 | relationships.**market** | `object` | The associated market (optional). |
 | relationships.**gift_card_recipient** | `object` | The associated gift card recipient (optional). |
 | relationships.**attachments** | `array` | The associated attachments. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

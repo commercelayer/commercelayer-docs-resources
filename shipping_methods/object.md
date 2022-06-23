@@ -14,6 +14,7 @@ A shipping method object is returned as part of the response body of each succes
 | **id**         | `string` | The shipping method unique identifier  |
 | links.**self** | `string` | The shipping method endpoint URL       |
 | attributes.**name** | `string` | The shipping method's name |
+| attributes.**scheme** | `string` | The shipping method's scheme, one of 'flat' or 'weight_tiered'. |
 | attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**disabled_at** | `datetime` | Time at which the shipping method was disabled. |
 | attributes.**price_amount_cents** | `integer` | The price of this shipping method, in cents. |
@@ -25,6 +26,9 @@ A shipping method object is returned as part of the response body of each succes
 | attributes.**price_amount_for_shipment_cents** | `integer` | The calculated price (zero or price amount) when associated to a shipment, in cents. |
 | attributes.**price_amount_for_shipment_float** | `float` | The calculated price (zero or price amount) when associated to a shipment, float. |
 | attributes.**formatted_price_amount_for_shipment** | `string` | The calculated price (zero or price amount) when associated to a shipment, formatted. |
+| attributes.**min_weight** | `float` | The minimum weight for which this shipping method is available. |
+| attributes.**max_weight** | `float` | The maximum weight for which this shipping method is available. |
+| attributes.**unit_of_weight** | `string` | Can be one of 'gr', 'lb', or 'oz' |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |
 | attributes.**reference** | `string` | A string that you can use to add any external identifier to the resource. This can be useful for integrating the resource to an external system, like an ERP, a marketing tool, a CRM, or whatever. |
@@ -33,7 +37,10 @@ A shipping method object is returned as part of the response body of each succes
 | relationships.**market** | `object` | The associated market. |
 | relationships.**shipping_zone** | `object` | The shipping zone that is used to match the order shipping address. |
 | relationships.**shipping_category** | `object` | The shipping category for which this shipping method is available. |
+| relationships.**stock_location** | `object` | The stock location for which this shipping method is available. |
 | relationships.**delivery_lead_time_for_shipment** | `object` | The delivery lead time for the associated shipment. |
+| relationships.**shipping_method_tiers** | `array` | The associated shipping method tiers (meaningful when billing_scheme != 'flat'). |
+| relationships.**shipping_weight_tiers** | `array` | The associated shipping weight tiers (meaningful when billing_scheme != 'flat'). |
 | relationships.**attachments** | `array` | The associated attachments. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

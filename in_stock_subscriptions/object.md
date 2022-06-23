@@ -27,5 +27,6 @@ An in stock subscription object is returned as part of the response body of each
 | relationships.**market** | `object` | The associated market. |
 | relationships.**customer** | `object` | The associated customer. |
 | relationships.**sku** | `object` | The associated sku. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

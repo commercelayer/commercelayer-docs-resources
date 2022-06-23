@@ -33,5 +33,6 @@ A stock transfer object is returned as part of the response body of each success
 | relationships.**destination_stock_location** | `object` | The destination stock location. |
 | relationships.**shipment** | `object` | The associated shipment. |
 | relationships.**line_item** | `object` | The associated line_item. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

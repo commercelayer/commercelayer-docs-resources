@@ -110,6 +110,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
           "self": "https://yourdomain.commercelayer.io/api/stock_transfers/xYZkjABcde/relationships/line_item",
           "related": "https://yourdomain.commercelayer.io/api/stock_transfers/xYZkjABcde/line_item"
         }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/stock_transfers/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/stock_transfers/xYZkjABcde/events"
+        }
       }
     },
     "meta": {

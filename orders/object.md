@@ -159,5 +159,6 @@ An order object is returned as part of the response body of each successful list
 | relationships.**order_subscriptions** | `array` | The associated order subscriptions. |
 | relationships.**order_copies** | `array` | The associated order copies. |
 | relationships.**attachments** | `array` | The associated attachments. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

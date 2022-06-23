@@ -38,5 +38,6 @@ An order subscription object is returned as part of the response body of each su
 | relationships.**customer** | `object` | The subscription customer. |
 | relationships.**order_copies** | `array` | The associated order copies. |
 | relationships.**orders** | `array` | The associated copied orders. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

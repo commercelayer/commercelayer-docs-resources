@@ -92,6 +92,12 @@ On success, the API responds with a `200 OK` status code, returning a single res
           "self": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/relationships/attachments",
           "related": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/attachments"
         }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/events"
+        }
       }
     },
     "meta": {

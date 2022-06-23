@@ -23,6 +23,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | attributes.**metadata** | `object` | Optional |
 | relationships.**price_list** | `object` | Required |
 | relationships.**sku** | `object` | Optional |
+| relationships.**price_tiers** | `array` | Optional |
 
 ### Example
 
@@ -95,6 +96,18 @@ On success, the API responds with a `201 Created` status code, returning the cre
         "links": {
           "self": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/relationships/sku",
           "related": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/sku"
+        }
+      },
+      "price_tiers": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/relationships/price_tiers",
+          "related": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/price_tiers"
+        }
+      },
+      "price_volume_tiers": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/relationships/price_volume_tiers",
+          "related": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/price_volume_tiers"
         }
       },
       "attachments": {

@@ -15,8 +15,8 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | Body Parameter | Type     | Required |
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
-| attributes.**weight** | `float` | Optional |
-| attributes.**unit_of_weight** | `string` | Optional |
+| attributes.**weight** | `float` | Required |
+| attributes.**unit_of_weight** | `string` | Required |
 | attributes.**eel_pfc** | `string` | Optional |
 | attributes.**contents_type** | `string` | Optional |
 | attributes.**contents_explanation** | `string` | Optional |
@@ -55,6 +55,10 @@ curl -g -X POST \
   -d '{
   "data": {
     "type": "parcels",
+    "attributes": {
+      "weight": 1000.0,
+      "unit_of_weight": "gr"
+    },
     "relationships": {
       "shipment": {
         "data": {
@@ -141,6 +145,12 @@ On success, the API responds with a `201 Created` status code, returning the cre
         "links": {
           "self": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/relationships/attachments",
           "related": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/attachments"
+        }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/parcels/xYZkjABcde/events"
         }
       }
     },

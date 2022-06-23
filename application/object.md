@@ -15,7 +15,7 @@ The application object is returned as part of the response body of each successf
 | links.**self** | `string` | The application endpoint URL       |
 | attributes.**name** | `string` | The application's internal name. |
 | attributes.**kind** | `string` | The application's kind, can be one of: 'sales_channel', 'checkout', 'contentful', 'datocms', 'sanity', 'cli', 'integration', 'webapp', 'zapier', or 'channel' |
-| attributes.**public_access** | `string` | Indicates if the application has public access. |
+| attributes.**public_access** | `boolean` | Indicates if the application has public access. |
 | attributes.**redirect_uri** | `string` | The application's redirect URI. |
 | attributes.**uid** | `string` | The application's unique ID. |
 | attributes.**secret** | `string` | The application's secret. |

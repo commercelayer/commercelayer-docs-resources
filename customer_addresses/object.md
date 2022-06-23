@@ -21,5 +21,6 @@ A customer address object is returned as part of the response body of each succe
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
 | relationships.**customer** | `object` | The associated customer. |
 | relationships.**address** | `object` | The associated address. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

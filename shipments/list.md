@@ -55,6 +55,13 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
         ],
         "purchase_error_code": "SHIPMENT.POSTAGE.FAILURE",
         "purchase_error_message": "Account not allowed for this service.",
+        "get_rates_errors": [
+          {
+            "carrier": "DHLExpress",
+            "message": "to_address.postal_code: Shorter than minimum length 3",
+            "type": "rate_error"
+          }
+        ],
         "get_rates_started_at": "2018-01-01T12:00:00.000Z",
         "get_rates_completed_at": "2018-01-01T12:00:00.000Z",
         "purchase_started_at": "2018-01-01T12:00:00.000Z",
@@ -151,6 +158,12 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
           "links": {
             "self": "https://yourdomain.commercelayer.io/api/shipments/xYZkjABcde/relationships/attachments",
             "related": "https://yourdomain.commercelayer.io/api/shipments/xYZkjABcde/attachments"
+          }
+        },
+        "events": {
+          "links": {
+            "self": "https://yourdomain.commercelayer.io/api/shipments/xYZkjABcde/relationships/events",
+            "related": "https://yourdomain.commercelayer.io/api/shipments/xYZkjABcde/events"
           }
         }
       },

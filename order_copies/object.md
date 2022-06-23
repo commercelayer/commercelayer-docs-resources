@@ -30,5 +30,6 @@ An order copy object is returned as part of the response body of each successful
 | relationships.**source_order** | `object` | The source order to copy from. |
 | relationships.**target_order** | `object` | The copied target order. |
 | relationships.**order_subscription** | `object` | The associated order subscription. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

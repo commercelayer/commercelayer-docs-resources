@@ -68,6 +68,12 @@ On success, the API responds with a `200 OK` status code, returning a paginated 
             "self": "https://yourdomain.commercelayer.io/api/refunds/xYZkjABcde/relationships/reference_capture",
             "related": "https://yourdomain.commercelayer.io/api/refunds/xYZkjABcde/reference_capture"
           }
+        },
+        "events": {
+          "links": {
+            "self": "https://yourdomain.commercelayer.io/api/refunds/xYZkjABcde/relationships/events",
+            "related": "https://yourdomain.commercelayer.io/api/refunds/xYZkjABcde/events"
+          }
         }
       },
       "meta": {

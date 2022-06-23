@@ -30,5 +30,6 @@ A customer object is returned as part of the response body of each successful li
 | relationships.**order_subscriptions** | `array` | The customer's order subscriptions. |
 | relationships.**returns** | `array` | The customer's returns, either pending or shipped. |
 | relationships.**attachments** | `array` | The associated attachments. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

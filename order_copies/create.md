@@ -102,6 +102,12 @@ On success, the API responds with a `201 Created` status code, returning the cre
           "self": "https://yourdomain.commercelayer.io/api/order_copies/xYZkjABcde/relationships/order_subscription",
           "related": "https://yourdomain.commercelayer.io/api/order_copies/xYZkjABcde/order_subscription"
         }
+      },
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/order_copies/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/order_copies/xYZkjABcde/events"
+        }
       }
     },
     "meta": {

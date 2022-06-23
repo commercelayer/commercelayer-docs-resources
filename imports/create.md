@@ -111,6 +111,12 @@ On success, the API responds with a `201 Created` status code, returning the cre
       }
     },
     "relationships": {
+      "events": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/imports/xYZkjABcde/relationships/events",
+          "related": "https://yourdomain.commercelayer.io/api/imports/xYZkjABcde/events"
+        }
+      }
     },
     "meta": {
       "mode": "test"

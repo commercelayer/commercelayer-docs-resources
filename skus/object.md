@@ -19,7 +19,7 @@ A SKU object is returned as part of the response body of each successful list, r
 | attributes.**image_url** | `string` | The URL of an image that represents the SKU. |
 | attributes.**pieces_per_pack** | `integer` | The number of pieces that compose the SKU. This is useful to describe sets and bundles. |
 | attributes.**weight** | `float` | The weight of the SKU. If present, it will be used to calculate the shipping rates. |
-| attributes.**unit_of_weight** | `string` | Can be one of 'gr', or 'oz' |
+| attributes.**unit_of_weight** | `string` | Can be one of 'gr', 'lb', or 'oz' |
 | attributes.**hs_tariff_number** | `string` | The Harmonized System Code used by customs to identify the products shipped across international borders. |
 | attributes.**do_not_ship** | `boolean` | Indicates if the SKU doesn't generate shipments. |
 | attributes.**do_not_track** | `boolean` | Indicates if the SKU doesn't track the stock inventory. |

@@ -15,7 +15,7 @@ A parcel object is returned as part of the response body of each successful list
 | links.**self** | `string` | The parcel endpoint URL       |
 | attributes.**number** | `string` | Unique identifier for the parcel |
 | attributes.**weight** | `float` | The parcel weight, used to automatically calculate the tax rates from the available carrier accounts. |
-| attributes.**unit_of_weight** | `string` | The unit of weight. Can be one of 'gr', or 'oz'. |
+| attributes.**unit_of_weight** | `string` | Can be one of 'gr', 'lb', or 'oz' |
 | attributes.**eel_pfc** | `string` | When shipping outside the US, you need to provide either an Exemption and Exclusion Legend (EEL) code or a Proof of Filing Citation (PFC). Which you need is based on the value of the goods being shipped. Value can be one of "EEL" o "PFC". |
 | attributes.**contents_type** | `string` | The type of item you are sending. Can be one of 'merchandise', 'gift', 'documents', 'returned_goods', 'sample', or 'other'. |
 | attributes.**contents_explanation** | `string` | If you specify 'other' in the 'contents_type' attribute, you must supply a brief description in this attribute. |
@@ -46,5 +46,6 @@ A parcel object is returned as part of the response body of each successful list
 | relationships.**package** | `object` | The associated package. |
 | relationships.**parcel_line_items** | `array` | The line items in this parcel (a subset of the shipment line items) |
 | relationships.**attachments** | `array` | The associated attachments. |
+| relationships.**events** | `array` | The associated events. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 

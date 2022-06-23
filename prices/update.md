@@ -26,6 +26,7 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**metadata** | `object` | Optional |
 | relationships.**price_list** | `object` | Optional |
 | relationships.**sku** | `object` | Optional |
+| relationships.**price_tiers** | `array` | Optional |
 
 ### Example
 
@@ -90,6 +91,18 @@ On success, the API responds with a `200 OK` status code, returning the updated 
         "links": {
           "self": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/relationships/sku",
           "related": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/sku"
+        }
+      },
+      "price_tiers": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/relationships/price_tiers",
+          "related": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/price_tiers"
+        }
+      },
+      "price_volume_tiers": {
+        "links": {
+          "self": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/relationships/price_volume_tiers",
+          "related": "https://yourdomain.commercelayer.io/api/prices/xYZkjABcde/price_volume_tiers"
         }
       },
       "attachments": {
