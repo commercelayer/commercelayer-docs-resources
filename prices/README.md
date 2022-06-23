@@ -12,7 +12,7 @@ description: >-
 Some currencies have a zero exponent and cannot be expressed **in cents** (e.g. `JPY` and `HUF`). In such cases, you have to express the value as it is (e.g. `10000` JPY, not `1000000` JPY).
 {% endhint %}
 
-Prices can be [tiered](../price-tiers/) based on the quantity of the item purchased (a maximum of **5** tiers for each price is currently supported) — see [price volume tiers](../price-volume-tiers/) to learn more.
+Prices can be [tiered](../price-tiers/) based on the quantity of the item purchased (a maximum of **5** tiers for each price is currently supported). See [price volume tiers](../price-volume-tiers/) to learn more.
 
 If you prefer not to manage prices within Commerce Layer but use an external service instead (e.g. to support more dynamic pricing or just rely on an existing service that you are already using) you can leverage our [external prices](https://docs.commercelayer.io/developers/external-resources/external-prices) feature.
 

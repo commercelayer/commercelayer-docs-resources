@@ -14,5 +14,5 @@ Price volume tiers let you segment the pricing of your products by defining diff
 If the `up_to` attribute is `null` the related tier will be considered a _beyond_ tier, meaning that the specified unit price will be used if the SKU's quantity is greater than the maximum tier's upper limit. If no _beyond_ tier is set the standard SKU's [price](../prices/object.md) `amount_cents` will be used as the _beyond_ price.
 
 {% hint style="info" %}
-A maximum of **5 tiers per price** are currently allowed.
+A maximum of **5 volume tiers per price** are currently allowed.
 {% endhint %}
