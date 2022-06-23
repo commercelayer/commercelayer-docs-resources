@@ -4,7 +4,7 @@ description: A comprehensive list of the price tier resource's attributes and re
 
 # The price tier object
 
-A price tier object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/price_tiers` endpoint.
+A price tier object is returned as part of the response body of each successful list or retrieve API call to the `/api/price_tiers` endpoint.
 
 ## Fields
 

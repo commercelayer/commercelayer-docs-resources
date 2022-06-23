@@ -4,7 +4,7 @@ description: A comprehensive list of the shipping method tier resource's attribu
 
 # The shipping method tier object
 
-A shipping method tier object is returned as part of the response body of each successful list, retrieve, create or update API call to the `/api/shipping_method_tiers` endpoint.
+A shipping method tier object is returned as part of the response body of each successful list or retrieve API call to the `/api/shipping_method_tiers` endpoint.
 
 ## Fields
 
