@@ -6,6 +6,28 @@ description: >-
 
 # Prices
 
-SKUs can have a price for each price list. When you create a line item, it gets the price associated with the order's price list.
+[SKUs](../skus/) can have a price for each [price list](../price\_lists/). When you create a [line item](../line\_items/), it gets the price associated with the order's price list.&#x20;
 
-Price values (`amount_cents` and `compare_at_amount_cents`) must be expressed **in cents** with the only exception of `HUF` and `JPY` currencies which do not have decimals (e.g. 100$ → `"amount_cents": 10000`, 100Ft → `"amount_cents": 100`, 100¥ → `"amount_cents": 100`).
+{% hint style="info" %}
+Some currencies have a zero exponent and cannot be expressed **in cents** (e.g. `JPY` and `HUF`). In such cases, you have to express the value as it is (e.g. `10000` JPY, not `1000000` JPY).
+{% endhint %}
+
+Prices can be [tiered](../price-tiers/) based on the quantity of the item purchased (a maximum of **5** tiers for each price is currently supported) — see [price volume tiers](../price-volume-tiers/) to learn more.
+
+If you prefer not to manage prices within Commerce Layer but use an external service instead (e.g. to support more dynamic pricing or just rely on an existing service that you are already using) you can leverage our [external prices](https://docs.commercelayer.io/developers/external-resources/external-prices) feature.
+
+<details>
+
+<summary>How-to</summary>
+
+Check the related [guide](https://docs.commercelayer.io/developers/external-resources/external-prices) to learn how to fetch and manage prices via external services.
+
+</details>
+
+<details>
+
+<summary>Data model</summary>
+
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/price-lists-and-currencies) and explore the flowchart that illustrates how the price resource relates to the other API entities.
+
+</details>
