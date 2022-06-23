@@ -16,7 +16,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**name** | `string` | Required |
-| attributes.**scheme** | `string` | Required, default to 'flat' |
+| attributes.**scheme** | `string` | Optional, default to 'flat' |
 | attributes.**currency_code** | `string` | Required, unless inherited by market |
 | attributes.**price_amount_cents** | `integer` | Required |
 | attributes.**free_over_amount_cents** | `integer` | Optional |
@@ -49,7 +49,6 @@ curl -g -X POST \
     "type": "shipping_methods",
     "attributes": {
       "name": "Standard shipping",
-      "scheme": "flat",
       "currency_code": "EUR",
       "price_amount_cents": 1000
     }
