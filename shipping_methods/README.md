@@ -10,9 +10,9 @@ Shipping methods are used to provide customers with different delivery options.&
 
 Shipping methods are defined by currency and can be restricted to a [market](../markets/) (in the latter case the currency is inherited by the market's price list).&#x20;
 
-* Specify the `shipping_category` relationship if you want the shipping method to be available only if the items to be shipped belong to a specified [shipping category](../shipping\_categories/).
-* Specify the `shipping_zone` relationship if you want the shipping method to be available only if the shipping address belongs to a specified [shipping zone](../shipping\_zones/).
-* Specify the `stock_location` relationship if you want the shipping method to be available only if the items are shipped from a specific stock location.
+* Set the `shipping_category` relationship if you want the shipping method to be available only if the items to be shipped belong to a specified [shipping category](../shipping\_categories/).
+* Set the `shipping_zone` relationship if you want the shipping method to be available only if the shipping address belongs to a specified [shipping zone](../shipping\_zones/).
+* Set the `stock_location` relationship if you want the shipping method to be available only if the items are shipped from a specific stock location.
 * Specify a value for the `min_weight` and/or `max_weight` attributes (to do that also a `unit_of_weight` must be defined) if you want the shipping method to be available only if the total weight of the items to be shipped falls within those values.
 
 {% hint style="info" %}

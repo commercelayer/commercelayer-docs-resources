@@ -16,3 +16,5 @@ If the `up_to` attribute is `null` the related tier will be considered a _beyond
 {% hint style="info" %}
 A maximum of **5 volume tiers per price** are currently allowed.
 {% endhint %}
+
+Price volume tiers can be [imported](https://docs.commercelayer.io/developers/importing-resources#importing-a-list-of-prices) together with the related prices.

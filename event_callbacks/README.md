@@ -6,7 +6,11 @@ description: >-
 
 # Event callbacks
 
-Event callbacks are created automatically as responses to the call to a [webhook](../webhooks/) callback URL. You can read the payload sent and check the response status code. Keep in mind that events callbacks are retained in our database **for one month only**.&#x20;
+Event callbacks are created automatically as responses to the call to a [webhook](../webhooks/) callback URL. You can read the payload sent and check the response status code.&#x20;
+
+{% hint style="info" %}
+Events callbacks are retained in our database **for one month only**.
+{% endhint %}
 
 <details>
 
