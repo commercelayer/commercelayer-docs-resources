@@ -16,7 +16,7 @@ To <a href="https://docs.commercelayer.io/developers/creating-resources" target=
 | -------------- | -------- | -------- |
 | **type**       | `string` | Required |
 | attributes.**name** | `string` | Required |
-| attributes.**strategy** | `string` | Required |
+| attributes.**strategy** | `string` | Optional, default is no_split |
 | attributes.**stock_locations_cutoff** | `integer` | Optional, default is 2 |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
@@ -38,8 +38,7 @@ curl -g -X POST \
   "data": {
     "type": "inventory_models",
     "attributes": {
-      "name": "EU Inventory Model",
-      "strategy": "split_shipments"
+      "name": "EU Inventory Model"
     }
   }
 }'
@@ -59,7 +58,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "name": "EU Inventory Model",
-      "strategy": "split_shipments",
+      "strategy": "no_split",
       "stock_locations_cutoff": 3,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",

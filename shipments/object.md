@@ -19,7 +19,7 @@ A shipment object is returned as part of the response body of each successful li
 | attributes.**cost_amount_cents** | `integer` | The cost of this shipment from the selected carrier account, in cents. |
 | attributes.**cost_amount_float** | `float` | The cost of this shipment from the selected carrier account, float. |
 | attributes.**formatted_cost_amount** | `string` | The cost of this shipment from the selected carrier account, formatted. |
-| attributes.**skus_count** | `integer` | The total number of skus in the shipment's line items. This can be useful to display a preview of the shipment content. |
+| attributes.**skus_count** | `integer` | The total number of SKUs in the shipment's line items. This can be useful to display a preview of the shipment content. |
 | attributes.**_on_hold** | `boolean, value is 'true'` | Send this attribute if you want to put this shipment on hold. |
 | attributes.**_picking** | `boolean, value is 'true'` | Send this attribute if you want to start picking this shipment. |
 | attributes.**_packing** | `boolean, value is 'true'` | Send this attribute if you want to start packing this shipment. |
@@ -43,7 +43,7 @@ A shipment object is returned as part of the response body of each successful li
 | attributes.**reference_origin** | `string` | Any identifier of the third party system that defines the reference code |
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
 | relationships.**order** | `object` | The associated order. |
-| relationships.**shipping_category** | `object` | The shipping category of the associated line items (skus). |
+| relationships.**shipping_category** | `object` | The shipping category of the associated line items (SKUs). |
 | relationships.**stock_location** | `object` | The stock location from which the shipment is managed. |
 | relationships.**origin_address** | `object` | The associated stock location address. |
 | relationships.**shipping_address** | `object` | The customer shipping address. |

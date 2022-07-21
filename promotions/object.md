@@ -28,7 +28,7 @@ A promotion object is returned as part of the response body of each successful l
 | relationships.**market** | `object` | The associated market. |
 | relationships.**promotion_rules** | `array` | The associated promotion rules. |
 | relationships.**order_amount_promotion_rule** | `object` | The associated order amount promotion rule. |
-| relationships.**sku_list_promotion_rule** | `object` | The associated sku list promotion rule. |
+| relationships.**sku_list_promotion_rule** | `object` | The associated SKU list promotion rule. |
 | relationships.**coupon_codes_promotion_rule** | `object` | The associated coupon codes promotion rule. |
 | relationships.**attachments** | `array` | The associated attachments. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |

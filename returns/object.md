@@ -16,7 +16,7 @@ A return object is returned as part of the response body of each successful list
 | attributes.**number** | `string` | Unique identifier for the return |
 | attributes.**status** | `string` | The return status, one of 'draft', 'requested', 'approved', 'cancelled', 'shipped', 'rejected' or 'received' |
 | attributes.**customer_email** | `string` | The email address of the associated customer. |
-| attributes.**skus_count** | `integer` | The total number of skus in the return's line items. This can be useful to display a preview of the return content. |
+| attributes.**skus_count** | `integer` | The total number of SKUs in the return's line items. This can be useful to display a preview of the return content. |
 | attributes.**approved_at** | `datetime` | Time at which the return was approved. |
 | attributes.**cancelled_at** | `datetime` | Time at which the return was cancelled. |
 | attributes.**shipped_at** | `datetime` | Time at which the return was shipped. |

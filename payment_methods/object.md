@@ -13,10 +13,12 @@ A payment method object is returned as part of the response body of each success
 | **type**       | `string` | `payment_methods`                        |
 | **id**         | `string` | The payment method unique identifier  |
 | links.**self** | `string` | The payment method endpoint URL       |
-| attributes.**payment_source_type** | `string` | The payment source type, can be one of: 'AdyenPayment', 'BraintreePayment', 'CheckoutComPayment', 'CreditCard', 'ExternalPayment', 'PaypalPayment', 'StripePayment', or 'WireTransfer'. |
+| attributes.**payment_source_type** | `string` | The payment source type, can be one of: 'AdyenPayment', 'BraintreePayment', 'CheckoutComPayment', 'CreditCard', 'ExternalPayment', 'KlarnaPayment', 'PaypalPayment', 'StripePayment', or 'WireTransfer'. |
 | attributes.**name** | `string` | Payment source type, titleized |
 | attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
 | attributes.**moto** | `boolean` | Send this attribute if you want to mark the payment as MOTO, must be supported by payment gateway. |
+| attributes.**_disable** | `boolean` | Send this attribute if you want to mark the payment method as disabled. |
+| attributes.**_enable** | `boolean` | Send this attribute if you want to mark the payment method as enabled. |
 | attributes.**disabled_at** | `datetime` | Time at which the payment method was disabled. |
 | attributes.**price_amount_cents** | `integer` | The payment method's price, in cents |
 | attributes.**price_amount_float** | `float` | The payment method's price, float |

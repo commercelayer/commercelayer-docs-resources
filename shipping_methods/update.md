@@ -21,6 +21,8 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**name** | `string` | Optional |
 | attributes.**scheme** | `string` | Optional |
 | attributes.**currency_code** | `string` | Optional |
+| attributes.**_disable** | `boolean` | Optional |
+| attributes.**_enable** | `boolean` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**free_over_amount_cents** | `integer` | Optional |
 | attributes.**min_weight** | `float` | Optional |
@@ -52,7 +54,7 @@ curl -g -X PATCH \
     "type": "shipping_methods",
     "id": "xYZkjABcde",
     "attributes": {
-      "free_over_amount_cents": 9900
+      "_disable": true
     }
   }
 }'

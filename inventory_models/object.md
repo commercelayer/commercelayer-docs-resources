@@ -14,7 +14,7 @@ An inventory model object is returned as part of the response body of each succe
 | **id**         | `string` | The inventory model unique identifier  |
 | links.**self** | `string` | The inventory model endpoint URL       |
 | attributes.**name** | `string` | The inventory model's internal name. |
-| attributes.**strategy** | `string` | The inventory model's shipping strategy: one between 'split_shipments' (default), 'ship_from_primary' and 'ship_from_first_available_or_primary'. |
+| attributes.**strategy** | `string` | The inventory model's shipping strategy: one between 'no_split' (default), 'split_shipments', 'ship_from_primary' and 'ship_from_first_available_or_primary'. |
 | attributes.**stock_locations_cutoff** | `integer` | The maximum number of stock locations used for inventory computation |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

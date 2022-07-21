@@ -16,6 +16,8 @@ A shipping method object is returned as part of the response body of each succes
 | attributes.**name** | `string` | The shipping method's name |
 | attributes.**scheme** | `string` | The shipping method's scheme, one of 'flat' or 'weight_tiered'. |
 | attributes.**currency_code** | `string` | The international 3-letter currency code as defined by the ISO 4217 standard. |
+| attributes.**_disable** | `boolean` | Send this attribute if you want to mark the shipping method as disabled. |
+| attributes.**_enable** | `boolean` | Send this attribute if you want to mark the shipping method as enabled. |
 | attributes.**disabled_at** | `datetime` | Time at which the shipping method was disabled. |
 | attributes.**price_amount_cents** | `integer` | The price of this shipping method, in cents. |
 | attributes.**price_amount_float** | `float` | The price of this shipping method, float. |

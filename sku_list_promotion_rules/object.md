@@ -19,7 +19,7 @@ A SKU list promotion rule object is returned as part of the response body of eac
 | attributes.**reference_origin** | `string` | Any identifier of the third party system that defines the reference code |
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
 | attributes.**all_skus** | `boolean` | Indicates if the rule is activated only when all of the SKUs of the list is also part of the order. |
-| attributes.**min_quantity** | `integer` | The min quantity of SKUs of the list that must be also part of the order. If positive, overwrites the 'all_skus' option. When the sku_list is manual, its items quantities are honoured. |
+| attributes.**min_quantity** | `integer` | The min quantity of SKUs of the list that must be also part of the order. If positive, overwrites the 'all_skus' option. When the SKU list is manual, its items quantities are honoured. |
 | relationships.**promotion** | `object` | The associated promotion. |
 | relationships.**sku_list** | `object` | The associated sku_list. |
 | relationships.**skus** | `array` | The associated SKUs. |

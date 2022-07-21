@@ -21,6 +21,8 @@ Here below the list of all the possible arguments that you can pass with the req
 | attributes.**payment_source_type** | `string` | Optional |
 | attributes.**currency_code** | `string` | Optional |
 | attributes.**moto** | `boolean` | Optional |
+| attributes.**_disable** | `boolean` | Optional |
+| attributes.**_enable** | `boolean` | Optional |
 | attributes.**price_amount_cents** | `integer` | Optional |
 | attributes.**reference** | `string` | Optional |
 | attributes.**reference_origin** | `string` | Optional |
@@ -45,7 +47,7 @@ curl -g -X PATCH \
     "type": "payment_methods",
     "id": "xYZkjABcde",
     "attributes": {
-      "reference": "ANY-EXTERNAL-REFEFERNCE"
+      "_disable": true
     }
   }
 }'

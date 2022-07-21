@@ -15,7 +15,7 @@ An import object is returned as part of the response body of each successful lis
 | links.**self** | `string` | The import endpoint URL       |
 | attributes.**resource_type** | `string` | The type of resource being imported. |
 | attributes.**parent_resource_id** | `string` | The ID of the parent resource to be associated with imported data. |
-| attributes.**status** | `string` | The import job status. One of 'pending' (default), 'in_progress', 'interrputed', or 'completed'. |
+| attributes.**status** | `string` | The import job status. One of 'pending' (default), 'in_progress', 'interrupted', or 'completed'. |
 | attributes.**started_at** | `datetime` | Time at which the import was started. |
 | attributes.**completed_at** | `datetime` | Time at which the import was completed. |
 | attributes.**interrupted_at** | `datetime` | Time at which the import was interrupted. |

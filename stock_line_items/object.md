@@ -13,7 +13,7 @@ A stock line item object is returned as part of the response body of each succes
 | **type**       | `string` | `stock_line_items`                        |
 | **id**         | `string` | The stock line item unique identifier  |
 | links.**self** | `string` | The stock line item endpoint URL       |
-| attributes.**sku_code** | `string` | The code of the associated sku. |
+| attributes.**sku_code** | `string` | The code of the associated SKU. |
 | attributes.**bundle_code** | `string` | The code of the associated bundle. |
 | attributes.**quantity** | `integer` | The line item quantity. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |

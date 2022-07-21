@@ -13,7 +13,7 @@ A parcel line item object is returned as part of the response body of each succe
 | **type**       | `string` | `parcel_line_items`                        |
 | **id**         | `string` | The parcel line item unique identifier  |
 | links.**self** | `string` | The parcel line item endpoint URL       |
-| attributes.**sku_code** | `string` | The code of the sku of the associated shipment_line_item. |
+| attributes.**sku_code** | `string` | The code of the SKU of the associated shipment_line_item. |
 | attributes.**quantity** | `integer` | The parcel line item quantity. |
 | attributes.**created_at** | `datetime` | Time at which the resource was created. |
 | attributes.**updated_at** | `datetime` | Time at which the resource was last updated. |

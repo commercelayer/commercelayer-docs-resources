@@ -33,9 +33,9 @@ An order object is returned as part of the response body of each successful list
 | attributes.**coupon_code** | `string` | The coupon code to be used for the order. If valid, it triggers a promotion adding a discount line item to the order. |
 | attributes.**gift_card_code** | `string` | The gift card code (at least the first 8 characters) to be used for the order. If valid, it uses the gift card balance to pay for the order. |
 | attributes.**gift_card_or_coupon_code** | `string` | The gift card or coupon code (at least the first 8 characters) to be used for the order. If a gift card mathes, it uses the gift card balance to pay for the order. Otherwise it tries to find a valid coupon code and applies the associated discount. |
-| attributes.**subtotal_amount_cents** | `integer` | The sum of all the sku line items total amounts, in cents. |
-| attributes.**subtotal_amount_float** | `float` | The sum of all the sku line items total amounts, float. |
-| attributes.**formatted_subtotal_amount** | `string` | The sum of all the sku line items total amounts, formatted. |
+| attributes.**subtotal_amount_cents** | `integer` | The sum of all the SKU line items total amounts, in cents. |
+| attributes.**subtotal_amount_float** | `float` | The sum of all the SKU line items total amounts, float. |
+| attributes.**formatted_subtotal_amount** | `string` | The sum of all the SKU line items total amounts, formatted. |
 | attributes.**shipping_amount_cents** | `integer` | The sum of all the shipping costs, in cents. |
 | attributes.**shipping_amount_float** | `float` | The sum of all the shipping costs, float. |
 | attributes.**formatted_shipping_amount** | `string` | The sum of all the shipping costs, formatted. |
@@ -69,7 +69,7 @@ An order object is returned as part of the response body of each successful list
 | attributes.**total_amount_cents** | `integer` | The order's total amount, in cents. |
 | attributes.**total_amount_float** | `float` | The order's total amount, float. |
 | attributes.**formatted_total_amount** | `string` | The order's total amount, formatted. |
-| attributes.**total_taxable_amount_cents** | `integer` | The order's total taxable amount, in cents (equal to total_amount_cents when prices don't include taxes). |
+| attributes.**total_taxable_amount_cents** | `integer` | The order's total taxable amount, in cents (without discounts). |
 | attributes.**total_taxable_amount_float** | `float` | The order's total taxable amount, float. |
 | attributes.**formatted_total_taxable_amount** | `string` | The order's total taxable amount, formatted. |
 | attributes.**subtotal_taxable_amount_cents** | `integer` | The order's subtotal taxable amount, in cents (equal to subtotal_amount_cents when prices don't include taxes). |
@@ -93,7 +93,7 @@ An order object is returned as part of the response body of each successful list
 | attributes.**duty_amount_cents** | `integer` | The duty amount that is calculated by external services, in cents. |
 | attributes.**duty_amount_float** | `float` | The duty amount that is calculated by external services, float. |
 | attributes.**formatted_duty_amount** | `string` | The duty amount that is calculated by external services, formatted. |
-| attributes.**skus_count** | `integer` | The total number of skus in the order's line items. This can be useful to display a preview of the customer shopping cart content. |
+| attributes.**skus_count** | `integer` | The total number of SKUs in the order's line items. This can be useful to display a preview of the customer shopping cart content. |
 | attributes.**line_item_options_count** | `integer` | The total number of line item options. This can be useful to display a preview of the customer shopping cart content. |
 | attributes.**shipments_count** | `integer` | The total number of shipments. This can be useful to manage the shipping method(s) selection during checkout. |
 | attributes.**payment_source_details** | `object` | An object that contains the shareable details of the order's payment source. |
@@ -111,7 +111,7 @@ An order object is returned as part of the response body of each successful list
 | attributes.**_approve_and_capture** | `boolean, value is 'true'` | Send this attribute if you want to approve and capture a placed order. |
 | attributes.**_authorize** | `boolean, value is 'true'` | Send this attribute if you want to authorize the order's payment source. |
 | attributes.**_authorization_amount_cents** | `integer` | The authorization amount, in cents. |
-| attributes.**_capture** | `boolean, value is 'true'` | Send this attribute if you want to capture an approved order. |
+| attributes.**_capture** | `boolean, value is 'true'` | Send this attribute if you want to capture an authorized order. |
 | attributes.**_refund** | `boolean, value is 'true'` | Send this attribute if you want to refund a captured order. |
 | attributes.**_update_taxes** | `boolean, value is 'true'` | Send this attribute if you want to force tax calculation for this order (a tax calculator must be associated to the order's market). |
 | attributes.**_nullify_payment_source** | `boolean, value is 'true'` | Send this attribute if you want to nullify the payment source for this order. |

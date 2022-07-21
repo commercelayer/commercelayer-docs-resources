@@ -13,7 +13,7 @@ A return line item object is returned as part of the response body of each succe
 | **type**       | `string` | `return_line_items`                        |
 | **id**         | `string` | The return line item unique identifier  |
 | links.**self** | `string` | The return line item endpoint URL       |
-| attributes.**sku_code** | `string` | The code of the associated sku. |
+| attributes.**sku_code** | `string` | The code of the associated SKU. |
 | attributes.**bundle_code** | `string` | The code of the associated bundle. |
 | attributes.**name** | `string` | The name of the line item. |
 | attributes.**quantity** | `integer` | The line item quantity. |

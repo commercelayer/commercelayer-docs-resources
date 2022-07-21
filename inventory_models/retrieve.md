@@ -37,7 +37,7 @@ On success, the API responds with a `200 OK` status code, returning a single res
     },
     "attributes": {
       "name": "EU Inventory Model",
-      "strategy": "split_shipments",
+      "strategy": "no_split",
       "stock_locations_cutoff": 3,
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",

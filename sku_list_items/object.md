@@ -22,6 +22,6 @@ A SKU list item object is returned as part of the response body of each successf
 | attributes.**reference_origin** | `string` | Any identifier of the third party system that defines the reference code |
 | attributes.**metadata** | `object` | Set of key-value pairs that you can attach to the resource. This can be useful for storing additional information about the resource in a structured format. |
 | relationships.**sku_list** | `object` | The associated SKU list. |
-| relationships.**sku** | `object` | The associated sku. |
+| relationships.**sku** | `object` | The associated SKU. |
 | meta.**mode** | `string` | The resource environment \(can be one of `test` or `live`\) |
 
