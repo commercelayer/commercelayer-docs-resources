@@ -30,16 +30,16 @@ If a `free_over_amount` was specified, it applies regardless of the tier. If a `
 
 <details>
 
-<summary>How-to</summary>
+<summary>Data model</summary>
 
-Check the related [guide](https://docs.commercelayer.io/developers/v/how-tos/checkout/selecting-a-shipping-method) to learn how to let a user choose one of the available shipping methods during the checkout.
+Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipping-zones-and-methods) and explore the flowchart that illustrates how the shipping method resource relates to the other API entities.
 
 </details>
 
 <details>
 
-<summary>Data model</summary>
+<summary>How-to</summary>
 
-Check the related [ER diagram](https://commercelayer.io/docs/data-model/shipping-zones-and-methods) and explore the flowchart that illustrates how the shipping method resource relates to the other API entities.
+Check the related [guide](https://docs.commercelayer.io/developers/v/how-tos/checkout/selecting-a-shipping-method) to learn how to let a user choose one of the available shipping methods during the checkout.
 
 </details>

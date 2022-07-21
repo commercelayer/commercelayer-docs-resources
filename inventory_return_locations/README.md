@@ -6,4 +6,4 @@ description: >-
 
 # Inventory return locations
 
-Inventory return locations build a hierarchy of stock locations within an inventory model. In case an SKU is available in more stock locations, it gets returned to those with the highest priority.
+Inventory return locations build a hierarchy of [stock locations](../stock\_locations/) within an [inventory model](../inventory\_models/), determining the available options for [returns](../returns/). In case an SKU is available in more stock locations, it gets returned to those with the highest priority.

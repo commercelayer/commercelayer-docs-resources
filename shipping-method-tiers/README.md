@@ -6,7 +6,7 @@ description: >-
 
 # Shipping method tiers
 
-Shipping method tiers let you segment the pricing of your shipping methods by defining specific intervals where the cost of the selected shipping method stays the same (changing when each interval's upper limit is exceeded).
+Shipping method tiers let you segment the pricing of your [shipping methods](../shipping\_methods/) by defining specific intervals where the cost of the selected shipping method stays the same (changing when each interval's upper limit is exceeded).
 
 At the moment [weight tiers](../shipping-weight-tiers/) are available for shipping methods (more to come).
 
